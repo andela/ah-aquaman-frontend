@@ -1,6 +1,6 @@
 import React from "react";
 import "./assets/css/App.scss";
-import Routes from "./routes";
+import Routes from "./routes/index";
 
 const App = () => (
   <div>
