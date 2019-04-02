@@ -1,9 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import "./assets/css/App.scss";
+import Routes from "./routes";
 
 const App = () => (
   <div>
-    <h1>Authors Haven Application!</h1>
+    <Routes />
   </div>
 );
+
 export default App;
