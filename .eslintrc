@@ -44,8 +44,14 @@
       "error",
       "always"
     ],
+    "import/no-extraneous-dependencies": [
+      "error", {
+        "devDependencies": true
+      }
+    ],
+    "no-undef": 0,
     "new-cap": 0,
-    "no-console": 1,
+    "no-console": 0,
     "no-debugger": 1,
     "no-var": 1,
     "no-trailing-spaces": 0,
