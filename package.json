@@ -9,7 +9,8 @@
         "build": "webpack --mode production",
         "lint": "eslint . --ignore-path .gitignore",
         "fix": "eslint . --ignore-path .gitignore --fix",
-        "travis": "CI=true react-scripts test --env=jsdom -u --colors"
+        "travis": "CI=true react-scripts test --env=jsdom -u  --colors",
+        "coverage":"react-scripts test --coverage --env=jsdom -u --colors"
     },
     "repository": {
         "type": "git",
