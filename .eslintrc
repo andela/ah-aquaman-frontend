@@ -1,0 +1,63 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": "airbnb",
+    "plugins": [
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+          "jsx": true
+        },
+        "ecmaVersion": 6
+      },
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "function-paren-newline": ["error", "consistent"],
+        "react/destructuring-assignment": [0,"never"],
+        "react/prop-types": [0],
+        "no-param-reassign":["error", { "props": false }],
+        "no-shadow": "off",
+        "import/no-named-as-default": 0,
+        "jsx-a11y/label-has-associated-control": [ "error", {
+            "required": {
+            "some": [ "nesting", "id"  ]
+            }
+        }],
+        "jsx-a11y/label-has-for": [ "error", {
+            "required": {
+            "some": [ "nesting", "id"  ]
+            }
+        }],
+        "indent": ["error", 4],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "new-cap": 0,
+        "no-console": 1,
+        "no-debugger": 1,
+        "no-var": 1,
+        "no-trailing-spaces": 0,
+        "eol-last": 0,
+        "no-unused-vars": 0,
+        "no-underscore-dangle": 0,
+        "no-alert": 0,
+        "no-lone-blocks": 0,
+        "jsx-quotes": 1,
+        "react/display-name": [1, {
+            "ignoreTranspilerName": false
+        }]
+    }
+}
