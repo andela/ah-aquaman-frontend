@@ -2,7 +2,7 @@
   "name": "ah-aquaman-frontend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open --hot",
@@ -41,6 +41,7 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "^2.1.8"
