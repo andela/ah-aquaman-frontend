@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/andela/ah-aquaman-frontend.svg?branch=develop)](https://travis-ci.com/andela/ah-aquaman-frontend)
+
 # Authors Haven.
 
 - A Social platform for the creative at heart.
