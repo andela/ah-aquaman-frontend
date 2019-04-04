@@ -8,6 +8,9 @@
     }
   ],
   "env": {
+    "BASE_URL": {
+      "required": true
+    }
   },
   "formation": {
     "web": {
