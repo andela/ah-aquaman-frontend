@@ -107,6 +107,7 @@ ShallowWrapper {
             />
           </div>
         </form>
+        <Social />
       </div>,
       "className": "login-wrapper",
     },
@@ -197,6 +198,7 @@ ShallowWrapper {
               />
             </div>
           </form>,
+          <Social />,
         ],
         "className": "col-md-12",
       },
@@ -611,6 +613,18 @@ ShallowWrapper {
           ],
           "type": "form",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "facebookHandler": undefined,
+            "googleHandler": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
       ],
       "type": "div",
     },
@@ -705,6 +719,7 @@ ShallowWrapper {
               />
             </div>
           </form>
+          <Social />
         </div>,
         "className": "login-wrapper",
       },
@@ -795,6 +810,7 @@ ShallowWrapper {
                 />
               </div>
             </form>,
+            <Social />,
           ],
           "className": "col-md-12",
         },
@@ -1209,6 +1225,18 @@ ShallowWrapper {
             ],
             "type": "form",
           },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "facebookHandler": undefined,
+              "googleHandler": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
         ],
         "type": "div",
       },
@@ -1227,6 +1255,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },
@@ -1359,6 +1388,7 @@ ShallowWrapper {
             </p>
           </div>
         </form>
+        <Social />
       </div>,
       "className": "login-wrapper",
     },
@@ -1457,6 +1487,7 @@ ShallowWrapper {
               </p>
             </div>
           </form>,
+          <Social />,
         ],
         "className": "col-md-12",
       },
@@ -1895,6 +1926,18 @@ ShallowWrapper {
           ],
           "type": "form",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "facebookHandler": undefined,
+            "googleHandler": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
       ],
       "type": "div",
     },
@@ -1997,6 +2040,7 @@ ShallowWrapper {
               </p>
             </div>
           </form>
+          <Social />
         </div>,
         "className": "login-wrapper",
       },
@@ -2095,6 +2139,7 @@ ShallowWrapper {
                 </p>
               </div>
             </form>,
+            <Social />,
           ],
           "className": "col-md-12",
         },
@@ -2533,6 +2578,18 @@ ShallowWrapper {
             ],
             "type": "form",
           },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "facebookHandler": undefined,
+              "googleHandler": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
         ],
         "type": "div",
       },
@@ -2551,6 +2608,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },

@@ -3,10 +3,11 @@ import PropTypes from "prop-types";
 import Button from "../../commons/buttons";
 import InputField from "../../commons/inputField";
 import ErrorMessage from "../../commons/errorMessage";
+import Social from "./socialComponent";
 
 const Login = (props) => {
   const {
-    onSubmit, errors, onRegister, onPassword, isProcessing, 
+    onSubmit, errors, onRegister, onPassword, isProcessing, facebookHandler, googleHandler,
   } = props;
   const emailError = errors ? errors.email : "";
   const passwordError = errors ? errors.password : "";
@@ -75,6 +76,7 @@ const Login = (props) => {
             <p className="text-danger">{errors ? errors.error : ""}</p>
           </div>
         </form>
+        <Social facebookHandler={facebookHandler} googleHandler={googleHandler} />
       </div>
     </div>
   );

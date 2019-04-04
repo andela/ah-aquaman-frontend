@@ -12,6 +12,8 @@ ShallowWrapper {
     />
     <Login
       errors={Object {}}
+      facebookHandler={[Function]}
+      googleHandler={[Function]}
       isProcessing={false}
       onPassword={[Function]}
       onRegister={[Function]}
@@ -39,6 +41,8 @@ ShallowWrapper {
         />,
         <Login
           errors={Object {}}
+          facebookHandler={[Function]}
+          googleHandler={[Function]}
           isProcessing={false}
           onPassword={[Function]}
           onRegister={[Function]}
@@ -67,6 +71,8 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "errors": Object {},
+          "facebookHandler": [Function],
+          "googleHandler": [Function],
           "history": undefined,
           "isProcessing": false,
           "onPassword": [Function],
@@ -93,6 +99,8 @@ ShallowWrapper {
           />,
           <Login
             errors={Object {}}
+            facebookHandler={[Function]}
+            googleHandler={[Function]}
             isProcessing={false}
             onPassword={[Function]}
             onRegister={[Function]}
@@ -121,6 +129,8 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "errors": Object {},
+            "facebookHandler": [Function],
+            "googleHandler": [Function],
             "history": undefined,
             "isProcessing": false,
             "onPassword": [Function],
@@ -147,6 +157,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },

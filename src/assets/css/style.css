@@ -1,3 +1,10 @@
+h1, h2, h3, h4 {
+	font-family: 'AGENCYB';
+}
+a, a:hover{
+	text-decoration: none;
+	color: #222222;
+}
 .login.background-image {
     position: fixed;
     top: 0;
@@ -79,9 +86,42 @@
 	height: 100%; 
 	overflow: auto; 
 	background-color: rgba(0,0,0,0.6);
-  }
+}
 @media(max-width: 800px){
 	#login-button, #signup-button{
 		margin: auto;
 	}
+}
+.login-wrapper form .other-links{
+	overflow: auto;
+}
+.login-wrapper hr.separator{
+	color: #fff;
+	width: 92%;
+	margin: auto;
+	height: 1px;
+}
+.login-wrapper p.social-text{
+	text-align: center;
+	margin-top: 15px;
+	color: #fff;
+}
+.login-wrapper div.social{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+.login-wrapper div.social button{
+	padding: 8px 8px 2px 8px !important;
+	margin: 0px 10px;
+}
+.login-wrapper div.social button span{
+	display: none;
+}
+.login-wrapper div.social button div{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+button.kep-login-facebook.metro{
+	padding: 0px !important;
 }

@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders without crashing 1`] = `
+exports[`Home view component should render without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <store />,
+  Symbol(enzyme.__unrendered__): <InputField />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -17,20 +17,32 @@ ShallowWrapper {
     "instance": null,
     "key": undefined,
     "nodeType": "host",
-    "props": Object {},
+    "props": Object {
+      "className": undefined,
+      "name": undefined,
+      "placeholder": undefined,
+      "required": true,
+      "type": undefined,
+    },
     "ref": null,
     "rendered": null,
-    "type": "store",
+    "type": "input",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
-      "props": Object {},
+      "props": Object {
+        "className": undefined,
+        "name": undefined,
+        "placeholder": undefined,
+        "required": true,
+        "type": undefined,
+      },
       "ref": null,
       "rendered": null,
-      "type": "store",
+      "type": "input",
     },
   ],
   Symbol(enzyme.__options__): Object {

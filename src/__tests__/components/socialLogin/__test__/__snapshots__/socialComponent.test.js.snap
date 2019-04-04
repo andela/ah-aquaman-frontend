@@ -1,0 +1,582 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button view component should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Social />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <hr
+          className="separator"
+        />,
+        <p
+          className="social-text"
+        >
+          You can simply login with your social-media account
+        </p>,
+        <div
+          className="social"
+        >
+          <t
+            appId="284045129195982"
+            cssClass="kep-login-facebook"
+            fields="name,email,picture"
+            icon={
+              <FontAwesomeIcon
+                border={false}
+                className=""
+                fixedWidth={false}
+                flip={null}
+                icon={
+                  Object {
+                    "icon": Array [
+                      448,
+                      512,
+                      Array [],
+                      "f09a",
+                      "M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z",
+                    ],
+                    "iconName": "facebook",
+                    "prefix": "fab",
+                  }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title=""
+                transform={null}
+              />
+            }
+            id="facebook-button"
+            size="metro"
+            tag="button"
+            textButton=""
+            typeButton="button"
+          />
+          <e
+            accessType="online"
+            buttonText=""
+            clientId="594594308012-ls74dabh7s3tunj0kceatf63ihjh6vsr.apps.googleusercontent.com"
+            cookiePolicy="single_host_origin"
+            disabledStyle={
+              Object {
+                "opacity": 0.6,
+              }
+            }
+            fetchBasicProfile={true}
+            icon={true}
+            isSignedIn={false}
+            jsSrc="https://apis.google.com/js/api.js"
+            onRequest={[Function]}
+            prompt=""
+            scope="profile email"
+            tag="button"
+            theme="light"
+            type="button"
+            uxMode="popup"
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "separator",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "You can simply login with your social-media account",
+          "className": "social-text",
+        },
+        "ref": null,
+        "rendered": "You can simply login with your social-media account",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <t
+              appId="284045129195982"
+              cssClass="kep-login-facebook"
+              fields="name,email,picture"
+              icon={
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon={
+                    Object {
+                      "icon": Array [
+                        448,
+                        512,
+                        Array [],
+                        "f09a",
+                        "M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z",
+                      ],
+                      "iconName": "facebook",
+                      "prefix": "fab",
+                    }
+                  }
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title=""
+                  transform={null}
+                />
+              }
+              id="facebook-button"
+              size="metro"
+              tag="button"
+              textButton=""
+              typeButton="button"
+            />,
+            <e
+              accessType="online"
+              buttonText=""
+              clientId="594594308012-ls74dabh7s3tunj0kceatf63ihjh6vsr.apps.googleusercontent.com"
+              cookiePolicy="single_host_origin"
+              disabledStyle={
+                Object {
+                  "opacity": 0.6,
+                }
+              }
+              fetchBasicProfile={true}
+              icon={true}
+              isSignedIn={false}
+              jsSrc="https://apis.google.com/js/api.js"
+              onRequest={[Function]}
+              prompt=""
+              scope="profile email"
+              tag="button"
+              theme="light"
+              type="button"
+              uxMode="popup"
+            />,
+          ],
+          "className": "social",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "appId": "284045129195982",
+              "callback": undefined,
+              "cssClass": "kep-login-facebook",
+              "fields": "name,email,picture",
+              "icon": <FontAwesomeIcon
+                border={false}
+                className=""
+                fixedWidth={false}
+                flip={null}
+                icon={
+                  Object {
+                    "icon": Array [
+                      448,
+                      512,
+                      Array [],
+                      "f09a",
+                      "M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z",
+                    ],
+                    "iconName": "facebook",
+                    "prefix": "fab",
+                  }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title=""
+                transform={null}
+              />,
+              "id": "facebook-button",
+              "size": "metro",
+              "tag": "button",
+              "textButton": "",
+              "typeButton": "button",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "accessType": "online",
+              "buttonText": "",
+              "clientId": "594594308012-ls74dabh7s3tunj0kceatf63ihjh6vsr.apps.googleusercontent.com",
+              "cookiePolicy": "single_host_origin",
+              "disabledStyle": Object {
+                "opacity": 0.6,
+              },
+              "fetchBasicProfile": true,
+              "icon": true,
+              "isSignedIn": false,
+              "jsSrc": "https://apis.google.com/js/api.js",
+              "onFailure": undefined,
+              "onRequest": [Function],
+              "onSuccess": undefined,
+              "prompt": "",
+              "scope": "profile email",
+              "tag": "button",
+              "theme": "light",
+              "type": "button",
+              "uxMode": "popup",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <hr
+            className="separator"
+          />,
+          <p
+            className="social-text"
+          >
+            You can simply login with your social-media account
+          </p>,
+          <div
+            className="social"
+          >
+            <t
+              appId="284045129195982"
+              cssClass="kep-login-facebook"
+              fields="name,email,picture"
+              icon={
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon={
+                    Object {
+                      "icon": Array [
+                        448,
+                        512,
+                        Array [],
+                        "f09a",
+                        "M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z",
+                      ],
+                      "iconName": "facebook",
+                      "prefix": "fab",
+                    }
+                  }
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title=""
+                  transform={null}
+                />
+              }
+              id="facebook-button"
+              size="metro"
+              tag="button"
+              textButton=""
+              typeButton="button"
+            />
+            <e
+              accessType="online"
+              buttonText=""
+              clientId="594594308012-ls74dabh7s3tunj0kceatf63ihjh6vsr.apps.googleusercontent.com"
+              cookiePolicy="single_host_origin"
+              disabledStyle={
+                Object {
+                  "opacity": 0.6,
+                }
+              }
+              fetchBasicProfile={true}
+              icon={true}
+              isSignedIn={false}
+              jsSrc="https://apis.google.com/js/api.js"
+              onRequest={[Function]}
+              prompt=""
+              scope="profile email"
+              tag="button"
+              theme="light"
+              type="button"
+              uxMode="popup"
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "separator",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "You can simply login with your social-media account",
+            "className": "social-text",
+          },
+          "ref": null,
+          "rendered": "You can simply login with your social-media account",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <t
+                appId="284045129195982"
+                cssClass="kep-login-facebook"
+                fields="name,email,picture"
+                icon={
+                  <FontAwesomeIcon
+                    border={false}
+                    className=""
+                    fixedWidth={false}
+                    flip={null}
+                    icon={
+                      Object {
+                        "icon": Array [
+                          448,
+                          512,
+                          Array [],
+                          "f09a",
+                          "M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z",
+                        ],
+                        "iconName": "facebook",
+                        "prefix": "fab",
+                      }
+                    }
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size={null}
+                    spin={false}
+                    symbol={false}
+                    title=""
+                    transform={null}
+                  />
+                }
+                id="facebook-button"
+                size="metro"
+                tag="button"
+                textButton=""
+                typeButton="button"
+              />,
+              <e
+                accessType="online"
+                buttonText=""
+                clientId="594594308012-ls74dabh7s3tunj0kceatf63ihjh6vsr.apps.googleusercontent.com"
+                cookiePolicy="single_host_origin"
+                disabledStyle={
+                  Object {
+                    "opacity": 0.6,
+                  }
+                }
+                fetchBasicProfile={true}
+                icon={true}
+                isSignedIn={false}
+                jsSrc="https://apis.google.com/js/api.js"
+                onRequest={[Function]}
+                prompt=""
+                scope="profile email"
+                tag="button"
+                theme="light"
+                type="button"
+                uxMode="popup"
+              />,
+            ],
+            "className": "social",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "appId": "284045129195982",
+                "callback": undefined,
+                "cssClass": "kep-login-facebook",
+                "fields": "name,email,picture",
+                "icon": <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon={
+                    Object {
+                      "icon": Array [
+                        448,
+                        512,
+                        Array [],
+                        "f09a",
+                        "M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z",
+                      ],
+                      "iconName": "facebook",
+                      "prefix": "fab",
+                    }
+                  }
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title=""
+                  transform={null}
+                />,
+                "id": "facebook-button",
+                "size": "metro",
+                "tag": "button",
+                "textButton": "",
+                "typeButton": "button",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessType": "online",
+                "buttonText": "",
+                "clientId": "594594308012-ls74dabh7s3tunj0kceatf63ihjh6vsr.apps.googleusercontent.com",
+                "cookiePolicy": "single_host_origin",
+                "disabledStyle": Object {
+                  "opacity": 0.6,
+                },
+                "fetchBasicProfile": true,
+                "icon": true,
+                "isSignedIn": false,
+                "jsSrc": "https://apis.google.com/js/api.js",
+                "onFailure": undefined,
+                "onRequest": [Function],
+                "onSuccess": undefined,
+                "prompt": "",
+                "scope": "profile email",
+                "tag": "button",
+                "theme": "light",
+                "type": "button",
+                "uxMode": "popup",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

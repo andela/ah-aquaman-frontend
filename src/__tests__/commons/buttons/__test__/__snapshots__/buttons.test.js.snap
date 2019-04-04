@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders without crashing 1`] = `
+exports[`button view component should render without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <store />,
+  Symbol(enzyme.__unrendered__): <Button />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -17,20 +17,34 @@ ShallowWrapper {
     "instance": null,
     "key": undefined,
     "nodeType": "host",
-    "props": Object {},
+    "props": Object {
+      "children": undefined,
+      "className": undefined,
+      "disabled": undefined,
+      "id": undefined,
+      "onClick": undefined,
+      "type": undefined,
+    },
     "ref": null,
     "rendered": null,
-    "type": "store",
+    "type": "button",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
-      "props": Object {},
+      "props": Object {
+        "children": undefined,
+        "className": undefined,
+        "disabled": undefined,
+        "id": undefined,
+        "onClick": undefined,
+        "type": undefined,
+      },
       "ref": null,
       "rendered": null,
-      "type": "store",
+      "type": "button",
     },
   ],
   Symbol(enzyme.__options__): Object {
