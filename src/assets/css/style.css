@@ -1,22 +1,81 @@
 h1, h2, h3, h4 {
 	font-family: 'AGENCYB';
 }
+/**** navigation *****/
+.header-title{
+	font-size: 50px;
+	padding: 15px;
+	text-align: center;
+}
+nav.navbar{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	background-color: #ff2f92;
+}
+ul.nav li.nav-item a{
+	padding:15px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+}
+ul.nav li.nav-item a.create{
+	text-transform: capitalize;
+	border: 2px solid #fff;
+	padding: 7px 15px;
+	border-radius: 30px;
+}
+ul.nav li.nav-item.active a{
+	background-color: #cc2675;
+}
+ul.nav li.nav-item a.profile-img{
+	padding: 0px;
+	margin-right: 15px;
+}
+ul.nav li.nav-item a img{
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+}
+.dropdown-toggle::after{
+	display: none;
+}
+ul.nav li.nav-item a.dropdown-item{
+	color: #ff2f92;
+	text-transform: lowercase;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+ul.nav li.nav-item a.dropdown-item:hover{
+	background-color: #ff2f92;
+	color: #fff;
+}
+ul.nav li.nav-item a.dropdown-item i{
+	margin-right: 5px;
+}
+ul.nav li.nav-item .dropdown-menu h3{
+	font-size: 20px;
+}
+
+
+
 a, a:hover{
 	text-decoration: none;
 	color: #222222;
 }
 .login.background-image {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 1;
-    background: url(../background-image-3.jpg);
-    background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+	background: url(../background-image-3.jpg);
+	background-size: cover;
 }
 .login{
-    margin: auto 0;
+	margin: auto 0;
 }
 .login-wrapper{
 	z-index: 2;
@@ -78,13 +137,13 @@ a, a:hover{
 .loader-body {
 	display: block;
 	position: fixed;
-	z-index: 1; 
+	z-index: 1;
 	left: 0;
 	top: 0;
 	text-align: center;
-	width: 100%; 
-	height: 100%; 
-	overflow: auto; 
+	width: 100%;
+	height: 100%;
+	overflow: auto;
 	background-color: rgba(0,0,0,0.6);
 }
 @media(max-width: 800px){
@@ -124,4 +183,21 @@ a, a:hover{
 }
 button.kep-login-facebook.metro{
 	padding: 0px !important;
+}
+
+input[type='file'] {
+	opacity: 0;
+	position: absolute;
+}
+.ourdp{
+	height: 150px;
+	width: 150px;
+
+}
+.ouredit{
+	margin-left: 15px;
+}
+.spinner{
+	float: left;
+	margin-left: 70px;
 }

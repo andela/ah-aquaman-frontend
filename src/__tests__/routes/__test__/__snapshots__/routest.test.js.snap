@@ -18,10 +18,11 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <BrowserRouter>
+      "children": <BrowserRouter
+        className="container"
+      >
         <Route
           component={[Function]}
-          exact={true}
           path="/"
         />
         <Route
@@ -31,6 +32,14 @@ ShallowWrapper {
         <Route
           component={[Function]}
           path="/signup"
+        />
+        <Route
+          component={[Function]}
+          path="/profile"
+        />
+        <Route
+          component={[Function]}
+          path="/editprofile"
         />
       </BrowserRouter>,
     },
@@ -43,7 +52,6 @@ ShallowWrapper {
         "children": Array [
           <Route
             component={[Function]}
-            exact={true}
             path="/"
           />,
           <Route
@@ -54,7 +62,16 @@ ShallowWrapper {
             component={[Function]}
             path="/signup"
           />,
+          <Route
+            component={[Function]}
+            path="/profile"
+          />,
+          <Route
+            component={[Function]}
+            path="/editprofile"
+          />,
         ],
+        "className": "container",
       },
       "ref": null,
       "rendered": Array [
@@ -64,7 +81,6 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "component": [Function],
-            "exact": true,
             "path": "/",
           },
           "ref": null,
@@ -95,6 +111,30 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/profile",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/editprofile",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
       ],
       "type": [Function],
     },
@@ -106,10 +146,11 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <BrowserRouter>
+        "children": <BrowserRouter
+          className="container"
+        >
           <Route
             component={[Function]}
-            exact={true}
             path="/"
           />
           <Route
@@ -119,6 +160,14 @@ ShallowWrapper {
           <Route
             component={[Function]}
             path="/signup"
+          />
+          <Route
+            component={[Function]}
+            path="/profile"
+          />
+          <Route
+            component={[Function]}
+            path="/editprofile"
           />
         </BrowserRouter>,
       },
@@ -131,7 +180,6 @@ ShallowWrapper {
           "children": Array [
             <Route
               component={[Function]}
-              exact={true}
               path="/"
             />,
             <Route
@@ -142,7 +190,16 @@ ShallowWrapper {
               component={[Function]}
               path="/signup"
             />,
+            <Route
+              component={[Function]}
+              path="/profile"
+            />,
+            <Route
+              component={[Function]}
+              path="/editprofile"
+            />,
           ],
+          "className": "container",
         },
         "ref": null,
         "rendered": Array [
@@ -152,7 +209,6 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "component": [Function],
-              "exact": true,
               "path": "/",
             },
             "ref": null,
@@ -178,6 +234,30 @@ ShallowWrapper {
             "props": Object {
               "component": [Function],
               "path": "/signup",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/profile",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/editprofile",
             },
             "ref": null,
             "rendered": null,
