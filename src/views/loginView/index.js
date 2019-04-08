@@ -58,7 +58,7 @@ export class LoginView extends Component {
   };
 
   onChangeRegister = () => {
-    this.props.history.push("/register");
+    this.props.history.push("/signup");
   }
 
   onChangeResetPassword = () => {

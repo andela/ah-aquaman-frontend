@@ -5,7 +5,7 @@ const Authenticate = (token) => {
     const res = decode(token);
     if (res.exp > Date.now() / 1000) {
       return { res };
-    } 
+    }
     return false;
   } catch (error) {
     return false;
