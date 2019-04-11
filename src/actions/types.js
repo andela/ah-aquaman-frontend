@@ -1,5 +1,2 @@
-const actionTypes = () => {
-  LOGIN_SUCCESS = "LOGIN_SUCCESS";
-};
-
-export default actionTypes;
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";

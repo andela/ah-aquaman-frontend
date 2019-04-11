@@ -1,0 +1,87 @@
+.login.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: url(../background-image-3.jpg);
+    background-size: cover;
+}
+.login{
+    margin: auto 0;
+}
+.login-wrapper{
+	z-index: 2;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.7);
+	width: 40%;
+	margin: 10% 30%;
+}
+.login-wrapper h3{
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+	color: white;
+}
+.login-wrapper form{
+	padding: 25px;
+}
+.login-wrapper form input[type='email'], .login-wrapper form input[type='password'], .login-wrapper form input[type='text']{
+	border-radius: 0px;
+	border: 1.5px solid #ff2f92;
+	background: #f9f9ff;
+}
+.login-wrapper form input[type='email']:focus, .login-wrapper form input[type='password']:focus, .login-wrapper form input[type='text']:focus{
+	box-shadow: none;
+}
+.login-wrapper form div.form-group label{
+	color: whitesmoke;
+}
+.login-wrapper form p{
+	color: whitesmoke;
+	margin-top: 0px;
+}
+.login-wrapper form p a{
+	text-decoration: none;
+	color: #007bff;
+}
+.login-wrapper form button#login-button{
+	color: #fff;
+	background: #ff2f92;
+	border-radius: 0px;
+	border: none;
+}
+#register{
+	background: transparent;
+	border: none;
+}
+#reset-password{
+	background: transparent;
+	border: none;
+}
+#login-button{
+	margin-left: 40%;
+}
+.text-white{
+	background: #228B22;
+	color: #fff;
+	width: 50%;
+	text-align: center;
+}
+.loader-body {
+	display: block;
+	position: fixed;
+	z-index: 1; 
+	left: 0;
+	top: 0;
+	text-align: center;
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgba(0,0,0,0.6);
+  }
+@media(max-width: 800px){
+	#login-button{
+		margin: auto;
+	}
+}

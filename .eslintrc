@@ -29,6 +29,7 @@
       "error",
       "consistent"
     ],
+    "react/destructuring-assignment": [0,"never"],
     "indent": [
       "error",
       2
@@ -53,15 +54,31 @@
     "no-undef": 0,
     "new-cap": 0,
     "no-console": 0,
+    "global-require":0,
     "no-debugger": 1,
     "no-var": 1,
     "no-trailing-spaces": 0,
+    "prefer-destructuring":0,
     "eol-last": 0,
     "no-unused-vars": 0,
     "no-underscore-dangle": 0,
     "no-alert": 0,
     "no-lone-blocks": 0,
     "jsx-quotes": 1,
+    "react/prop-types": [0],
+    "no-shadow": "off",
+    "react/button-has-type":0,
+    "import/no-named-as-default": 0,
+    "jsx-a11y/label-has-associated-control": [ "error", {
+      "required": {
+        "some": [ "nesting", "id"  ]
+      }
+    }],
+    "jsx-a11y/label-has-for": [ "error", {
+      "required": {
+        "some": [ "nesting", "id"  ]
+      }
+    }],
     "react/display-name": [
       1,
       {

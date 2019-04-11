@@ -18,30 +18,67 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Routes />,
+      "children": Array [
+        <ToastContainer
+          autoClose={5000}
+          bodyClassName={null}
+          className={null}
+          closeButton={
+            <CloseButton
+              ariaLabel="close"
+            />
+          }
+          closeOnClick={true}
+          draggable={true}
+          draggablePercent={80}
+          hideProgressBar={false}
+          newestOnTop={false}
+          pauseOnFocusLoss={true}
+          pauseOnHover={true}
+          position="top-right"
+          progressClassName={null}
+          progressStyle={null}
+          rtl={false}
+          style={null}
+          toastClassName={null}
+          transition={[Function]}
+        />,
+        <Routes />,
+      ],
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {},
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <Routes />,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoClose": 5000,
+          "bodyClassName": null,
+          "className": null,
+          "closeButton": <CloseButton
+            ariaLabel="close"
+          />,
+          "closeOnClick": true,
+          "draggable": true,
+          "draggablePercent": 80,
+          "hideProgressBar": false,
+          "newestOnTop": false,
+          "pauseOnFocusLoss": true,
+          "pauseOnHover": true,
+          "position": "top-right",
+          "progressClassName": null,
+          "progressStyle": null,
+          "rtl": false,
+          "style": null,
+          "toastClassName": null,
+          "transition": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
       },
-      "ref": null,
-      "rendered": Object {
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
@@ -50,6 +87,85 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ToastContainer
+            autoClose={5000}
+            bodyClassName={null}
+            className={null}
+            closeButton={
+              <CloseButton
+                ariaLabel="close"
+              />
+            }
+            closeOnClick={true}
+            draggable={true}
+            draggablePercent={80}
+            hideProgressBar={false}
+            newestOnTop={false}
+            pauseOnFocusLoss={true}
+            pauseOnHover={true}
+            position="top-right"
+            progressClassName={null}
+            progressStyle={null}
+            rtl={false}
+            style={null}
+            toastClassName={null}
+            transition={[Function]}
+          />,
+          <Routes />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoClose": 5000,
+            "bodyClassName": null,
+            "className": null,
+            "closeButton": <CloseButton
+              ariaLabel="close"
+            />,
+            "closeOnClick": true,
+            "draggable": true,
+            "draggablePercent": 80,
+            "hideProgressBar": false,
+            "newestOnTop": false,
+            "pauseOnFocusLoss": true,
+            "pauseOnHover": true,
+            "position": "top-right",
+            "progressClassName": null,
+            "progressStyle": null,
+            "rtl": false,
+            "style": null,
+            "toastClassName": null,
+            "transition": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],
@@ -65,6 +181,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },
