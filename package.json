@@ -10,7 +10,7 @@
         "lint": "eslint . --ignore-path .gitignore",
         "fix": "eslint . --ignore-path .gitignore --fix",
         "travis": "CI=true react-scripts test --env=jsdom -u  --colors",
-        "coverage": "react-scripts test --coverage --env=jsdom -u --colors"
+        "coverage": "react-scripts test --env=jsdom -u --colors --coverage --coveragePathIgnorePatterns=src/index.js"
     },
     "repository": {
         "type": "git",
@@ -31,6 +31,10 @@
         "@babel/polyfill": "^7.4.3",
         "@babel/preset-env": "^7.4.2",
         "@babel/preset-react": "^7.0.0",
+        "@fortawesome/fontawesome-svg-core": "^1.2.17",
+        "@fortawesome/free-brands-svg-icons": "^5.8.1",
+        "@fortawesome/react-fontawesome": "^0.1.4",
+        "axios": "^0.18.0",
         "babel-loader": "^8.0.5",
         "css-loader": "^2.1.1",
         "enzyme": "^3.9.0",
@@ -43,6 +47,8 @@
         "html-loader": "^0.5.5",
         "html-webpack-plugin": "^3.2.0",
         "node-sass": "^4.11.0",
+        "react-facebook-login": "^4.1.1",
+        "react-google-login": "^5.0.4",
         "react-scripts": "^2.1.8",
         "sass-loader": "^7.1.0",
         "style-loader": "^0.23.1",

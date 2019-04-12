@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { toast } from "react-toastify";
 import Login from "../../components/loginForm";
 import loginAction from "../../actions/loginAction";
+import socialAction from "../../actions/loginAction/socialAction";
 import Authenticate from "../../routes/protectedRoutes";
 import CircularProgressLoader from "../../commons/progressLoader";
 
@@ -52,10 +53,22 @@ export class LoginView extends Component {
       email: event.target.elements.email.value,
       password: event.target.elements.password.value,
     };
+  
     loginAction(userData);
     this.setState({ loader: { loading: true } });
     this.setState({ isProcessing: true });
   };
+
+  socialHandler = (response) => {
+    const { socialAction } = this.props;
+    if (response.tokenId) {
+      socialAction(response.tokenId, "google");  
+    } else {
+      socialAction(response.accessToken, "facebook");  
+    }
+    this.setState({ loader: { loading: true } });
+    this.setState({ isProcessing: true });
+  }
 
   onChangeRegister = () => {
     this.props.history.push("/signup");
@@ -64,7 +77,7 @@ export class LoginView extends Component {
   onChangeResetPassword = () => {
     this.props.history.push("/reset-password");
   }
-
+  
   render() {
     const { errors, history } = this.props;
     const loader = this.state.loader;
@@ -79,6 +92,8 @@ export class LoginView extends Component {
           history={history}
           onRegister={this.onChangeRegister}
           onPassword={this.onChangeResetPassword}
+          facebookHandler={this.socialHandler}
+          googleHandler={this.socialHandler}
         />
       </div>
     );
@@ -105,4 +120,4 @@ LoginView.defaultProps = {
   errors: {},
 };
 
-export default connect(mapStateToProps, { loginAction })(LoginView);
+export default connect(mapStateToProps, { loginAction, socialAction })(LoginView);

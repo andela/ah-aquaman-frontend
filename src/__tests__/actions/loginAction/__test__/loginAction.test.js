@@ -37,6 +37,8 @@ describe("login actions", () => {
       password: "testing123",
     };
 
+    const store = mockStore();
+    
     return store.dispatch(loginAction(validData)).then(() => {
       expect(store.getActions()).toEqual(expectedAction);
     });
@@ -58,6 +60,8 @@ describe("login actions", () => {
       password: "",
     };
 
+    const store = mockStore();
+
     return store.dispatch(loginAction(invalidData)).then(() => {
       expect(store.getActions()).toEqual(expectedAction);
     });
@@ -75,6 +79,8 @@ describe("login actions", () => {
       email: "user@user.com",
       password: "N0vember",
     };
+
+    const store = mockStore();
 
     return store.dispatch(loginAction(validData)).then(() => {
       expect(store.getActions()).toEqual(expectedAction);

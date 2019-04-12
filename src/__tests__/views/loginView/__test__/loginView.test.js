@@ -1,20 +1,17 @@
 import React from "react";
-import { shallow, mount } from "enzyme";
-import { Provider } from "react-redux";
-import configureStore from "redux-mock-store";
+import { shallow } from "enzyme";
 import { LoginView } from "../../../../views/loginView";
 
 const props = {
   loginAction: jest.fn(),
+  socialAction: jest.fn(),
   onChangeRegister: jest.fn(),
   history: {
     push: jest.fn(),
   },
+  facebookHandler: jest.fn(),
+  googleHandler: jest.fn(),
 };
-
-const initialState = {};
-const mockStore = configureStore();
-const store = mockStore(initialState);
 
 const user = {
   username: "Roy",
@@ -31,6 +28,7 @@ const generateToken = (user) => {
 const token = generateToken(user);
 
 describe("LoginView", () => {
+  const wrapper = shallow(<LoginView {...props} />);
   it("should render without crashing", () => {
     const props = {};
     const instance = new LoginView(props);
@@ -50,31 +48,20 @@ describe("LoginView", () => {
   });
 
   it("should redirect to register", () => {
-    const wrapper = mount(<LoginView {...props} />);
-    wrapper.find("#register").first().simulate("click");
+    wrapper.find("Login").dive().find("#register")
+      .simulate("click");
     const spyProp = jest.spyOn(wrapper.instance().props.history, "push");
     expect(spyProp).toHaveBeenCalled();
   });
 
   it("should redirect to reset-password", () => {
-    const wrapper = mount(<LoginView {...props} />);
-    wrapper.find("#reset-password").first().simulate("click");
+    wrapper.find("Login").dive().find("#reset-password").first()
+      .simulate("click");
     const spyProp = jest.spyOn(wrapper.instance().props.history, "push");
     expect(spyProp).toHaveBeenCalled();
   });
   
   it("should call the login action", () => {
-    const props = {
-      loginAction: jest.fn(),
-      history: {
-        push: jest.fn(),
-      },
-    };
-    const wrapper = mount(
-      <Provider store={store}>
-        <LoginView store={store} {...props} />
-      </Provider>,
-    );
     const event = {
       preventDefault: jest.fn(),
       target: {
@@ -88,8 +75,19 @@ describe("LoginView", () => {
         },
       },
     };
-    wrapper.find("#login-button").first().simulate("submit", event);
-    const spyProp = jest.spyOn(wrapper.instance().props.children.props, "loginAction");
+    wrapper.find("Login").dive().find("form")
+      .simulate("submit", event);
+    const spyProp = jest.spyOn(wrapper.instance().props, "loginAction");
     expect(spyProp).toHaveBeenCalled();
+  });
+
+  it("should call facebook action", () => {
+    wrapper.instance().socialHandler({ accessToken: "token" });
+    expect(wrapper.instance().props.socialAction).toBeCalled();
+  });
+
+  it("should call google action", () => {
+    wrapper.instance().socialHandler({ tokenId: "token" });
+    expect(wrapper.instance().props.socialAction).toBeCalled();
   });
 });

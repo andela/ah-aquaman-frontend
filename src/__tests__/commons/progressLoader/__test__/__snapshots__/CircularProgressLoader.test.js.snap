@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders without crashing 1`] = `
+exports[`progress loader view component should render without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <store />,
+  Symbol(enzyme.__unrendered__): <CircularProgressLoader
+    loading={false}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -13,25 +15,9 @@ ShallowWrapper {
     "simulateEvent": [Function],
     "unmount": [Function],
   },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {},
-    "ref": null,
-    "rendered": null,
-    "type": "store",
-  },
+  Symbol(enzyme.__node__): null,
   Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {},
-      "ref": null,
-      "rendered": null,
-      "type": "store",
-    },
+    null,
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
