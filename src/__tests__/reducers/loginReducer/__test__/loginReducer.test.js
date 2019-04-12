@@ -22,6 +22,7 @@ describe("loginReducer", () => {
   
     expect(loginReducer(initialState, successAction)).toEqual(successState);
   });
+
   it("should handle LOGIN_FAIL", () => {
     const failureAction = {
       type: LOGIN_FAIL,
@@ -35,6 +36,7 @@ describe("loginReducer", () => {
     };
     expect(loginReducer(initialState, failureAction)).toEqual(failureState);
   });
+
   it("should return the initial state", () => {
     const undefinedAction = {
       type: "",

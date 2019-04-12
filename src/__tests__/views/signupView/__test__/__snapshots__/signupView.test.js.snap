@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LoginView should render without crashing 1`] = `
+exports[`SignupView should render without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <div
@@ -8,13 +8,10 @@ ShallowWrapper {
   >
     <CircularProgressLoader
       loading={false}
-      success={false}
     />
-    <Login
+    <Signup
       errors={Object {}}
       isProcessing={false}
-      onPassword={[Function]}
-      onRegister={[Function]}
       onSubmit={[Function]}
     />
   </div>,
@@ -35,13 +32,10 @@ ShallowWrapper {
       "children": Array [
         <CircularProgressLoader
           loading={false}
-          success={false}
         />,
-        <Login
+        <Signup
           errors={Object {}}
           isProcessing={false}
-          onPassword={[Function]}
-          onRegister={[Function]}
           onSubmit={[Function]}
         />,
       ],
@@ -55,7 +49,6 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "loading": false,
-          "success": false,
         },
         "ref": null,
         "rendered": null,
@@ -69,8 +62,7 @@ ShallowWrapper {
           "errors": Object {},
           "history": undefined,
           "isProcessing": false,
-          "onPassword": [Function],
-          "onRegister": [Function],
+          "onClick": undefined,
           "onSubmit": [Function],
         },
         "ref": null,
@@ -89,13 +81,10 @@ ShallowWrapper {
         "children": Array [
           <CircularProgressLoader
             loading={false}
-            success={false}
           />,
-          <Login
+          <Signup
             errors={Object {}}
             isProcessing={false}
-            onPassword={[Function]}
-            onRegister={[Function]}
             onSubmit={[Function]}
           />,
         ],
@@ -109,7 +98,6 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "loading": false,
-            "success": false,
           },
           "ref": null,
           "rendered": null,
@@ -123,8 +111,7 @@ ShallowWrapper {
             "errors": Object {},
             "history": undefined,
             "isProcessing": false,
-            "onPassword": [Function],
-            "onRegister": [Function],
+            "onClick": undefined,
             "onSubmit": [Function],
           },
           "ref": null,

@@ -45,7 +45,7 @@
 	text-decoration: none;
 	color: #007bff;
 }
-.login-wrapper form button#login-button{
+.login-wrapper form button#login-button, #signup-button{
 	color: #fff;
 	background: #ff2f92;
 	border-radius: 0px;
@@ -59,7 +59,7 @@
 	background: transparent;
 	border: none;
 }
-#login-button{
+#login-button, #signup-button{
 	margin-left: 40%;
 }
 .text-white{
@@ -81,7 +81,7 @@
 	background-color: rgba(0,0,0,0.6);
   }
 @media(max-width: 800px){
-	#login-button{
+	#login-button, #signup-button{
 		margin: auto;
 	}
 }
