@@ -4,6 +4,7 @@ import fetchMock from "fetch-mock";
 import { EditArticle } from "../../../../actions/articleActions/createArticle";
 import { ArticleActionTypes } from "../../../../actions/types";
 
+
 const middleware = [thunk];
 const mockStore = configureStore(middleware);
 
@@ -54,6 +55,8 @@ describe("Edit an article test", () => {
       },
     ];
 
+    const store = mockStore();
+
     return store.dispatch(EditArticle(slug, data)).then(() => {
       expect(store.getActions()).toEqual(expectedAction);
     });
@@ -83,6 +86,7 @@ describe("Edit an article test", () => {
         },
       },
     ];
+    const store = mockStore();
     
     return store.dispatch(EditArticle(slug, invalidData)).then(() => {
       expect(store.getActions()).toEqual(expectedAction);

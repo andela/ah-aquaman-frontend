@@ -45,12 +45,16 @@ export class CommentView extends Component {
                 <div className="form-group">
                     <input  type="hidden" name="slugg" className="form-control mt-3" value={slug} />
                     <textarea name="comment" className="form-control" placeholder="Enter your comment" />
-                    <button type="submit" className="btn btn-default">Post Comment</button>
+                    <button type="submit" onClick={(e)=>{
+                        {this.isLoggedIn()?document.location.href="/login" : (this.handleSubmit);
+                    }}} className="btn btn-default">{this.isLoggedIn()?"Login to comment":"Post Comment"}</button>
                 </div>
             </form>
         </React.Fragment>
     );
   }
+
+isLoggedIn=()=>localStorage.getItem("token")===null;
 }
 
 export const mapStateToProps = state => ({

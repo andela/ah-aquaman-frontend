@@ -4,6 +4,7 @@ import fetchMock from "fetch-mock";
 import { DeleteArticle } from "../../../../actions/articleActions/createArticle";
 import { ArticleActionTypes } from "../../../../actions/types";
 
+
 const middlewarse = [thunk];
 const mockStore = configureStore(middlewarse);
 

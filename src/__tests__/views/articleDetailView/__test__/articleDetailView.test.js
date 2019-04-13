@@ -46,6 +46,7 @@ describe("ArticleDetailView", () => {
     expect(wrapper.render()).toMatchSnapshot();
   });
 
+
   it("should call getSingleArticle after will mount ", () => {
     const props = {
       articleReducer: {

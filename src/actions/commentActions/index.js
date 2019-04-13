@@ -5,7 +5,7 @@ export const getComments = (slug) => dispatch => {
         method: "GET",
         headers: {
             "content-type": "application/json",
-            "Authorization":`Bearer ${localStorage.getItem('token')}`,
+
         },
     })
     .then(res => res.json())

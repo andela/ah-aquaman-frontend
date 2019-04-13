@@ -6231,3 +6231,8 @@ ShallowWrapper {
   },
 }
 `;
+exports[`Article component test should render without crashing 1`] = `ShallowWrapper {}`;
+
+exports[`Article component test should render without crashing 2`] = `ShallowWrapper {}`;
+
+exports[`Article component test should render without crashing 3`] = `ShallowWrapper {}`;
