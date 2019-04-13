@@ -73,21 +73,23 @@ export class CreateArticleView extends Component {
       <React.Fragment>
         <Navbar />
         <ImageBanner info="Create Article" page="create_article" />
-        <div className="container">
-          <div className="row">
-            <Editor
+        <section className="blog-section">
+          <div className="container">
+            <div className="row">
+              <Editor
 
-              {...this.state}
-              onSubmit={this.handleSubmit}
-              onInputChange={this.handleInput}
-              value={this.state.tagList}
-              onChange={this.handleChange}
-            />
+                {...this.state}
+                onSubmit={this.handleSubmit}
+                onInputChange={this.handleInput}
+                value={this.state.tagList}
+                onChange={this.handleChange}
+              />
 
-            <Sidebar />
+              <Sidebar />
+            </div>
+            <ToastContainer />
           </div>
-          <ToastContainer />
-        </div>
+        </section>
       </React.Fragment>
     );
   }

@@ -51,6 +51,7 @@ describe("create articles test", () => {
       },
     ];
 
+    const store = mockStore();
     return store.dispatch(CreateArticle(data)).then(() => {
       expect(store.getActions()).toEqual(expectedAction);
     });
@@ -80,6 +81,8 @@ describe("create articles test", () => {
         },
       },
     ];
+
+    const store = mockStore();
     
     return store.dispatch(CreateArticle(invalidData)).then(() => {
       expect(store.getActions()).toEqual(expectedAction);

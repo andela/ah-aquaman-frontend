@@ -26,7 +26,7 @@ export class DeleteButton extends Component {
 
   handleDelete(event) {
     event.preventDefault();
-    const confirmDelete = confirm("Are you sure you want to delete?");
+    const confirmDelete = window.confirm("Are you sure you want to delete?");
     if (confirmDelete) {
       this.props.DeleteArticle(this.props.slug);
     }
@@ -39,7 +39,7 @@ export class DeleteButton extends Component {
       const hideButton = loggedInUser === this.props.username;
       return (
         <span
-          className="btn btn-danger"
+          className="btn btn-danger mr-3"
           slug={this.props.slug}
           onClick={this.handleDelete}
           role="button"

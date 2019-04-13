@@ -15,6 +15,7 @@ const props = {
   CreateArticle: jest.fn(),
 };
 
+
 describe("<CreateArticleView />", () => {
   it("should call handleErrors", () => {
     const wrapper = shallow(<CreateArticleView {...props} />);
