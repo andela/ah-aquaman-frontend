@@ -1,0 +1,457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Edit article view test should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EditArticleView />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Connect(Navbar) />,
+        <ImageBanner
+          info="Edit Article"
+          page="editor"
+        />,
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <Editor
+              body="test body"
+              description="javascript"
+              onInputChange={[Function]}
+              onSubmit={[Function]}
+              title="test101"
+            />
+            <Sidebar />
+          </div>
+          <ToastContainer
+            autoClose={5000}
+            bodyClassName={null}
+            className={null}
+            closeButton={
+              <CloseButton
+                ariaLabel="close"
+              />
+            }
+            closeOnClick={true}
+            draggable={true}
+            draggablePercent={80}
+            hideProgressBar={false}
+            newestOnTop={false}
+            pauseOnFocusLoss={true}
+            pauseOnHover={true}
+            position="top-right"
+            progressClassName={null}
+            progressStyle={null}
+            rtl={false}
+            style={null}
+            toastClassName={null}
+            transition={[Function]}
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "info": "Edit Article",
+          "page": "editor",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row"
+            >
+              <Editor
+                body="test body"
+                description="javascript"
+                onInputChange={[Function]}
+                onSubmit={[Function]}
+                title="test101"
+              />
+              <Sidebar />
+            </div>,
+            <ToastContainer
+              autoClose={5000}
+              bodyClassName={null}
+              className={null}
+              closeButton={
+                <CloseButton
+                  ariaLabel="close"
+                />
+              }
+              closeOnClick={true}
+              draggable={true}
+              draggablePercent={80}
+              hideProgressBar={false}
+              newestOnTop={false}
+              pauseOnFocusLoss={true}
+              pauseOnHover={true}
+              position="top-right"
+              progressClassName={null}
+              progressStyle={null}
+              rtl={false}
+              style={null}
+              toastClassName={null}
+              transition={[Function]}
+            />,
+          ],
+          "className": "container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Editor
+                  body="test body"
+                  description="javascript"
+                  onInputChange={[Function]}
+                  onSubmit={[Function]}
+                  title="test101"
+                />,
+                <Sidebar />,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "body": "test body",
+                  "description": "javascript",
+                  "onInputChange": [Function],
+                  "onSubmit": [Function],
+                  "slug": undefined,
+                  "tags": undefined,
+                  "title": "test101",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoClose": 5000,
+              "bodyClassName": null,
+              "className": null,
+              "closeButton": <CloseButton
+                ariaLabel="close"
+              />,
+              "closeOnClick": true,
+              "draggable": true,
+              "draggablePercent": 80,
+              "hideProgressBar": false,
+              "newestOnTop": false,
+              "pauseOnFocusLoss": true,
+              "pauseOnHover": true,
+              "position": "top-right",
+              "progressClassName": null,
+              "progressStyle": null,
+              "rtl": false,
+              "style": null,
+              "toastClassName": null,
+              "transition": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Connect(Navbar) />,
+          <ImageBanner
+            info="Edit Article"
+            page="editor"
+          />,
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <Editor
+                body="test body"
+                description="javascript"
+                onInputChange={[Function]}
+                onSubmit={[Function]}
+                title="test101"
+              />
+              <Sidebar />
+            </div>
+            <ToastContainer
+              autoClose={5000}
+              bodyClassName={null}
+              className={null}
+              closeButton={
+                <CloseButton
+                  ariaLabel="close"
+                />
+              }
+              closeOnClick={true}
+              draggable={true}
+              draggablePercent={80}
+              hideProgressBar={false}
+              newestOnTop={false}
+              pauseOnFocusLoss={true}
+              pauseOnHover={true}
+              position="top-right"
+              progressClassName={null}
+              progressStyle={null}
+              rtl={false}
+              style={null}
+              toastClassName={null}
+              transition={[Function]}
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "info": "Edit Article",
+            "page": "editor",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row"
+              >
+                <Editor
+                  body="test body"
+                  description="javascript"
+                  onInputChange={[Function]}
+                  onSubmit={[Function]}
+                  title="test101"
+                />
+                <Sidebar />
+              </div>,
+              <ToastContainer
+                autoClose={5000}
+                bodyClassName={null}
+                className={null}
+                closeButton={
+                  <CloseButton
+                    ariaLabel="close"
+                  />
+                }
+                closeOnClick={true}
+                draggable={true}
+                draggablePercent={80}
+                hideProgressBar={false}
+                newestOnTop={false}
+                pauseOnFocusLoss={true}
+                pauseOnHover={true}
+                position="top-right"
+                progressClassName={null}
+                progressStyle={null}
+                rtl={false}
+                style={null}
+                toastClassName={null}
+                transition={[Function]}
+              />,
+            ],
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Editor
+                    body="test body"
+                    description="javascript"
+                    onInputChange={[Function]}
+                    onSubmit={[Function]}
+                    title="test101"
+                  />,
+                  <Sidebar />,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "body": "test body",
+                    "description": "javascript",
+                    "onInputChange": [Function],
+                    "onSubmit": [Function],
+                    "slug": undefined,
+                    "tags": undefined,
+                    "title": "test101",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoClose": 5000,
+                "bodyClassName": null,
+                "className": null,
+                "closeButton": <CloseButton
+                  ariaLabel="close"
+                />,
+                "closeOnClick": true,
+                "draggable": true,
+                "draggablePercent": 80,
+                "hideProgressBar": false,
+                "newestOnTop": false,
+                "pauseOnFocusLoss": true,
+                "pauseOnHover": true,
+                "position": "top-right",
+                "progressClassName": null,
+                "progressStyle": null,
+                "rtl": false,
+                "style": null,
+                "toastClassName": null,
+                "transition": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

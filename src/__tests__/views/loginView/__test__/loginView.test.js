@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { LoginView } from "../../../../views/loginView";
+import { LoginView, mapStateToProps } from "../../../../views/loginView";
 
 const props = {
   loginAction: jest.fn(),
@@ -47,6 +47,7 @@ describe("LoginView", () => {
     expect(spyProp).toHaveBeenCalled();
   });
 
+
   it("should redirect to register", () => {
     wrapper.find("Login").dive().find("#register")
       .simulate("click");
@@ -89,5 +90,20 @@ describe("LoginView", () => {
   it("should call google action", () => {
     wrapper.instance().socialHandler({ tokenId: "token" });
     expect(wrapper.instance().props.socialAction).toBeCalled();
+  });
+
+  it("should map state to props", () => {
+    const state = {
+      loginReducer: {
+        token: "",
+        errors: {},
+        isSuccessful: true,
+      },
+    };
+    expect(mapStateToProps(state)).toEqual({
+      token: "",
+      errors: {},
+      isSuccessful: true,
+    });
   });
 });

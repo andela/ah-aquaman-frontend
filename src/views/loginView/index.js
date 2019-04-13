@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import Login from "../../components/loginForm";
 import loginAction from "../../actions/loginAction";
 import socialAction from "../../actions/loginAction/socialAction";
-import Authenticate from "../../routes/protectedRoutes";
+import { Authenticate } from "../../routes/protectedRoutes";
 import CircularProgressLoader from "../../commons/progressLoader";
 
 const jwt = require("jsonwebtoken");
@@ -106,7 +106,7 @@ export class LoginView extends Component {
   }
 }
 
-const mapStateToProps = state => ({
+export const mapStateToProps = state => ({
   token: state.loginReducer.token,
   errors: state.loginReducer.errors,
   isSuccessful: state.loginReducer.isSuccessful,

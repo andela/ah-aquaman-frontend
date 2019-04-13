@@ -2,7 +2,7 @@ import React from "react";
 import { shallow, mount } from "enzyme";
 import { Provider } from "react-redux";
 import configureStore from "redux-mock-store";
-import { SignupView } from "../../../../views/signupView";
+import { SignupView, mapStateToProps } from "../../../../views/signupView";
 
 const jwt = require("jsonwebtoken");
 
@@ -44,6 +44,23 @@ describe("SignupView", () => {
     const spyProp = jest.spyOn(wrapper.instance().props.history, "push");
     wrapper.setProps(newProps);
     expect(spyProp).toHaveBeenCalled();
+  });
+
+  it("should map state to props", () => {
+    const state = {
+      signupReducer: {
+        token: "",
+        errors: {},
+        loading: true,
+        isSuccessful: true,
+      },
+    };
+    expect(mapStateToProps(state)).toEqual({
+      token: "",
+      errors: {},
+      loading: true,
+      isSuccessful: true,
+    });
   });
 
   it("should raise error on password mis-match", () => {
