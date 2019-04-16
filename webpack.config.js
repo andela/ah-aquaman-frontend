@@ -59,8 +59,10 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
   ],
   devServer: {
-    contentBase: path.join(__dirname, "src"),
-    historyApiFallback: true,
-    https: true,
+    contentBase: path.join(__dirname, "src"), 
+    historyApiFallback: {
+      disableDotRule: true,
+      https: true,
+    },
   },
 };

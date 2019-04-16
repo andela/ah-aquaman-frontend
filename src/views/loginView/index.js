@@ -75,7 +75,13 @@ export class LoginView extends Component {
   }
 
   onChangeResetPassword = () => {
-    this.props.history.push("/reset-password");
+    this.props.history.push("/reset_password");
+    toast.success("Please enter your email to reset your password.", {
+      position: toast.POSITION.TOP_CENTER,
+      autoClose: 3000,
+      hideProgressBar: false,
+      pauseOnHover: true,
+    });
   }
   
   render() {
