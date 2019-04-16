@@ -41,24 +41,25 @@ describe("signup actions", () => {
   });
 
 
-it("handles REGISTER_FAILURE action after signing up", () => {
-  const store = mockStore();
-  fetchMock.postOnce(signupUrl, {
-    body: { errors: {} },
-    headers: { "content-type": "application/json" },
+  it("handles REGISTER_FAILURE action after signing up", () => {
+    const store = mockStore();
+    fetchMock.postOnce(signupUrl, {
+      body: { errors: {} },
+      headers: { "content-type": "application/json" },
+    });
+
+    const expectedAction = [{
+      type: REGISTER_FAILURE,
+      payload: {},
+    }];
+
+    const invalidData = {
+      email: "",
+      password: "",
+    };
+
+    return store.dispatch(signupAction(invalidData)).then(() => {
+      expect(store.getActions()).toEqual(expectedAction);
+    });
   });
-
-  const expectedAction = [{
-    type: REGISTER_FAILURE,
-    payload: {},
-  }];
-
-  const invalidData = {
-    email: "",
-    password: "",
-  };
-
-  return store.dispatch(signupAction(invalidData)).then(() => {
-    expect(store.getActions()).toEqual(expectedAction);
-  });
-});});
+});

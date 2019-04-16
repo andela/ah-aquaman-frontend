@@ -5,9 +5,9 @@ import ReactDOM from "react-dom";
 import store from "./store";
 import App from "./App";
 
-ReactDOM.render(
+export default ReactDOM.render(
   <Provider store={store}>
     <App />
   </Provider>,
-  document.getElementById("root"),
+  document.getElementById("root") || document.createElement("div"),
 );
