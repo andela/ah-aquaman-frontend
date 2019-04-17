@@ -19,10 +19,13 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "className": undefined,
+      "maxLength": undefined,
       "name": undefined,
+      "onChange": undefined,
       "placeholder": undefined,
       "required": true,
       "type": undefined,
+      "value": undefined,
     },
     "ref": null,
     "rendered": null,
@@ -35,10 +38,13 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "className": undefined,
+        "maxLength": undefined,
         "name": undefined,
+        "onChange": undefined,
         "placeholder": undefined,
         "required": true,
         "type": undefined,
+        "value": undefined,
       },
       "ref": null,
       "rendered": null,
@@ -57,7 +63,6 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
-          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },

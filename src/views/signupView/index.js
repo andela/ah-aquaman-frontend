@@ -72,7 +72,7 @@ export class SignupView extends Component {
   }
 }
 
-const mapStateToProps = state => ({
+export const mapStateToProps = state => ({
   token: state.signupReducer.token,
   errors: state.signupReducer.errors,
   isSuccessful: state.signupReducer.isSuccessful,
