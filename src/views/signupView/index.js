@@ -14,6 +14,13 @@ export class SignupView extends Component {
       loading: false,
     },
     isProcessing: false,
+    disabled: false,
+    validateInput: {
+      password: false,
+      username: false,
+      matchPassword: false,
+    },
+    password1: "",
   };
 
   componentWillReceiveProps(nextProps) {
@@ -22,13 +29,65 @@ export class SignupView extends Component {
       this.props.history.push("/login");
       toast.success("Click the link sent to your email to verify.", {
         position: toast.POSITION.TOP_CENTER,
-        autoClose: 5000,
+        autoClose: 3000,
         hideProgressBar: false,
         pauseOnHover: true,
       });
     }
     this.setState({ loader: { loading: false } });
     this.setState({ isProcessing: false });
+  }
+
+  validateEmail = (email) => {
+    if (/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/.test(email)) {
+      return false;
+    }
+    return true;
+  }
+
+  onChange = (e) => {
+    this.setState({ [e.target.name]: e.target.value });
+    if (e.target.name === "email" && e.target.value.length > 0) {
+      this.setState({ disabled: this.validateEmail(e.target.value) }); 
+    }
+
+    if (e.target.name === "username") {
+      if (e.target.value.length > 0 && e.target.value.length < 6) {
+        this.setState({
+          validateInput: {
+            username: true,
+          }, 
+        });
+        return true;
+      }
+      this.setState({
+        validateInput: {
+          username: false,
+        }, 
+      });
+      return false;
+    }
+    if (e.target.name === "password1") {
+      if (e.target.value.length > 0 && e.target.value.length < 9) {
+        this.setState({ password1: e.target.value });
+        this.setState({
+          validateInput: {
+            password: true,
+          }, 
+        });
+        return true;
+      }
+      this.setState({
+        validateInput: {
+          password: false,
+        }, 
+      });
+    }
+    if (e.target.name === "password2" && e.target.value !== this.state.password1) {
+      this.setState({ validateInput: { matchPassword: true } });
+    } else {
+      this.setState({ validateInput: { matchPassword: false } });
+    }
   }
 
   handleSubmit = (event) => {
@@ -62,10 +121,13 @@ export class SignupView extends Component {
         <CircularProgressLoader {...loader} />
         <Signup
           onSubmit={this.handleSubmit}
+          onChange={this.onChange}
           errors={errors}
           history={history}
           onClick={this.onClick}
           isProcessing={this.state.isProcessing}
+          disabled={this.state.disabled}
+          validateInput={this.state.validateInput}
         />
       </div>
     );

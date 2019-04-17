@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Signup
     errors={Object {}}
     onSubmit={[MockFunction]}
+    validateInput={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -47,6 +48,11 @@ ShallowWrapper {
               <span
                 className="text-danger"
               />
+              <span
+                className="text-danger"
+              >
+                
+              </span>
             </div>
           </div>
           <div
@@ -66,6 +72,11 @@ ShallowWrapper {
               <span
                 className="text-danger"
               />
+              <span
+                className="text-danger"
+              >
+                
+              </span>
             </div>
           </div>
           <div
@@ -85,6 +96,11 @@ ShallowWrapper {
               <span
                 className="text-danger"
               />
+              <span
+                className="text-danger"
+              >
+                
+              </span>
             </div>
           </div>
           <div
@@ -104,6 +120,11 @@ ShallowWrapper {
               <span
                 className="text-danger"
               />
+              <span
+                className="text-danger"
+              >
+                
+              </span>
             </div>
           </div>
           <p>
@@ -160,6 +181,11 @@ ShallowWrapper {
                 <span
                   className="text-danger"
                 />
+                <span
+                  className="text-danger"
+                >
+                  
+                </span>
               </div>
             </div>
             <div
@@ -179,6 +205,11 @@ ShallowWrapper {
                 <span
                   className="text-danger"
                 />
+                <span
+                  className="text-danger"
+                >
+                  
+                </span>
               </div>
             </div>
             <div
@@ -198,6 +229,11 @@ ShallowWrapper {
                 <span
                   className="text-danger"
                 />
+                <span
+                  className="text-danger"
+                >
+                  
+                </span>
               </div>
             </div>
             <div
@@ -217,6 +253,11 @@ ShallowWrapper {
                 <span
                   className="text-danger"
                 />
+                <span
+                  className="text-danger"
+                >
+                  
+                </span>
               </div>
             </div>
             <p>
@@ -279,6 +320,11 @@ ShallowWrapper {
                   <span
                     className="text-danger"
                   />
+                  <span
+                    className="text-danger"
+                  >
+                    
+                  </span>
                 </div>
               </div>,
               <div
@@ -298,6 +344,11 @@ ShallowWrapper {
                   <span
                     className="text-danger"
                   />
+                  <span
+                    className="text-danger"
+                  >
+                    
+                  </span>
                 </div>
               </div>,
               <div
@@ -317,6 +368,11 @@ ShallowWrapper {
                   <span
                     className="text-danger"
                   />
+                  <span
+                    className="text-danger"
+                  >
+                    
+                  </span>
                 </div>
               </div>,
               <div
@@ -336,6 +392,11 @@ ShallowWrapper {
                   <span
                     className="text-danger"
                   />
+                  <span
+                    className="text-danger"
+                  >
+                    
+                  </span>
                 </div>
               </div>,
               <p>
@@ -383,6 +444,11 @@ ShallowWrapper {
                     <span
                       className="text-danger"
                     />
+                    <span
+                      className="text-danger"
+                    >
+                      
+                    </span>
                   </div>,
                 ],
                 "className": "form-group",
@@ -408,6 +474,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "form-control",
                     "name": "username",
+                    "onInputChange": undefined,
                     "placeholder": "enter username",
                     "type": "text",
                   },
@@ -420,23 +487,44 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <span
-                      className="text-danger"
-                    />,
+                    "children": Array [
+                      <span
+                        className="text-danger"
+                      />,
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": undefined,
-                      "className": "text-danger",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
                     },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "span",
-                  },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "span",
+                    },
+                  ],
                   "type": "div",
                 },
               ],
@@ -462,6 +550,11 @@ ShallowWrapper {
                     <span
                       className="text-danger"
                     />
+                    <span
+                      className="text-danger"
+                    >
+                      
+                    </span>
                   </div>,
                 ],
                 "className": "form-group",
@@ -487,6 +580,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "form-control",
                     "name": "email",
+                    "onInputChange": undefined,
                     "placeholder": "enter email",
                     "type": "email",
                   },
@@ -499,23 +593,44 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <span
-                      className="text-danger"
-                    />,
+                    "children": Array [
+                      <span
+                        className="text-danger"
+                      />,
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": undefined,
-                      "className": "text-danger",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
                     },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "span",
-                  },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "span",
+                    },
+                  ],
                   "type": "div",
                 },
               ],
@@ -541,6 +656,11 @@ ShallowWrapper {
                     <span
                       className="text-danger"
                     />
+                    <span
+                      className="text-danger"
+                    >
+                      
+                    </span>
                   </div>,
                 ],
                 "className": "form-group",
@@ -566,6 +686,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "form-control",
                     "name": "password1",
+                    "onInputChange": undefined,
                     "placeholder": "enter password",
                     "type": "Password",
                   },
@@ -578,23 +699,44 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <span
-                      className="text-danger"
-                    />,
+                    "children": Array [
+                      <span
+                        className="text-danger"
+                      />,
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": undefined,
-                      "className": "text-danger",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
                     },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "span",
-                  },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "span",
+                    },
+                  ],
                   "type": "div",
                 },
               ],
@@ -620,6 +762,11 @@ ShallowWrapper {
                     <span
                       className="text-danger"
                     />
+                    <span
+                      className="text-danger"
+                    >
+                      
+                    </span>
                   </div>,
                 ],
                 "className": "form-group",
@@ -645,6 +792,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "form-control",
                     "name": "password2",
+                    "onInputChange": undefined,
                     "placeholder": "enter password",
                     "type": "Password",
                   },
@@ -657,23 +805,44 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <span
-                      className="text-danger"
-                    />,
+                    "children": Array [
+                      <span
+                        className="text-danger"
+                      />,
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": undefined,
-                      "className": "text-danger",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
                     },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "span",
-                  },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "span",
+                    },
+                  ],
                   "type": "div",
                 },
               ],
@@ -791,6 +960,11 @@ ShallowWrapper {
                 <span
                   className="text-danger"
                 />
+                <span
+                  className="text-danger"
+                >
+                  
+                </span>
               </div>
             </div>
             <div
@@ -810,6 +984,11 @@ ShallowWrapper {
                 <span
                   className="text-danger"
                 />
+                <span
+                  className="text-danger"
+                >
+                  
+                </span>
               </div>
             </div>
             <div
@@ -829,6 +1008,11 @@ ShallowWrapper {
                 <span
                   className="text-danger"
                 />
+                <span
+                  className="text-danger"
+                >
+                  
+                </span>
               </div>
             </div>
             <div
@@ -848,6 +1032,11 @@ ShallowWrapper {
                 <span
                   className="text-danger"
                 />
+                <span
+                  className="text-danger"
+                >
+                  
+                </span>
               </div>
             </div>
             <p>
@@ -904,6 +1093,11 @@ ShallowWrapper {
                   <span
                     className="text-danger"
                   />
+                  <span
+                    className="text-danger"
+                  >
+                    
+                  </span>
                 </div>
               </div>
               <div
@@ -923,6 +1117,11 @@ ShallowWrapper {
                   <span
                     className="text-danger"
                   />
+                  <span
+                    className="text-danger"
+                  >
+                    
+                  </span>
                 </div>
               </div>
               <div
@@ -942,6 +1141,11 @@ ShallowWrapper {
                   <span
                     className="text-danger"
                   />
+                  <span
+                    className="text-danger"
+                  >
+                    
+                  </span>
                 </div>
               </div>
               <div
@@ -961,6 +1165,11 @@ ShallowWrapper {
                   <span
                     className="text-danger"
                   />
+                  <span
+                    className="text-danger"
+                  >
+                    
+                  </span>
                 </div>
               </div>
               <p>
@@ -1023,6 +1232,11 @@ ShallowWrapper {
                     <span
                       className="text-danger"
                     />
+                    <span
+                      className="text-danger"
+                    >
+                      
+                    </span>
                   </div>
                 </div>,
                 <div
@@ -1042,6 +1256,11 @@ ShallowWrapper {
                     <span
                       className="text-danger"
                     />
+                    <span
+                      className="text-danger"
+                    >
+                      
+                    </span>
                   </div>
                 </div>,
                 <div
@@ -1061,6 +1280,11 @@ ShallowWrapper {
                     <span
                       className="text-danger"
                     />
+                    <span
+                      className="text-danger"
+                    >
+                      
+                    </span>
                   </div>
                 </div>,
                 <div
@@ -1080,6 +1304,11 @@ ShallowWrapper {
                     <span
                       className="text-danger"
                     />
+                    <span
+                      className="text-danger"
+                    >
+                      
+                    </span>
                   </div>
                 </div>,
                 <p>
@@ -1127,6 +1356,11 @@ ShallowWrapper {
                       <span
                         className="text-danger"
                       />
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>
                     </div>,
                   ],
                   "className": "form-group",
@@ -1152,6 +1386,7 @@ ShallowWrapper {
                     "props": Object {
                       "className": "form-control",
                       "name": "username",
+                      "onInputChange": undefined,
                       "placeholder": "enter username",
                       "type": "text",
                     },
@@ -1164,23 +1399,44 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": <span
-                        className="text-danger"
-                      />,
+                      "children": Array [
+                        <span
+                          className="text-danger"
+                        />,
+                        <span
+                          className="text-danger"
+                        >
+                          
+                        </span>,
+                      ],
                     },
                     "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": undefined,
-                        "className": "text-danger",
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": undefined,
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
                       },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "span",
-                    },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "",
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": "",
+                        "type": "span",
+                      },
+                    ],
                     "type": "div",
                   },
                 ],
@@ -1206,6 +1462,11 @@ ShallowWrapper {
                       <span
                         className="text-danger"
                       />
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>
                     </div>,
                   ],
                   "className": "form-group",
@@ -1231,6 +1492,7 @@ ShallowWrapper {
                     "props": Object {
                       "className": "form-control",
                       "name": "email",
+                      "onInputChange": undefined,
                       "placeholder": "enter email",
                       "type": "email",
                     },
@@ -1243,23 +1505,44 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": <span
-                        className="text-danger"
-                      />,
+                      "children": Array [
+                        <span
+                          className="text-danger"
+                        />,
+                        <span
+                          className="text-danger"
+                        >
+                          
+                        </span>,
+                      ],
                     },
                     "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": undefined,
-                        "className": "text-danger",
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": undefined,
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
                       },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "span",
-                    },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "",
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": "",
+                        "type": "span",
+                      },
+                    ],
                     "type": "div",
                   },
                 ],
@@ -1285,6 +1568,11 @@ ShallowWrapper {
                       <span
                         className="text-danger"
                       />
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>
                     </div>,
                   ],
                   "className": "form-group",
@@ -1310,6 +1598,7 @@ ShallowWrapper {
                     "props": Object {
                       "className": "form-control",
                       "name": "password1",
+                      "onInputChange": undefined,
                       "placeholder": "enter password",
                       "type": "Password",
                     },
@@ -1322,23 +1611,44 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": <span
-                        className="text-danger"
-                      />,
+                      "children": Array [
+                        <span
+                          className="text-danger"
+                        />,
+                        <span
+                          className="text-danger"
+                        >
+                          
+                        </span>,
+                      ],
                     },
                     "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": undefined,
-                        "className": "text-danger",
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": undefined,
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
                       },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "span",
-                    },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "",
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": "",
+                        "type": "span",
+                      },
+                    ],
                     "type": "div",
                   },
                 ],
@@ -1364,6 +1674,11 @@ ShallowWrapper {
                       <span
                         className="text-danger"
                       />
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>
                     </div>,
                   ],
                   "className": "form-group",
@@ -1389,6 +1704,7 @@ ShallowWrapper {
                     "props": Object {
                       "className": "form-control",
                       "name": "password2",
+                      "onInputChange": undefined,
                       "placeholder": "enter password",
                       "type": "Password",
                     },
@@ -1401,23 +1717,44 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": <span
-                        className="text-danger"
-                      />,
+                      "children": Array [
+                        <span
+                          className="text-danger"
+                        />,
+                        <span
+                          className="text-danger"
+                        >
+                          
+                        </span>,
+                      ],
                     },
                     "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": undefined,
-                        "className": "text-danger",
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": undefined,
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
                       },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "span",
-                    },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "",
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": "",
+                        "type": "span",
+                      },
+                    ],
                     "type": "div",
                   },
                 ],
@@ -1516,6 +1853,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },
@@ -1535,9 +1873,10 @@ exports[`signupform on success registration should render without crashing 1`] =
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Signup
-    errors={null}
+    errors={Object {}}
     onClick={[MockFunction]}
     onSubmit={[MockFunction]}
+    validateInput={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -1578,6 +1917,9 @@ ShallowWrapper {
             <div>
               <span
                 className="text-danger"
+              />
+              <span
+                className="text-danger"
               >
                 
               </span>
@@ -1597,6 +1939,9 @@ ShallowWrapper {
               type="email"
             />
             <div>
+              <span
+                className="text-danger"
+              />
               <span
                 className="text-danger"
               >
@@ -1620,6 +1965,9 @@ ShallowWrapper {
             <div>
               <span
                 className="text-danger"
+              />
+              <span
+                className="text-danger"
               >
                 
               </span>
@@ -1639,6 +1987,9 @@ ShallowWrapper {
               type="Password"
             />
             <div>
+              <span
+                className="text-danger"
+              />
               <span
                 className="text-danger"
               >
@@ -1665,9 +2016,7 @@ ShallowWrapper {
           <div>
             <p
               className="text-danger"
-            >
-              
-            </p>
+            />
           </div>
         </form>
       </div>,
@@ -1702,6 +2051,9 @@ ShallowWrapper {
               <div>
                 <span
                   className="text-danger"
+                />
+                <span
+                  className="text-danger"
                 >
                   
                 </span>
@@ -1721,6 +2073,9 @@ ShallowWrapper {
                 type="email"
               />
               <div>
+                <span
+                  className="text-danger"
+                />
                 <span
                   className="text-danger"
                 >
@@ -1744,6 +2099,9 @@ ShallowWrapper {
               <div>
                 <span
                   className="text-danger"
+                />
+                <span
+                  className="text-danger"
                 >
                   
                 </span>
@@ -1763,6 +2121,9 @@ ShallowWrapper {
                 type="Password"
               />
               <div>
+                <span
+                  className="text-danger"
+                />
                 <span
                   className="text-danger"
                 >
@@ -1789,9 +2150,7 @@ ShallowWrapper {
             <div>
               <p
                 className="text-danger"
-              >
-                
-              </p>
+              />
             </div>
           </form>,
         ],
@@ -1832,6 +2191,9 @@ ShallowWrapper {
                 <div>
                   <span
                     className="text-danger"
+                  />
+                  <span
+                    className="text-danger"
                   >
                     
                   </span>
@@ -1851,6 +2213,9 @@ ShallowWrapper {
                   type="email"
                 />
                 <div>
+                  <span
+                    className="text-danger"
+                  />
                   <span
                     className="text-danger"
                   >
@@ -1874,6 +2239,9 @@ ShallowWrapper {
                 <div>
                   <span
                     className="text-danger"
+                  />
+                  <span
+                    className="text-danger"
                   >
                     
                   </span>
@@ -1893,6 +2261,9 @@ ShallowWrapper {
                   type="Password"
                 />
                 <div>
+                  <span
+                    className="text-danger"
+                  />
                   <span
                     className="text-danger"
                   >
@@ -1919,9 +2290,7 @@ ShallowWrapper {
               <div>
                 <p
                   className="text-danger"
-                >
-                  
-                </p>
+                />
               </div>,
             ],
             "onSubmit": [MockFunction],
@@ -1945,6 +2314,9 @@ ShallowWrapper {
                     type="text"
                   />,
                   <div>
+                    <span
+                      className="text-danger"
+                    />
                     <span
                       className="text-danger"
                     >
@@ -1975,6 +2347,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "form-control",
                     "name": "username",
+                    "onInputChange": undefined,
                     "placeholder": "enter username",
                     "type": "text",
                   },
@@ -1987,25 +2360,44 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <span
-                      className="text-danger"
-                    >
-                      
-                    </span>,
+                    "children": Array [
+                      <span
+                        className="text-danger"
+                      />,
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "",
-                      "className": "text-danger",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
                     },
-                    "ref": null,
-                    "rendered": "",
-                    "type": "span",
-                  },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "span",
+                    },
+                  ],
                   "type": "div",
                 },
               ],
@@ -2028,6 +2420,9 @@ ShallowWrapper {
                     type="email"
                   />,
                   <div>
+                    <span
+                      className="text-danger"
+                    />
                     <span
                       className="text-danger"
                     >
@@ -2058,6 +2453,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "form-control",
                     "name": "email",
+                    "onInputChange": undefined,
                     "placeholder": "enter email",
                     "type": "email",
                   },
@@ -2070,25 +2466,44 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <span
-                      className="text-danger"
-                    >
-                      
-                    </span>,
+                    "children": Array [
+                      <span
+                        className="text-danger"
+                      />,
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "",
-                      "className": "text-danger",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
                     },
-                    "ref": null,
-                    "rendered": "",
-                    "type": "span",
-                  },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "span",
+                    },
+                  ],
                   "type": "div",
                 },
               ],
@@ -2111,6 +2526,9 @@ ShallowWrapper {
                     type="Password"
                   />,
                   <div>
+                    <span
+                      className="text-danger"
+                    />
                     <span
                       className="text-danger"
                     >
@@ -2141,6 +2559,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "form-control",
                     "name": "password1",
+                    "onInputChange": undefined,
                     "placeholder": "enter password",
                     "type": "Password",
                   },
@@ -2153,25 +2572,44 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <span
-                      className="text-danger"
-                    >
-                      
-                    </span>,
+                    "children": Array [
+                      <span
+                        className="text-danger"
+                      />,
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "",
-                      "className": "text-danger",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
                     },
-                    "ref": null,
-                    "rendered": "",
-                    "type": "span",
-                  },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "span",
+                    },
+                  ],
                   "type": "div",
                 },
               ],
@@ -2194,6 +2632,9 @@ ShallowWrapper {
                     type="Password"
                   />,
                   <div>
+                    <span
+                      className="text-danger"
+                    />
                     <span
                       className="text-danger"
                     >
@@ -2224,6 +2665,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "form-control",
                     "name": "password2",
+                    "onInputChange": undefined,
                     "placeholder": "enter password",
                     "type": "Password",
                   },
@@ -2236,25 +2678,44 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <span
-                      className="text-danger"
-                    >
-                      
-                    </span>,
+                    "children": Array [
+                      <span
+                        className="text-danger"
+                      />,
+                      <span
+                        className="text-danger"
+                      >
+                        
+                      </span>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "",
-                      "className": "text-danger",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
                     },
-                    "ref": null,
-                    "rendered": "",
-                    "type": "span",
-                  },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "text-danger",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "span",
+                    },
+                  ],
                   "type": "div",
                 },
               ],
@@ -2315,9 +2776,7 @@ ShallowWrapper {
               "props": Object {
                 "children": <p
                   className="text-danger"
-                >
-                  
-                </p>,
+                />,
               },
               "ref": null,
               "rendered": Object {
@@ -2325,11 +2784,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "",
+                  "children": undefined,
                   "className": "text-danger",
                 },
                 "ref": null,
-                "rendered": "",
+                "rendered": null,
                 "type": "p",
               },
               "type": "div",
@@ -2373,6 +2832,9 @@ ShallowWrapper {
               <div>
                 <span
                   className="text-danger"
+                />
+                <span
+                  className="text-danger"
                 >
                   
                 </span>
@@ -2392,6 +2854,9 @@ ShallowWrapper {
                 type="email"
               />
               <div>
+                <span
+                  className="text-danger"
+                />
                 <span
                   className="text-danger"
                 >
@@ -2415,6 +2880,9 @@ ShallowWrapper {
               <div>
                 <span
                   className="text-danger"
+                />
+                <span
+                  className="text-danger"
                 >
                   
                 </span>
@@ -2434,6 +2902,9 @@ ShallowWrapper {
                 type="Password"
               />
               <div>
+                <span
+                  className="text-danger"
+                />
                 <span
                   className="text-danger"
                 >
@@ -2460,9 +2931,7 @@ ShallowWrapper {
             <div>
               <p
                 className="text-danger"
-              >
-                
-              </p>
+              />
             </div>
           </form>
         </div>,
@@ -2497,6 +2966,9 @@ ShallowWrapper {
                 <div>
                   <span
                     className="text-danger"
+                  />
+                  <span
+                    className="text-danger"
                   >
                     
                   </span>
@@ -2516,6 +2988,9 @@ ShallowWrapper {
                   type="email"
                 />
                 <div>
+                  <span
+                    className="text-danger"
+                  />
                   <span
                     className="text-danger"
                   >
@@ -2539,6 +3014,9 @@ ShallowWrapper {
                 <div>
                   <span
                     className="text-danger"
+                  />
+                  <span
+                    className="text-danger"
                   >
                     
                   </span>
@@ -2558,6 +3036,9 @@ ShallowWrapper {
                   type="Password"
                 />
                 <div>
+                  <span
+                    className="text-danger"
+                  />
                   <span
                     className="text-danger"
                   >
@@ -2584,9 +3065,7 @@ ShallowWrapper {
               <div>
                 <p
                   className="text-danger"
-                >
-                  
-                </p>
+                />
               </div>
             </form>,
           ],
@@ -2627,6 +3106,9 @@ ShallowWrapper {
                   <div>
                     <span
                       className="text-danger"
+                    />
+                    <span
+                      className="text-danger"
                     >
                       
                     </span>
@@ -2646,6 +3128,9 @@ ShallowWrapper {
                     type="email"
                   />
                   <div>
+                    <span
+                      className="text-danger"
+                    />
                     <span
                       className="text-danger"
                     >
@@ -2669,6 +3154,9 @@ ShallowWrapper {
                   <div>
                     <span
                       className="text-danger"
+                    />
+                    <span
+                      className="text-danger"
                     >
                       
                     </span>
@@ -2688,6 +3176,9 @@ ShallowWrapper {
                     type="Password"
                   />
                   <div>
+                    <span
+                      className="text-danger"
+                    />
                     <span
                       className="text-danger"
                     >
@@ -2714,9 +3205,7 @@ ShallowWrapper {
                 <div>
                   <p
                     className="text-danger"
-                  >
-                    
-                  </p>
+                  />
                 </div>,
               ],
               "onSubmit": [MockFunction],
@@ -2740,6 +3229,9 @@ ShallowWrapper {
                       type="text"
                     />,
                     <div>
+                      <span
+                        className="text-danger"
+                      />
                       <span
                         className="text-danger"
                       >
@@ -2770,6 +3262,7 @@ ShallowWrapper {
                     "props": Object {
                       "className": "form-control",
                       "name": "username",
+                      "onInputChange": undefined,
                       "placeholder": "enter username",
                       "type": "text",
                     },
@@ -2782,25 +3275,44 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": <span
-                        className="text-danger"
-                      >
-                        
-                      </span>,
+                      "children": Array [
+                        <span
+                          className="text-danger"
+                        />,
+                        <span
+                          className="text-danger"
+                        >
+                          
+                        </span>,
+                      ],
                     },
                     "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "",
-                        "className": "text-danger",
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": undefined,
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
                       },
-                      "ref": null,
-                      "rendered": "",
-                      "type": "span",
-                    },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "",
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": "",
+                        "type": "span",
+                      },
+                    ],
                     "type": "div",
                   },
                 ],
@@ -2823,6 +3335,9 @@ ShallowWrapper {
                       type="email"
                     />,
                     <div>
+                      <span
+                        className="text-danger"
+                      />
                       <span
                         className="text-danger"
                       >
@@ -2853,6 +3368,7 @@ ShallowWrapper {
                     "props": Object {
                       "className": "form-control",
                       "name": "email",
+                      "onInputChange": undefined,
                       "placeholder": "enter email",
                       "type": "email",
                     },
@@ -2865,25 +3381,44 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": <span
-                        className="text-danger"
-                      >
-                        
-                      </span>,
+                      "children": Array [
+                        <span
+                          className="text-danger"
+                        />,
+                        <span
+                          className="text-danger"
+                        >
+                          
+                        </span>,
+                      ],
                     },
                     "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "",
-                        "className": "text-danger",
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": undefined,
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
                       },
-                      "ref": null,
-                      "rendered": "",
-                      "type": "span",
-                    },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "",
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": "",
+                        "type": "span",
+                      },
+                    ],
                     "type": "div",
                   },
                 ],
@@ -2906,6 +3441,9 @@ ShallowWrapper {
                       type="Password"
                     />,
                     <div>
+                      <span
+                        className="text-danger"
+                      />
                       <span
                         className="text-danger"
                       >
@@ -2936,6 +3474,7 @@ ShallowWrapper {
                     "props": Object {
                       "className": "form-control",
                       "name": "password1",
+                      "onInputChange": undefined,
                       "placeholder": "enter password",
                       "type": "Password",
                     },
@@ -2948,25 +3487,44 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": <span
-                        className="text-danger"
-                      >
-                        
-                      </span>,
+                      "children": Array [
+                        <span
+                          className="text-danger"
+                        />,
+                        <span
+                          className="text-danger"
+                        >
+                          
+                        </span>,
+                      ],
                     },
                     "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "",
-                        "className": "text-danger",
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": undefined,
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
                       },
-                      "ref": null,
-                      "rendered": "",
-                      "type": "span",
-                    },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "",
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": "",
+                        "type": "span",
+                      },
+                    ],
                     "type": "div",
                   },
                 ],
@@ -2989,6 +3547,9 @@ ShallowWrapper {
                       type="Password"
                     />,
                     <div>
+                      <span
+                        className="text-danger"
+                      />
                       <span
                         className="text-danger"
                       >
@@ -3019,6 +3580,7 @@ ShallowWrapper {
                     "props": Object {
                       "className": "form-control",
                       "name": "password2",
+                      "onInputChange": undefined,
                       "placeholder": "enter password",
                       "type": "Password",
                     },
@@ -3031,25 +3593,44 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": <span
-                        className="text-danger"
-                      >
-                        
-                      </span>,
+                      "children": Array [
+                        <span
+                          className="text-danger"
+                        />,
+                        <span
+                          className="text-danger"
+                        >
+                          
+                        </span>,
+                      ],
                     },
                     "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "",
-                        "className": "text-danger",
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": undefined,
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
                       },
-                      "ref": null,
-                      "rendered": "",
-                      "type": "span",
-                    },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "",
+                          "className": "text-danger",
+                        },
+                        "ref": null,
+                        "rendered": "",
+                        "type": "span",
+                      },
+                    ],
                     "type": "div",
                   },
                 ],
@@ -3110,9 +3691,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": <p
                     className="text-danger"
-                  >
-                    
-                  </p>,
+                  />,
                 },
                 "ref": null,
                 "rendered": Object {
@@ -3120,11 +3699,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "",
+                    "children": undefined,
                     "className": "text-danger",
                   },
                   "ref": null,
-                  "rendered": "",
+                  "rendered": null,
                   "type": "p",
                 },
                 "type": "div",
@@ -3150,6 +3729,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },

@@ -10,9 +10,18 @@ ShallowWrapper {
       loading={false}
     />
     <Signup
+      disabled={false}
       errors={Object {}}
       isProcessing={false}
+      onChange={[Function]}
       onSubmit={[Function]}
+      validateInput={
+        Object {
+          "matchPassword": false,
+          "password": false,
+          "username": false,
+        }
+      }
     />
   </div>,
   Symbol(enzyme.__renderer__): Object {
@@ -34,9 +43,18 @@ ShallowWrapper {
           loading={false}
         />,
         <Signup
+          disabled={false}
           errors={Object {}}
           isProcessing={false}
+          onChange={[Function]}
           onSubmit={[Function]}
+          validateInput={
+            Object {
+              "matchPassword": false,
+              "password": false,
+              "username": false,
+            }
+          }
         />,
       ],
       "className": "login background-image",
@@ -59,11 +77,18 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "disabled": false,
           "errors": Object {},
           "history": undefined,
           "isProcessing": false,
+          "onChange": [Function],
           "onClick": undefined,
           "onSubmit": [Function],
+          "validateInput": Object {
+            "matchPassword": false,
+            "password": false,
+            "username": false,
+          },
         },
         "ref": null,
         "rendered": null,
@@ -83,9 +108,18 @@ ShallowWrapper {
             loading={false}
           />,
           <Signup
+            disabled={false}
             errors={Object {}}
             isProcessing={false}
+            onChange={[Function]}
             onSubmit={[Function]}
+            validateInput={
+              Object {
+                "matchPassword": false,
+                "password": false,
+                "username": false,
+              }
+            }
           />,
         ],
         "className": "login background-image",
@@ -108,11 +142,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "disabled": false,
             "errors": Object {},
             "history": undefined,
             "isProcessing": false,
+            "onChange": [Function],
             "onClick": undefined,
             "onSubmit": [Function],
+            "validateInput": Object {
+              "matchPassword": false,
+              "password": false,
+              "username": false,
+            },
           },
           "ref": null,
           "rendered": null,
@@ -134,6 +175,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },

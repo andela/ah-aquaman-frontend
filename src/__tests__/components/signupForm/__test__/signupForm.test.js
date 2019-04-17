@@ -5,8 +5,9 @@ import Signup from "../../../../components/signupForm";
 describe("signupform on success registration", () => {
   const props = {
     onSubmit: jest.fn(),
-    errors: null,
+    errors: {},
     onClick: jest.fn(),
+    validateInput: {},
   };
   
   it("should render without crashing", () => {
@@ -19,6 +20,7 @@ describe("signupform on registration failure", () => {
   const props = {
     onSubmit: jest.fn(),
     errors: {},
+    validateInput: {},
   };
   it("should render without crashing", () => {
     const wrapper = shallow(<Signup {...props} />);

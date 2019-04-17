@@ -5,7 +5,7 @@ import Label from "../../commons/label";
 
 const Signup = (props) => {
   const {
-    onSubmit, errors, onClick, isProcessing, 
+    onSubmit, errors, onClick, isProcessing, onChange, disabled, validateInput,
   } = props;
 
   const title = "Author's Haven";
@@ -21,6 +21,7 @@ const Signup = (props) => {
               text="Username"
             />
             <InputField 
+              onInputChange={onChange}
               className="form-control"
               name="username"
               type="text" 
@@ -28,6 +29,7 @@ const Signup = (props) => {
             />
             <div>
               <span className="text-danger">{errors ? errors.username : ""}</span>
+              <span className="text-danger">{validateInput.username ? "Username is too short" : ""}</span>
             </div>
           </div>
           <div className="form-group">
@@ -36,6 +38,7 @@ const Signup = (props) => {
               text="Email Address"
             />
             <InputField 
+              onInputChange={onChange}
               className="form-control"
               name="email"
               type="email" 
@@ -43,6 +46,7 @@ const Signup = (props) => {
             />
             <div>
               <span className="text-danger">{errors ? errors.email : ""}</span>
+              <span className="text-danger">{disabled ? "Email is invalid" : ""}</span>
             </div>
           </div>
           <div className="form-group">
@@ -51,6 +55,7 @@ const Signup = (props) => {
               text="Password"
             />
             <InputField 
+              onInputChange={onChange}
               className="form-control"
               name="password1"
               type="Password" 
@@ -58,6 +63,7 @@ const Signup = (props) => {
             />
             <div>
               <span className="text-danger">{errors ? errors.password : ""}</span>
+              <span className="text-danger">{validateInput.password ? "Password is too short" : ""}</span>
             </div>
           </div>
           <div className="form-group">
@@ -66,6 +72,7 @@ const Signup = (props) => {
               text="Password Confirmation"
             />
             <InputField 
+              onInputChange={onChange}
               className="form-control"
               name="password2"
               type="Password" 
@@ -73,6 +80,7 @@ const Signup = (props) => {
             />
             <div>
               <span className="text-danger">{errors ? errors.password : ""}</span>
+              <span className="text-danger">{validateInput.matchPassword ? "Passwords do not match" : ""}</span>
             </div>
           </div>
           <p>
@@ -85,6 +93,7 @@ const Signup = (props) => {
             id="signup-button"
             disabled={isProcessing}
             onClick={onClick}
+            disabled={disabled}
           >
           Signup 
           </button>
@@ -99,6 +108,7 @@ const Signup = (props) => {
 
 Signup.propTypes = {
   onSubmit: PropTypes.func.isRequired,
+  onChange: PropTypes.func.isRequired,
   errors: PropTypes.shape({
     username: PropTypes.any,
     email: PropTypes.any,
