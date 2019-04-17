@@ -6,7 +6,6 @@ import { loadProfile } from "../../../actions/profile/profileActions";
 import Profile from "../../../components/profile/profile";
 
 describe("profile component tests", () => {
-  
   it("should not regress", () => {
     const wrapper = shallow(<Profile />);
     expect(wrapper).toMatchSnapshot();
@@ -16,7 +15,7 @@ describe("profile component tests", () => {
     store.dispatch(loadProfile());
     expect(store.getState().profile).toEqual(
       {
-isLoading: true, isUpdating: null, msg: null, profile: null,
+        isLoading: true, isUpdating: null, msg: null, profile: null,
       },
     );
   });
