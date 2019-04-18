@@ -134,4 +134,82 @@ describe("SignupView", () => {
     const spyProp = jest.spyOn(wrapper.instance().props.children.props, "signupAction");
     expect(spyProp).toHaveBeenCalled();
   });
+
+  it("should show error message on weak username", () => {
+    const wrapper = shallow(<SignupView {...props} />);
+    wrapper.instance().setState = jest.fn();
+    const event = {
+      target: {
+        name: "username",
+        value: "jo",
+      },
+    };
+    wrapper.instance().onChange(event);
+    expect(wrapper.instance().setState).toBeCalled();
+  });
+
+  it("should hide error message on strong username", () => {
+    const wrapper = shallow(<SignupView {...props} />);
+    wrapper.instance().setState = jest.fn();
+    const event = {
+      target: {
+        name: "username",
+        value: "johnbashabe",
+      },
+    };
+    wrapper.instance().onChange(event);
+    expect(wrapper.instance().setState).toBeCalled();
+  });
+
+  it("should show error message on invalid email", () => {
+    const wrapper = shallow(<SignupView {...props} />);
+    wrapper.instance().setState = jest.fn();
+    const event = {
+      target: {
+        name: "email",
+        value: "jjdgmail.com",
+      },
+    };
+    wrapper.instance().onChange(event);
+    expect(wrapper.instance().setState).toBeCalled();
+  });
+
+  it("should hide error message on valid email", () => {
+    const wrapper = shallow(<SignupView {...props} />);
+    wrapper.instance().setState = jest.fn();
+    const event = {
+      target: {
+        name: "email",
+        value: "jjdnnd@gmail.com",
+      },
+    };
+    wrapper.instance().onChange(event);
+    expect(wrapper.instance().setState).toBeCalled();
+  });
+
+  it("should show error message on weak password", () => {
+    const wrapper = shallow(<SignupView {...props} />);
+    wrapper.instance().setState = jest.fn();
+    const event = {
+      target: {
+        name: "password1",
+        value: "pass",
+      },
+    };
+    wrapper.instance().onChange(event);
+    expect(wrapper.instance().setState).toBeCalled();
+  });
+
+  it("should hide error message on strong password", () => {
+    const wrapper = shallow(<SignupView {...props} />);
+    wrapper.instance().setState = jest.fn();
+    const event = {
+      target: {
+        name: "password2",
+        value: "password123",
+      },
+    };
+    wrapper.instance().onChange(event);
+    expect(wrapper.instance().setState).toBeCalled();
+  });
 });
