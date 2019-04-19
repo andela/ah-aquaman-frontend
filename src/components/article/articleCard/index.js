@@ -23,10 +23,10 @@ export class ArticleCard extends Component {
                 <i className="fa fa-calendar" /> 
                 {" "}
                 {parseDate(this.props.created_at)}
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <i className="fa fa-comments-o" /> 
-                {" "}
-                {24}
+                <span className="ml-2">
+                  <i className="fa fa-clock" />
+                  {this.props.read_time}
+                </span>
               </p>
             </div>
           </div>
