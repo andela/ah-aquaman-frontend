@@ -6,12 +6,14 @@ import resetPasswordReducer from "./resetReducer/resetPasswordReducer";
 import ArticleReducer from "./articleReducer";
 import articleCreateReducer from "./articleCreateReducer";
 import fetchArticlesReducer from "./fetchArticleReducer";
+import followUnfollow from "./followunfollow/followUnfollow";
 import tags from "./tags/tags";
 
 export default combineReducers({
   loginReducer,
   signupReducer,
   profile: profileReducer,
+  followUnfollow,
   resetPasswordReducer,
   ArticleReducer,
   articleCreateReducer,

@@ -4,7 +4,6 @@ import {
   PROFILE_LOAD_FAILED,
   GET_PROFILE, UPDATE_FAILED, IS_UPDATING, UPDATE_SUCCESS,
 } from "../../actions/types";
-import loginReducer from "../../reducers/loginReducer";
 import profileReducer from "../../reducers/profile/profileReducer";
 
 test("initial profiles", () => {
@@ -131,7 +130,7 @@ describe("loginReducer Tests", () => {
     };
     expect(profileReducer(initialState, dispachedAction)).toEqual(newProfileState);
   });
-  
+
   it("should successfully update a users profile", () => {
     const dispachedAction = {
       type: UPDATE_SUCCESS,

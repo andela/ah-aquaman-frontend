@@ -107,7 +107,6 @@ const Signup = (props) => {
 
 Signup.propTypes = {
   onSubmit: PropTypes.func.isRequired,
-  onChange: PropTypes.func.isRequired,
   errors: PropTypes.shape({
     username: PropTypes.any,
     email: PropTypes.any,

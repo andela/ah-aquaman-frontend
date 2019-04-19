@@ -22,6 +22,7 @@ const Routes = () => (
       <ProtectedRoute path="/logout" exact component={LogoutPage} />
       <Route path="/signup" exact component={signupView} />
       <ProtectedRoute path="/profile" exact component={Profile} />
+      <ProtectedRoute path="/profile/:username" exact component={Profile} />
       <ProtectedRoute path="/editprofile" exact component={EditProfile} />
       <Route path="/article/:slug" exact component={ArticleDetailView} />
       <ProtectedRoute path="/create_article" exact strict component={CreateArticleView} />
