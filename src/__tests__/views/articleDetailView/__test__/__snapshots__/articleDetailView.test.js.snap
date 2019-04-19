@@ -4,7 +4,7 @@ exports[`ArticleDetailView should render 404 view without crashing 1`] = `
 <div
   className="h-100 w-100 p-5 m-5  text-center"
 >
-  8xuuvrz5c2
+  fi5spgrd2p
   ;
 </div>
 `;
@@ -272,7 +272,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {},
                   "ref": null,
                   "rendered": null,
@@ -540,7 +540,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": undefined,
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {},
                     "ref": null,
                     "rendered": null,

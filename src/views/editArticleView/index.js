@@ -16,7 +16,7 @@ export class EditArticleView extends Component {
       title: retrivedArticle.title,
       description: retrivedArticle.description,
       body: retrivedArticle.body,
-      tags: retrivedArticle.tagList,
+      tagList: retrivedArticle.tagList,
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -39,6 +39,18 @@ export class EditArticleView extends Component {
     }
   }
 
+handleChange=(tagList) => {
+  const sorted = [];
+  tagList.forEach((element) => {
+    sorted.push(element.toLowerCase());
+  });
+  sorted.sort();
+  this.setState({
+    tagList: Array.from(new Set(sorted)),
+  });
+}
+
+
   handleErrors = (props) => {
     if (props.errors.title) {
       toast.error("title can not be blank");
@@ -59,6 +71,7 @@ export class EditArticleView extends Component {
       title: this.state.title,
       description: this.state.description,
       body: this.state.body,
+      tagList: this.state.tagList,
     };
     this.props.EditArticle(this.props.match.params.slug, editPayload);
   }
@@ -79,13 +92,15 @@ export class EditArticleView extends Component {
               onSubmit={this.handleSubmit}
               onInputChange={this.handleInput}
               slug={this.props.slug}
+              value={this.state.tagList}
+              onChange={this.handleChange}
             />
             <Sidebar />
           </div>
           <ToastContainer />
         </div>
       </React.Fragment>
-      
+
     );
   }
 }

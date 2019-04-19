@@ -1276,7 +1276,10 @@ ShallowWrapper {
           "username": "testuser",
         },
         "image": null,
-        "tagList": Array [],
+        "tagList": Array [
+          "tag1",
+          "tag2",
+        ],
         "title": "test title",
       }
     }
@@ -1315,11 +1318,12 @@ ShallowWrapper {
             <div
               className="float-left"
             >
-              <Link
-                to="#"
-              >
-                No Tags
-              </Link>
+              <TagComponent
+                tag="tag1"
+              />
+              <TagComponent
+                tag="tag2"
+              />
             </div>
             <div
               className="float-right"
@@ -1398,11 +1402,12 @@ ShallowWrapper {
             <div
               className="float-left"
             >
-              <Link
-                to="#"
-              >
-                No Tags
-              </Link>
+              <TagComponent
+                tag="tag1"
+              />
+              <TagComponent
+                tag="tag2"
+              />
             </div>
             <div
               className="float-right"
@@ -1478,11 +1483,12 @@ ShallowWrapper {
               <div
                 className="float-left"
               >
-                <Link
-                  to="#"
-                >
-                  No Tags
-                </Link>
+                <TagComponent
+                  tag="tag1"
+                />
+                <TagComponent
+                  tag="tag2"
+                />
               </div>
               <div
                 className="float-right"
@@ -1572,11 +1578,12 @@ ShallowWrapper {
                 <div
                   className="float-left"
                 >
-                  <Link
-                    to="#"
-                  >
-                    No Tags
-                  </Link>
+                  <TagComponent
+                    tag="tag1"
+                  />
+                  <TagComponent
+                    tag="tag2"
+                  />
                 </div>,
                 <div
                   className="float-right"
@@ -1613,26 +1620,41 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <Link
-                    to="#"
-                  >
-                    No Tags
-                  </Link>,
+                  "children": Array [
+                    <TagComponent
+                      tag="tag1"
+                    />,
+                    <TagComponent
+                      tag="tag2"
+                    />,
+                  ],
                   "className": "float-left",
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": "No Tags",
-                    "to": "#",
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "tag1",
+                    "nodeType": "function",
+                    "props": Object {
+                      "tag": "tag1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
                   },
-                  "ref": null,
-                  "rendered": "No Tags",
-                  "type": [Function],
-                },
+                  Object {
+                    "instance": null,
+                    "key": "tag2",
+                    "nodeType": "function",
+                    "props": Object {
+                      "tag": "tag2",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
                 "type": "div",
               },
               Object {
@@ -1921,11 +1943,12 @@ ShallowWrapper {
               <div
                 className="float-left"
               >
-                <Link
-                  to="#"
-                >
-                  No Tags
-                </Link>
+                <TagComponent
+                  tag="tag1"
+                />
+                <TagComponent
+                  tag="tag2"
+                />
               </div>
               <div
                 className="float-right"
@@ -2004,11 +2027,12 @@ ShallowWrapper {
               <div
                 className="float-left"
               >
-                <Link
-                  to="#"
-                >
-                  No Tags
-                </Link>
+                <TagComponent
+                  tag="tag1"
+                />
+                <TagComponent
+                  tag="tag2"
+                />
               </div>
               <div
                 className="float-right"
@@ -2084,11 +2108,12 @@ ShallowWrapper {
                 <div
                   className="float-left"
                 >
-                  <Link
-                    to="#"
-                  >
-                    No Tags
-                  </Link>
+                  <TagComponent
+                    tag="tag1"
+                  />
+                  <TagComponent
+                    tag="tag2"
+                  />
                 </div>
                 <div
                   className="float-right"
@@ -2178,11 +2203,12 @@ ShallowWrapper {
                   <div
                     className="float-left"
                   >
-                    <Link
-                      to="#"
-                    >
-                      No Tags
-                    </Link>
+                    <TagComponent
+                      tag="tag1"
+                    />
+                    <TagComponent
+                      tag="tag2"
+                    />
                   </div>,
                   <div
                     className="float-right"
@@ -2219,26 +2245,41 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <Link
-                      to="#"
-                    >
-                      No Tags
-                    </Link>,
+                    "children": Array [
+                      <TagComponent
+                        tag="tag1"
+                      />,
+                      <TagComponent
+                        tag="tag2"
+                      />,
+                    ],
                     "className": "float-left",
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "children": "No Tags",
-                      "to": "#",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "tag1",
+                      "nodeType": "function",
+                      "props": Object {
+                        "tag": "tag1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
                     },
-                    "ref": null,
-                    "rendered": "No Tags",
-                    "type": [Function],
-                  },
+                    Object {
+                      "instance": null,
+                      "key": "tag2",
+                      "nodeType": "function",
+                      "props": Object {
+                        "tag": "tag2",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
                   "type": "div",
                 },
                 Object {

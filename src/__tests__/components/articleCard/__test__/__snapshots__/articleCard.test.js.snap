@@ -66,15 +66,6 @@ ShallowWrapper {
                   className="ml-2"
                 >
                   <i
-                    className="fa fa-comments-o"
-                  />
-                   
-                  24
-                </span>
-                <span
-                  className="ml-2"
-                >
-                  <i
                     className="fa fa-clock"
                   />
                 </span>
@@ -145,15 +136,6 @@ ShallowWrapper {
                   className="ml-2"
                 >
                   <i
-                    className="fa fa-comments-o"
-                  />
-                   
-                  24
-                </span>
-                <span
-                  className="ml-2"
-                >
-                  <i
                     className="fa fa-clock"
                   />
                 </span>
@@ -189,15 +171,6 @@ ShallowWrapper {
                   />
                    
                   Invalid Date
-                  <span
-                    className="ml-2"
-                  >
-                    <i
-                      className="fa fa-comments-o"
-                    />
-                     
-                    24
-                  </span>
                   <span
                     className="ml-2"
                   >
@@ -263,15 +236,6 @@ ShallowWrapper {
                     className="ml-2"
                   >
                     <i
-                      className="fa fa-comments-o"
-                    />
-                     
-                    24
-                  </span>
-                  <span
-                    className="ml-2"
-                  >
-                    <i
                       className="fa fa-clock"
                     />
                   </span>
@@ -290,15 +254,6 @@ ShallowWrapper {
                     />,
                     " ",
                     "Invalid Date",
-                    <span
-                      className="ml-2"
-                    >
-                      <i
-                        className="fa fa-comments-o"
-                      />
-                       
-                      24
-                    </span>,
                     <span
                       className="ml-2"
                     >
@@ -323,38 +278,6 @@ ShallowWrapper {
                   },
                   " ",
                   "Invalid Date",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <i
-                          className="fa fa-comments-o"
-                        />,
-                        " ",
-                        24,
-                      ],
-                      "className": "ml-2",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "fa fa-comments-o",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "i",
-                      },
-                      " ",
-                      24,
-                    ],
-                    "type": "span",
-                  },
                   Object {
                     "instance": null,
                     "key": undefined,
@@ -443,15 +366,6 @@ ShallowWrapper {
                     className="ml-2"
                   >
                     <i
-                      className="fa fa-comments-o"
-                    />
-                     
-                    24
-                  </span>
-                  <span
-                    className="ml-2"
-                  >
-                    <i
                       className="fa fa-clock"
                     />
                   </span>
@@ -522,15 +436,6 @@ ShallowWrapper {
                     className="ml-2"
                   >
                     <i
-                      className="fa fa-comments-o"
-                    />
-                     
-                    24
-                  </span>
-                  <span
-                    className="ml-2"
-                  >
-                    <i
                       className="fa fa-clock"
                     />
                   </span>
@@ -566,15 +471,6 @@ ShallowWrapper {
                     />
                      
                     Invalid Date
-                    <span
-                      className="ml-2"
-                    >
-                      <i
-                        className="fa fa-comments-o"
-                      />
-                       
-                      24
-                    </span>
                     <span
                       className="ml-2"
                     >
@@ -640,15 +536,6 @@ ShallowWrapper {
                       className="ml-2"
                     >
                       <i
-                        className="fa fa-comments-o"
-                      />
-                       
-                      24
-                    </span>
-                    <span
-                      className="ml-2"
-                    >
-                      <i
                         className="fa fa-clock"
                       />
                     </span>
@@ -667,15 +554,6 @@ ShallowWrapper {
                       />,
                       " ",
                       "Invalid Date",
-                      <span
-                        className="ml-2"
-                      >
-                        <i
-                          className="fa fa-comments-o"
-                        />
-                         
-                        24
-                      </span>,
                       <span
                         className="ml-2"
                       >
@@ -700,38 +578,6 @@ ShallowWrapper {
                     },
                     " ",
                     "Invalid Date",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <i
-                            className="fa fa-comments-o"
-                          />,
-                          " ",
-                          24,
-                        ],
-                        "className": "ml-2",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "className": "fa fa-comments-o",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": "i",
-                        },
-                        " ",
-                        24,
-                      ],
-                      "type": "span",
-                    },
                     Object {
                       "instance": null,
                       "key": undefined,

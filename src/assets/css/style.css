@@ -381,7 +381,7 @@ aside .media img{
 aside .media .media-body{
 	padding-left: 20px;
 	justify-content: center;
-	align-self: center; 
+	align-self: center;
 }
 aside .media .media-body h3{
 	font-size: 16px;
@@ -400,6 +400,7 @@ aside .media .media-body p{
 }
 .taglist li{
 	display: inline-block;
+	margin-left: 5px;
 }
 .taglist li a{
 	display: inline-block;
@@ -412,6 +413,7 @@ aside .media .media-body p{
 .taglist li a:hover{
 	background: #ff2f92;
 	color: #fff;
+	text-decoration: none;
 }
 
 
@@ -536,7 +538,7 @@ aside .media .media-body p{
 	height: 150px;
 	width: 150px;
 	border-radius: 50%;
-	background-color: #fff; 
+	background-color: #fff;
 	padding: 5px;
 }
 .profile-details .user-information{
@@ -548,7 +550,7 @@ aside .media .media-body p{
 
 .profile-details .user-information h3{
 	margin-left: -56px;
-	
+
 }
 .profile-details .user-information h3 label{
 	background-color: #ff2f92;
