@@ -7,7 +7,7 @@ import FollowersList from "./followersList";
 
 const ProfileStats = (props) => {
   const { following, followers } = props;
-  const list = following.following;
+  const list = props.following.following;
   const followersList = followers.followers;
   return (
     <div className="row">

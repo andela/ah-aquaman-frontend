@@ -10,6 +10,8 @@ before_script:
   - export BASE_URL=https://ah-backend-aquaman-staging.herokuapp.com/api
   - export FRONTEND_BASE_URL=https://ah-aquaman-frontend-staging.herokuapp.com
   - export CC_TEST_REPORTER_ID=92b937d7451fb73bce6c85e2911f11d963c04ca448af582b59d4595e18398653
+  - export BASE_URL=https://ah-backend-aquaman-staging.herokuapp.com/api
+  - export FRONTEND_BASE_URL=https://ah-aquaman-frontend-staging.herokuapp.com
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build

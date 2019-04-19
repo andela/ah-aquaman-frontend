@@ -22,10 +22,16 @@ describe("Profile component view tests", () => {
         isLoading: false,
       },
       isLoading: true,
-      status: {
-        isOwner: true,
-        isProcessing: true,
+      status:{
+        isOwner:true,
+        isProcessing:true
       },
+      bookmarks: [{
+        article: {
+          title: 'deed',
+          slug: 'dedededed',
+        }
+      }],
     };
     wrapper = shallow(<Profile {...props} />);
     expect(wrapper).toMatchSnapshot();
@@ -46,10 +52,20 @@ describe("Profile component view tests", () => {
         isLoading: false,
       },
       isProcessing: false,
+      bookmarkListReducer: {
+        bookmarks: []
+      }
     };
+    const expectedProps = {
+      "bookmarks": [], 
+      "followers": [], 
+      "following": [], 
+      "isProcessing": false, 
+      "profile": {"bio": "images", "email": "crycetruly@gmail.com", "image": "image", "username": "crycetruly"}
+    }
     const appState = [profileState];
     const componentState = mapStateToProps(appState[0]);
-    expect(componentState.profile).toEqual(profileState.profile);
+    expect(componentState).toEqual(expectedProps);
   });
   it("should render profileView", () => {
     const props = {
@@ -68,6 +84,13 @@ describe("Profile component view tests", () => {
         isUploading: null,
       },
       isUpdating: true,
+      bookmarks: [{
+        article: {
+          title: 'deed',
+          slug: 'dedededed',
+        }
+      }],
+      map: jest.fn(),
     };
     wrapper = shallow(<EditProfileView {...props} />);
     expect(wrapper).toMatchSnapshot();

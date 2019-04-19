@@ -8,7 +8,7 @@ import ProfileButton from "./profileButton";
 
 const ProfileView = (props) => {
   const {
-    status, profile, unFollowUser, following, followers, isFollowing,
+ status, profile, unFollowUser, following, followers, isFollowing, bookmarks
   } = props;
 
   return (
@@ -42,7 +42,16 @@ const ProfileView = (props) => {
                           }
                         </h4>
                         <ProfileStats following={following} followers={followers} />
-                        <p className="lead my-4">{profile.bio ? profile.bio : "No bio set" }</p>
+                        <p className="lead my-4">{profile.bio ? `${profile.bio}` : "No bio set"}</p>
+                        <p>Bookmarked articles</p>
+                        <ul className="list-group">
+                          {
+                            bookmarks.length > 0
+                              ? bookmarks.map(bookmark => (
+                                <li key={bookmark.article.slug} className="list-group-item"><a href={`article/${bookmark.article.slug}`}>{bookmark.article.title}</a></li>
+                              ))
+                              : <li className="list-group-item">You have no bookmarked articles</li>}
+                        </ul>
                       </div>
                     </div>
                   </section>

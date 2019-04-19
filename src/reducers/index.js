@@ -9,12 +9,14 @@ import fetchArticlesReducer from "./fetchArticleReducer";
 import followUnfollow from "./followunfollow/followUnfollow";
 import tags from "./tags/tags";
 import bookmarkReducer from "./bookmarkReducer";
+import bookmarkListReducer from "./bookmarkListReducer"
 
 export default combineReducers({
   loginReducer,
   signupReducer,
   profile: profileReducer,
   followUnfollow,
+  bookmarkListReducer,
   resetPasswordReducer,
   ArticleReducer,
   articleCreateReducer,
