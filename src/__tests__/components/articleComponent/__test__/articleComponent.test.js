@@ -14,6 +14,11 @@ describe("Article component test", () => {
           image: "http://imageurl.com/avatar.jpg",
           username: "testuser",
         },
+        shareLinks: {
+          facebookShare: "",
+          twitterShare: "",
+          mailshare: "",
+        },
       },
     };
     const wrapper = shallow(<ArticleComponent {...props} />);
@@ -32,6 +37,11 @@ describe("Article component test", () => {
           image: "http://imageurl.com/avatar.jpg",
           username: "testuser",
         },
+        shareLinks: {
+          facebookShare: "",
+          twitterShare: "",
+          mailshare: "",
+        },
       },
     };
     const wrapper = shallow(<ArticleComponent {...props} />);
@@ -48,6 +58,11 @@ describe("Article component test", () => {
         author: {
           image: "http://imageurl.com/avatar.jpg",
           username: "testuser",
+        },
+        shareLinks: {
+          facebookShare: "",
+          twitterShare: "",
+          mailshare: "",
         },
       },
     };

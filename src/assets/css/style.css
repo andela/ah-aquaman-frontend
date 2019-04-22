@@ -577,3 +577,14 @@ input[type='file'] {
 	float: left;
 	margin-left: 70px;
 }
+.fa-twitter-square{
+	color: #1da1f2;
+}
+.share{
+	margin: 20px 0;
+}
+.articleShare{
+	font-size: 18px;
+	text-transform: capitalize;
+	margin: 20px 0;
+}

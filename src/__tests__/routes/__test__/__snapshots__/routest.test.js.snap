@@ -61,7 +61,7 @@ ShallowWrapper {
           exact={true}
           path="/editprofile"
         />
-        <ProtectedRoute
+        <Route
           component={[Function]}
           exact={true}
           path="/article/:slug"
@@ -127,7 +127,7 @@ ShallowWrapper {
             exact={true}
             path="/editprofile"
           />,
-          <ProtectedRoute
+          <Route
             component={[Function]}
             exact={true}
             path="/article/:slug"
@@ -256,7 +256,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "component": [Function],
             "exact": true,
@@ -348,7 +348,7 @@ ShallowWrapper {
             exact={true}
             path="/editprofile"
           />
-          <ProtectedRoute
+          <Route
             component={[Function]}
             exact={true}
             path="/article/:slug"
@@ -414,7 +414,7 @@ ShallowWrapper {
               exact={true}
               path="/editprofile"
             />,
-            <ProtectedRoute
+            <Route
               component={[Function]}
               exact={true}
               path="/article/:slug"
@@ -543,7 +543,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "component": [Function],
               "exact": true,

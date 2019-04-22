@@ -3,7 +3,7 @@ import configureMockStore from "redux-mock-store";
 import EnzymeAdapter from "enzyme-adapter-react-16";
 import thunk from "redux-thunk";
 import fetchMock from "fetch-mock";
-import {TAGS_LOADING, TAGS_LOADED,} from "../../../actions/types";
+import { TAGS_LOADING, TAGS_LOADED } from "../../../actions/types";
 import { getTags } from "../../../actions/tags/tags";
 
 Enzyme.configure({ adapter: new EnzymeAdapter() });
@@ -26,7 +26,7 @@ describe("tags Action tests", () => {
   it("should load all tags", () => {
     fetchMock.getOnce(url, {
       body: {
-            "tags": []
+        tags: [],
       },
       headers: { "content-type": "application/json" },
     }, { overwriteRoutes: false });
@@ -39,4 +39,4 @@ describe("tags Action tests", () => {
       .then(() => expect(store.getActions())
         .toEqual(expectedActions));
   });
-})
+});
