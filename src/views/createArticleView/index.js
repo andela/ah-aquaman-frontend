@@ -14,6 +14,7 @@ export class CreateArticleView extends Component {
       title: "",
       description: "",
       body: "",
+      tagList: [],
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -26,6 +27,17 @@ export class CreateArticleView extends Component {
     } else {
       this.props.history.push(`/article/${nextProps.article.slug}`);
     }
+  }
+
+  handleChange=(tagList) => {
+    const sorted = [];
+    tagList.forEach((element) => {
+      sorted.push(element.toLowerCase());
+    });
+    sorted.sort();
+    this.setState({
+      tagList: Array.from(new Set(sorted)),
+    });
   }
 
   handleErrors = (props) => {
@@ -46,7 +58,9 @@ export class CreateArticleView extends Component {
       title: this.state.title,
       description: this.state.description,
       body: this.state.body,
+      tagList: this.state.tagList,
     };
+
     this.props.CreateArticle(payload);
   }
 
@@ -62,12 +76,16 @@ export class CreateArticleView extends Component {
         <div className="container">
           <div className="row">
             <Editor
+
               {...this.state}
               onSubmit={this.handleSubmit}
               onInputChange={this.handleInput}
+              value={this.state.tagList}
+              onChange={this.handleChange}
             />
+
             <Sidebar />
-          </div> 
+          </div>
           <ToastContainer />
         </div>
       </React.Fragment>

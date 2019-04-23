@@ -1,9 +1,11 @@
 import React from "react";
+import TagsInput from "react-tagsinput";
 import InputField from "../../../commons/inputField";
 import Button from "../../../commons/buttons";
+import "react-tagsinput/react-tagsinput.css";
 
 const Editor = ({
-  onSubmit, title, description, body, onInputChange,
+  onSubmit, title, description, body, onInputChange, onChange, value,
 }) => (
   <div className="col-lg-8">
     <div className="article-container">
@@ -39,11 +41,12 @@ const Editor = ({
             <div className="form-group">
               <textarea className="form-control" value={body} onChange={onInputChange} placeholder="Tell your story...... " name="body" />
             </div>
+            <TagsInput value={value} onChange={onChange} />
             <div className="form-group">
-              <Button 
-                className="btn btn-article btn-primary float-left"
+              <Button
+                className="btn btn-article btn-primary mb-5 mt-1 float-left"
                 id="publish"
-                type="submit" 
+                type="submit"
                 text="Publish Article"
               />
             </div>

@@ -1,8 +1,8 @@
 import fetchMock from "fetch-mock";
 import thunk from "redux-thunk";
 import configureStore from "redux-mock-store";
-import getSingleArticle from "../../../../actions/articleActions/getSingleArticle";
-import { ArticleActionTypes } from "../../../../actions/types";
+import getSingleArticle from "../../../actions/articleActions/getSingleArticle";
+import { ArticleActionTypes } from "../../../actions/types";
 
 const mockStore = configureStore([thunk]);
 
@@ -54,7 +54,7 @@ describe("fetch a single article test", () => {
         status: 404,
         headers: { "content-type": "application/json" },
       });
-      
+
     const store = mockStore();
 
     return store.dispatch(getSingleArticle(slug)).then(() => {

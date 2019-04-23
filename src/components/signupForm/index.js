@@ -16,15 +16,15 @@ const Signup = (props) => {
         <h3>{title}</h3>
         <form onSubmit={onSubmit}>
           <div className="form-group">
-            <Label 
+            <Label
               htmlFor="username"
               text="Username"
             />
-            <InputField 
+            <InputField
               onInputChange={onChange}
               className="form-control"
               name="username"
-              type="text" 
+              type="text"
               placeholder="enter username"
             />
             <div>
@@ -33,15 +33,15 @@ const Signup = (props) => {
             </div>
           </div>
           <div className="form-group">
-            <Label 
+            <Label
               htmlFor="email"
               text="Email Address"
             />
-            <InputField 
+            <InputField
               onInputChange={onChange}
               className="form-control"
               name="email"
-              type="email" 
+              type="email"
               placeholder="enter email"
             />
             <div>
@@ -50,15 +50,15 @@ const Signup = (props) => {
             </div>
           </div>
           <div className="form-group">
-            <Label 
+            <Label
               htmlFor="password"
               text="Password"
             />
-            <InputField 
+            <InputField
               onInputChange={onChange}
               className="form-control"
               name="password1"
-              type="Password" 
+              type="Password"
               placeholder="enter password"
             />
             <div>
@@ -67,15 +67,15 @@ const Signup = (props) => {
             </div>
           </div>
           <div className="form-group">
-            <Label 
+            <Label
               htmlFor="password"
               text="Password Confirmation"
             />
-            <InputField 
+            <InputField
               onInputChange={onChange}
               className="form-control"
               name="password2"
-              type="Password" 
+              type="Password"
               placeholder="enter password"
             />
             <div>
@@ -95,7 +95,7 @@ const Signup = (props) => {
             onClick={onClick}
             disabled={disabled}
           >
-          Signup 
+          Signup
           </button>
           <div>
             <p className="text-danger">{errors ? errors.error : ""}</p>

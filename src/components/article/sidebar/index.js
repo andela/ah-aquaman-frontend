@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
+import Tags from "../../../views/tags";
 
-export default class Sidebar extends Component {
-  render() {
+const Sidebar=()=>{
     return (
       <React.Fragment>
         <div className="col-lg-4">
@@ -13,7 +13,7 @@ export default class Sidebar extends Component {
             <div className="separator" />
             <aside className="tags">
               <h3 className="title">Tags</h3>
-              <p>No recent articles</p>
+              <Tags />
             </aside>
             <div className="separator" />
             <aside className="favourite">
@@ -25,4 +25,4 @@ export default class Sidebar extends Component {
       </React.Fragment>
     );
   }
-}
+  export default Sidebar;

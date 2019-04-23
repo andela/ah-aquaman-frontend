@@ -1,6 +1,7 @@
 import { shallow } from "enzyme";
 import React from "react";
 import ArticleComponent from "../../../../components/article/articleComponent";
+import TagComponent from "../../../../components/article/articleComponent/tagComponent";
 
 describe("Article component test", () => {
   it("should render without crashing", () => {
@@ -26,7 +27,7 @@ describe("Article component test", () => {
       article: {
         title: "test title",
         image: null,
-        tagList: [],
+        tagList: ["tag1", "tag2"],
         author: {
           image: "http://imageurl.com/avatar.jpg",
           username: "testuser",

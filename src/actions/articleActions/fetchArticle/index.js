@@ -10,9 +10,10 @@ const fetchArticlesAction = () => dispatch => fetch(`${BASE_URL}/articles/`,
     },
   })
   .then(res => res.json())
-  .then(data => dispatch({
-    type: ArticleActionTypes.FETCH_ARTICLES_SUCCESS,
-    payload: data.articles,
-  }));
-
+  .then((data) => {
+    dispatch({
+      type: ArticleActionTypes.FETCH_ARTICLES_SUCCESS,
+      payload: data.articles,
+    });
+  });
 export default fetchArticlesAction;

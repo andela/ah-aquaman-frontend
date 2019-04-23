@@ -65,11 +65,45 @@ ShallowWrapper {
                   placeholder="Tell your story...... "
                 />
               </div>
+              <TagsInput
+                addKeys={
+                  Array [
+                    9,
+                    13,
+                  ]
+                }
+                addOnBlur={false}
+                addOnPaste={false}
+                className="react-tagsinput"
+                disabled={false}
+                focusedClassName="react-tagsinput--focused"
+                inputProps={Object {}}
+                maxTags={-1}
+                onlyUnique={false}
+                pasteSplit={[Function]}
+                preventSubmit={true}
+                removeKeys={
+                  Array [
+                    8,
+                  ]
+                }
+                renderInput={[Function]}
+                renderLayout={[Function]}
+                renderTag={[Function]}
+                tagDisplayProp={null}
+                tagProps={
+                  Object {
+                    "className": "react-tagsinput-tag",
+                    "classNameRemove": "react-tagsinput-remove",
+                  }
+                }
+                validationRegex={/\\.\\*/}
+              />
               <div
                 className="form-group"
               >
                 <Button
-                  className="btn btn-article btn-primary float-left"
+                  className="btn btn-article btn-primary mb-5 mt-1 float-left"
                   id="publish"
                   text="Publish Article"
                   type="submit"
@@ -131,11 +165,45 @@ ShallowWrapper {
                   placeholder="Tell your story...... "
                 />
               </div>
+              <TagsInput
+                addKeys={
+                  Array [
+                    9,
+                    13,
+                  ]
+                }
+                addOnBlur={false}
+                addOnPaste={false}
+                className="react-tagsinput"
+                disabled={false}
+                focusedClassName="react-tagsinput--focused"
+                inputProps={Object {}}
+                maxTags={-1}
+                onlyUnique={false}
+                pasteSplit={[Function]}
+                preventSubmit={true}
+                removeKeys={
+                  Array [
+                    8,
+                  ]
+                }
+                renderInput={[Function]}
+                renderLayout={[Function]}
+                renderTag={[Function]}
+                tagDisplayProp={null}
+                tagProps={
+                  Object {
+                    "className": "react-tagsinput-tag",
+                    "classNameRemove": "react-tagsinput-remove",
+                  }
+                }
+                validationRegex={/\\.\\*/}
+              />
               <div
                 className="form-group"
               >
                 <Button
-                  className="btn btn-article btn-primary float-left"
+                  className="btn btn-article btn-primary mb-5 mt-1 float-left"
                   id="publish"
                   text="Publish Article"
                   type="submit"
@@ -194,11 +262,45 @@ ShallowWrapper {
                     placeholder="Tell your story...... "
                   />
                 </div>
+                <TagsInput
+                  addKeys={
+                    Array [
+                      9,
+                      13,
+                    ]
+                  }
+                  addOnBlur={false}
+                  addOnPaste={false}
+                  className="react-tagsinput"
+                  disabled={false}
+                  focusedClassName="react-tagsinput--focused"
+                  inputProps={Object {}}
+                  maxTags={-1}
+                  onlyUnique={false}
+                  pasteSplit={[Function]}
+                  preventSubmit={true}
+                  removeKeys={
+                    Array [
+                      8,
+                    ]
+                  }
+                  renderInput={[Function]}
+                  renderLayout={[Function]}
+                  renderTag={[Function]}
+                  tagDisplayProp={null}
+                  tagProps={
+                    Object {
+                      "className": "react-tagsinput-tag",
+                      "classNameRemove": "react-tagsinput-remove",
+                    }
+                  }
+                  validationRegex={/\\.\\*/}
+                />
                 <div
                   className="form-group"
                 >
                   <Button
-                    className="btn btn-article btn-primary float-left"
+                    className="btn btn-article btn-primary mb-5 mt-1 float-left"
                     id="publish"
                     text="Publish Article"
                     type="submit"
@@ -270,11 +372,45 @@ ShallowWrapper {
                     placeholder="Tell your story...... "
                   />
                 </div>
+                <TagsInput
+                  addKeys={
+                    Array [
+                      9,
+                      13,
+                    ]
+                  }
+                  addOnBlur={false}
+                  addOnPaste={false}
+                  className="react-tagsinput"
+                  disabled={false}
+                  focusedClassName="react-tagsinput--focused"
+                  inputProps={Object {}}
+                  maxTags={-1}
+                  onlyUnique={false}
+                  pasteSplit={[Function]}
+                  preventSubmit={true}
+                  removeKeys={
+                    Array [
+                      8,
+                    ]
+                  }
+                  renderInput={[Function]}
+                  renderLayout={[Function]}
+                  renderTag={[Function]}
+                  tagDisplayProp={null}
+                  tagProps={
+                    Object {
+                      "className": "react-tagsinput-tag",
+                      "classNameRemove": "react-tagsinput-remove",
+                    }
+                  }
+                  validationRegex={/\\.\\*/}
+                />
                 <div
                   className="form-group"
                 >
                   <Button
-                    className="btn btn-article btn-primary float-left"
+                    className="btn btn-article btn-primary mb-5 mt-1 float-left"
                     id="publish"
                     text="Publish Article"
                     type="submit"
@@ -322,11 +458,45 @@ ShallowWrapper {
                       placeholder="Tell your story...... "
                     />
                   </div>,
+                  <TagsInput
+                    addKeys={
+                      Array [
+                        9,
+                        13,
+                      ]
+                    }
+                    addOnBlur={false}
+                    addOnPaste={false}
+                    className="react-tagsinput"
+                    disabled={false}
+                    focusedClassName="react-tagsinput--focused"
+                    inputProps={Object {}}
+                    maxTags={-1}
+                    onlyUnique={false}
+                    pasteSplit={[Function]}
+                    preventSubmit={true}
+                    removeKeys={
+                      Array [
+                        8,
+                      ]
+                    }
+                    renderInput={[Function]}
+                    renderLayout={[Function]}
+                    renderTag={[Function]}
+                    tagDisplayProp={null}
+                    tagProps={
+                      Object {
+                        "className": "react-tagsinput-tag",
+                        "classNameRemove": "react-tagsinput-remove",
+                      }
+                    }
+                    validationRegex={/\\.\\*/}
+                  />,
                   <div
                     className="form-group"
                   >
                     <Button
-                      className="btn btn-article btn-primary float-left"
+                      className="btn btn-article btn-primary mb-5 mt-1 float-left"
                       id="publish"
                       text="Publish Article"
                       type="submit"
@@ -437,10 +607,48 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addKeys": Array [
+                      9,
+                      13,
+                    ],
+                    "addOnBlur": false,
+                    "addOnPaste": false,
+                    "className": "react-tagsinput",
+                    "disabled": false,
+                    "focusedClassName": "react-tagsinput--focused",
+                    "inputProps": Object {},
+                    "maxTags": -1,
+                    "onChange": undefined,
+                    "onlyUnique": false,
+                    "pasteSplit": [Function],
+                    "preventSubmit": true,
+                    "removeKeys": Array [
+                      8,
+                    ],
+                    "renderInput": [Function],
+                    "renderLayout": [Function],
+                    "renderTag": [Function],
+                    "tagDisplayProp": null,
+                    "tagProps": Object {
+                      "className": "react-tagsinput-tag",
+                      "classNameRemove": "react-tagsinput-remove",
+                    },
+                    "validationRegex": /\\.\\*/,
+                    "value": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
                   "nodeType": "host",
                   "props": Object {
                     "children": <Button
-                      className="btn btn-article btn-primary float-left"
+                      className="btn btn-article btn-primary mb-5 mt-1 float-left"
                       id="publish"
                       text="Publish Article"
                       type="submit"
@@ -453,7 +661,7 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "function",
                     "props": Object {
-                      "className": "btn btn-article btn-primary float-left",
+                      "className": "btn btn-article btn-primary mb-5 mt-1 float-left",
                       "id": "publish",
                       "text": "Publish Article",
                       "type": "submit",
@@ -529,11 +737,45 @@ ShallowWrapper {
                     placeholder="Tell your story...... "
                   />
                 </div>
+                <TagsInput
+                  addKeys={
+                    Array [
+                      9,
+                      13,
+                    ]
+                  }
+                  addOnBlur={false}
+                  addOnPaste={false}
+                  className="react-tagsinput"
+                  disabled={false}
+                  focusedClassName="react-tagsinput--focused"
+                  inputProps={Object {}}
+                  maxTags={-1}
+                  onlyUnique={false}
+                  pasteSplit={[Function]}
+                  preventSubmit={true}
+                  removeKeys={
+                    Array [
+                      8,
+                    ]
+                  }
+                  renderInput={[Function]}
+                  renderLayout={[Function]}
+                  renderTag={[Function]}
+                  tagDisplayProp={null}
+                  tagProps={
+                    Object {
+                      "className": "react-tagsinput-tag",
+                      "classNameRemove": "react-tagsinput-remove",
+                    }
+                  }
+                  validationRegex={/\\.\\*/}
+                />
                 <div
                   className="form-group"
                 >
                   <Button
-                    className="btn btn-article btn-primary float-left"
+                    className="btn btn-article btn-primary mb-5 mt-1 float-left"
                     id="publish"
                     text="Publish Article"
                     type="submit"
@@ -595,11 +837,45 @@ ShallowWrapper {
                     placeholder="Tell your story...... "
                   />
                 </div>
+                <TagsInput
+                  addKeys={
+                    Array [
+                      9,
+                      13,
+                    ]
+                  }
+                  addOnBlur={false}
+                  addOnPaste={false}
+                  className="react-tagsinput"
+                  disabled={false}
+                  focusedClassName="react-tagsinput--focused"
+                  inputProps={Object {}}
+                  maxTags={-1}
+                  onlyUnique={false}
+                  pasteSplit={[Function]}
+                  preventSubmit={true}
+                  removeKeys={
+                    Array [
+                      8,
+                    ]
+                  }
+                  renderInput={[Function]}
+                  renderLayout={[Function]}
+                  renderTag={[Function]}
+                  tagDisplayProp={null}
+                  tagProps={
+                    Object {
+                      "className": "react-tagsinput-tag",
+                      "classNameRemove": "react-tagsinput-remove",
+                    }
+                  }
+                  validationRegex={/\\.\\*/}
+                />
                 <div
                   className="form-group"
                 >
                   <Button
-                    className="btn btn-article btn-primary float-left"
+                    className="btn btn-article btn-primary mb-5 mt-1 float-left"
                     id="publish"
                     text="Publish Article"
                     type="submit"
@@ -658,11 +934,45 @@ ShallowWrapper {
                       placeholder="Tell your story...... "
                     />
                   </div>
+                  <TagsInput
+                    addKeys={
+                      Array [
+                        9,
+                        13,
+                      ]
+                    }
+                    addOnBlur={false}
+                    addOnPaste={false}
+                    className="react-tagsinput"
+                    disabled={false}
+                    focusedClassName="react-tagsinput--focused"
+                    inputProps={Object {}}
+                    maxTags={-1}
+                    onlyUnique={false}
+                    pasteSplit={[Function]}
+                    preventSubmit={true}
+                    removeKeys={
+                      Array [
+                        8,
+                      ]
+                    }
+                    renderInput={[Function]}
+                    renderLayout={[Function]}
+                    renderTag={[Function]}
+                    tagDisplayProp={null}
+                    tagProps={
+                      Object {
+                        "className": "react-tagsinput-tag",
+                        "classNameRemove": "react-tagsinput-remove",
+                      }
+                    }
+                    validationRegex={/\\.\\*/}
+                  />
                   <div
                     className="form-group"
                   >
                     <Button
-                      className="btn btn-article btn-primary float-left"
+                      className="btn btn-article btn-primary mb-5 mt-1 float-left"
                       id="publish"
                       text="Publish Article"
                       type="submit"
@@ -734,11 +1044,45 @@ ShallowWrapper {
                       placeholder="Tell your story...... "
                     />
                   </div>
+                  <TagsInput
+                    addKeys={
+                      Array [
+                        9,
+                        13,
+                      ]
+                    }
+                    addOnBlur={false}
+                    addOnPaste={false}
+                    className="react-tagsinput"
+                    disabled={false}
+                    focusedClassName="react-tagsinput--focused"
+                    inputProps={Object {}}
+                    maxTags={-1}
+                    onlyUnique={false}
+                    pasteSplit={[Function]}
+                    preventSubmit={true}
+                    removeKeys={
+                      Array [
+                        8,
+                      ]
+                    }
+                    renderInput={[Function]}
+                    renderLayout={[Function]}
+                    renderTag={[Function]}
+                    tagDisplayProp={null}
+                    tagProps={
+                      Object {
+                        "className": "react-tagsinput-tag",
+                        "classNameRemove": "react-tagsinput-remove",
+                      }
+                    }
+                    validationRegex={/\\.\\*/}
+                  />
                   <div
                     className="form-group"
                   >
                     <Button
-                      className="btn btn-article btn-primary float-left"
+                      className="btn btn-article btn-primary mb-5 mt-1 float-left"
                       id="publish"
                       text="Publish Article"
                       type="submit"
@@ -786,11 +1130,45 @@ ShallowWrapper {
                         placeholder="Tell your story...... "
                       />
                     </div>,
+                    <TagsInput
+                      addKeys={
+                        Array [
+                          9,
+                          13,
+                        ]
+                      }
+                      addOnBlur={false}
+                      addOnPaste={false}
+                      className="react-tagsinput"
+                      disabled={false}
+                      focusedClassName="react-tagsinput--focused"
+                      inputProps={Object {}}
+                      maxTags={-1}
+                      onlyUnique={false}
+                      pasteSplit={[Function]}
+                      preventSubmit={true}
+                      removeKeys={
+                        Array [
+                          8,
+                        ]
+                      }
+                      renderInput={[Function]}
+                      renderLayout={[Function]}
+                      renderTag={[Function]}
+                      tagDisplayProp={null}
+                      tagProps={
+                        Object {
+                          "className": "react-tagsinput-tag",
+                          "classNameRemove": "react-tagsinput-remove",
+                        }
+                      }
+                      validationRegex={/\\.\\*/}
+                    />,
                     <div
                       className="form-group"
                     >
                       <Button
-                        className="btn btn-article btn-primary float-left"
+                        className="btn btn-article btn-primary mb-5 mt-1 float-left"
                         id="publish"
                         text="Publish Article"
                         type="submit"
@@ -901,10 +1279,48 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "addKeys": Array [
+                        9,
+                        13,
+                      ],
+                      "addOnBlur": false,
+                      "addOnPaste": false,
+                      "className": "react-tagsinput",
+                      "disabled": false,
+                      "focusedClassName": "react-tagsinput--focused",
+                      "inputProps": Object {},
+                      "maxTags": -1,
+                      "onChange": undefined,
+                      "onlyUnique": false,
+                      "pasteSplit": [Function],
+                      "preventSubmit": true,
+                      "removeKeys": Array [
+                        8,
+                      ],
+                      "renderInput": [Function],
+                      "renderLayout": [Function],
+                      "renderTag": [Function],
+                      "tagDisplayProp": null,
+                      "tagProps": Object {
+                        "className": "react-tagsinput-tag",
+                        "classNameRemove": "react-tagsinput-remove",
+                      },
+                      "validationRegex": /\\.\\*/,
+                      "value": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
                     "nodeType": "host",
                     "props": Object {
                       "children": <Button
-                        className="btn btn-article btn-primary float-left"
+                        className="btn btn-article btn-primary mb-5 mt-1 float-left"
                         id="publish"
                         text="Publish Article"
                         type="submit"
@@ -917,7 +1333,7 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "function",
                       "props": Object {
-                        "className": "btn btn-article btn-primary float-left",
+                        "className": "btn btn-article btn-primary mb-5 mt-1 float-left",
                         "id": "publish",
                         "text": "Publish Article",
                         "type": "submit",

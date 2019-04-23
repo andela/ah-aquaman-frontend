@@ -33,6 +33,7 @@ ShallowWrapper {
             <Editor
               body="test body"
               description="javascript"
+              onChange={[Function]}
               onInputChange={[Function]}
               onSubmit={[Function]}
               title="test101"
@@ -101,6 +102,7 @@ ShallowWrapper {
               <Editor
                 body="test body"
                 description="javascript"
+                onChange={[Function]}
                 onInputChange={[Function]}
                 onSubmit={[Function]}
                 title="test101"
@@ -145,6 +147,7 @@ ShallowWrapper {
                 <Editor
                   body="test body"
                   description="javascript"
+                  onChange={[Function]}
                   onInputChange={[Function]}
                   onSubmit={[Function]}
                   title="test101"
@@ -162,11 +165,13 @@ ShallowWrapper {
                 "props": Object {
                   "body": "test body",
                   "description": "javascript",
+                  "onChange": [Function],
                   "onInputChange": [Function],
                   "onSubmit": [Function],
                   "slug": undefined,
-                  "tags": undefined,
+                  "tagList": undefined,
                   "title": "test101",
+                  "value": undefined,
                 },
                 "ref": null,
                 "rendered": null,
@@ -175,7 +180,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {},
                 "ref": null,
                 "rendered": null,
@@ -241,6 +246,7 @@ ShallowWrapper {
               <Editor
                 body="test body"
                 description="javascript"
+                onChange={[Function]}
                 onInputChange={[Function]}
                 onSubmit={[Function]}
                 title="test101"
@@ -309,6 +315,7 @@ ShallowWrapper {
                 <Editor
                   body="test body"
                   description="javascript"
+                  onChange={[Function]}
                   onInputChange={[Function]}
                   onSubmit={[Function]}
                   title="test101"
@@ -353,6 +360,7 @@ ShallowWrapper {
                   <Editor
                     body="test body"
                     description="javascript"
+                    onChange={[Function]}
                     onInputChange={[Function]}
                     onSubmit={[Function]}
                     title="test101"
@@ -370,11 +378,13 @@ ShallowWrapper {
                   "props": Object {
                     "body": "test body",
                     "description": "javascript",
+                    "onChange": [Function],
                     "onInputChange": [Function],
                     "onSubmit": [Function],
                     "slug": undefined,
-                    "tags": undefined,
+                    "tagList": undefined,
                     "title": "test101",
+                    "value": undefined,
                   },
                   "ref": null,
                   "rendered": null,
@@ -383,7 +393,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {},
                   "ref": null,
                   "rendered": null,

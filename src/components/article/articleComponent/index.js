@@ -4,6 +4,7 @@ import Parser from "html-react-parser";
 import EditButton from "../editArticleButton";
 import DeleteButton from "../deleteArticleButton";
 import parseDate from "../../../commons/getArticleDate";
+import TagComponent from "./tagComponent";
 
 function getImage(image) {
   if (image !== null) return "https://res.cloudinary.com/wasibani/image/upload/v1555329619/AuthorsHaven/background-image-3.jpg";
@@ -18,9 +19,10 @@ const ArticleComponent = props => (
         <h4>{props.article.title}</h4>
         <div className="user-details">
           <div className="float-left">
-            { 
+
+            {
               props.article.tagList.length > 0
-                ? <Link to="#">Tag Example</Link>
+                ? (props.article.tagList.map(tag => (<TagComponent tag={tag} key={tag} />)))
                 : <Link to="#">No Tags</Link>
             }
           </div>
