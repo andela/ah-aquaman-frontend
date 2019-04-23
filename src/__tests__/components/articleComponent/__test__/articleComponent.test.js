@@ -36,4 +36,22 @@ describe("Article component test", () => {
     const wrapper = shallow(<ArticleComponent {...props} />);
     expect(wrapper).toMatchSnapshot();
   });
+
+  it("should render without crashing", () => {
+    const props = {
+      article: {
+        title: "test title",
+        image: null,
+        tagList: [],
+        read_time: "test read time",
+        author: {
+          image: "http://imageurl.com/avatar.jpg",
+          username: "testuser",
+        },
+      },
+    };
+    const wrapper = shallow(<ArticleComponent {...props} />);
+    expect(wrapper).toMatchSnapshot();
+    expect(props.article.read_time).toBe("test read time");
+  });
 });

@@ -28,7 +28,13 @@ const ArticleComponent = props => (
             <div className="media">
               <div className="media-body">
                 <h5>{props.article.author.username}</h5>
-                <p>{ parseDate(props.article.created_at) }</p>
+                <p>
+                  { parseDate(props.article.created_at) }
+                  <span className="ml-2">
+                    <i className="fa fa-clock" /> 
+                    {props.article.read_time}
+                  </span> 
+                </p>
               </div>
             </div>
           </div>

@@ -62,12 +62,22 @@ ShallowWrapper {
                 />
                  
                 Invalid Date
-                     
-                <i
-                  className="fa fa-comments-o"
-                />
-                 
-                24
+                <span
+                  className="ml-2"
+                >
+                  <i
+                    className="fa fa-comments-o"
+                  />
+                   
+                  24
+                </span>
+                <span
+                  className="ml-2"
+                >
+                  <i
+                    className="fa fa-clock"
+                  />
+                </span>
               </p>
             </div>
           </div>
@@ -131,12 +141,22 @@ ShallowWrapper {
                 />
                  
                 Invalid Date
-                     
-                <i
-                  className="fa fa-comments-o"
-                />
-                 
-                24
+                <span
+                  className="ml-2"
+                >
+                  <i
+                    className="fa fa-comments-o"
+                  />
+                   
+                  24
+                </span>
+                <span
+                  className="ml-2"
+                >
+                  <i
+                    className="fa fa-clock"
+                  />
+                </span>
               </p>
             </div>
           </div>,
@@ -169,12 +189,22 @@ ShallowWrapper {
                   />
                    
                   Invalid Date
-                       
-                  <i
-                    className="fa fa-comments-o"
-                  />
-                   
-                  24
+                  <span
+                    className="ml-2"
+                  >
+                    <i
+                      className="fa fa-comments-o"
+                    />
+                     
+                    24
+                  </span>
+                  <span
+                    className="ml-2"
+                  >
+                    <i
+                      className="fa fa-clock"
+                    />
+                  </span>
                 </p>
               </div>,
             ],
@@ -229,12 +259,22 @@ ShallowWrapper {
                   />
                    
                   Invalid Date
-                       
-                  <i
-                    className="fa fa-comments-o"
-                  />
-                   
-                  24
+                  <span
+                    className="ml-2"
+                  >
+                    <i
+                      className="fa fa-comments-o"
+                    />
+                     
+                    24
+                  </span>
+                  <span
+                    className="ml-2"
+                  >
+                    <i
+                      className="fa fa-clock"
+                    />
+                  </span>
                 </p>,
                 "className": "date",
               },
@@ -250,12 +290,22 @@ ShallowWrapper {
                     />,
                     " ",
                     "Invalid Date",
-                    "     ",
-                    <i
-                      className="fa fa-comments-o"
-                    />,
-                    " ",
-                    24,
+                    <span
+                      className="ml-2"
+                    >
+                      <i
+                        className="fa fa-comments-o"
+                      />
+                       
+                      24
+                    </span>,
+                    <span
+                      className="ml-2"
+                    >
+                      <i
+                        className="fa fa-clock"
+                      />
+                    </span>,
                   ],
                 },
                 "ref": null,
@@ -273,20 +323,68 @@ ShallowWrapper {
                   },
                   " ",
                   "Invalid Date",
-                  "     ",
                   Object {
                     "instance": null,
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "className": "fa fa-comments-o",
+                      "children": Array [
+                        <i
+                          className="fa fa-comments-o"
+                        />,
+                        " ",
+                        24,
+                      ],
+                      "className": "ml-2",
                     },
                     "ref": null,
-                    "rendered": null,
-                    "type": "i",
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-comments-o",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      " ",
+                      24,
+                    ],
+                    "type": "span",
                   },
-                  " ",
-                  24,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <i
+                          className="fa fa-clock"
+                        />,
+                        undefined,
+                      ],
+                      "className": "ml-2",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-clock",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      undefined,
+                    ],
+                    "type": "span",
+                  },
                 ],
                 "type": "p",
               },
@@ -341,12 +439,22 @@ ShallowWrapper {
                   />
                    
                   Invalid Date
-                       
-                  <i
-                    className="fa fa-comments-o"
-                  />
-                   
-                  24
+                  <span
+                    className="ml-2"
+                  >
+                    <i
+                      className="fa fa-comments-o"
+                    />
+                     
+                    24
+                  </span>
+                  <span
+                    className="ml-2"
+                  >
+                    <i
+                      className="fa fa-clock"
+                    />
+                  </span>
                 </p>
               </div>
             </div>
@@ -410,12 +518,22 @@ ShallowWrapper {
                   />
                    
                   Invalid Date
-                       
-                  <i
-                    className="fa fa-comments-o"
-                  />
-                   
-                  24
+                  <span
+                    className="ml-2"
+                  >
+                    <i
+                      className="fa fa-comments-o"
+                    />
+                     
+                    24
+                  </span>
+                  <span
+                    className="ml-2"
+                  >
+                    <i
+                      className="fa fa-clock"
+                    />
+                  </span>
                 </p>
               </div>
             </div>,
@@ -448,12 +566,22 @@ ShallowWrapper {
                     />
                      
                     Invalid Date
-                         
-                    <i
-                      className="fa fa-comments-o"
-                    />
-                     
-                    24
+                    <span
+                      className="ml-2"
+                    >
+                      <i
+                        className="fa fa-comments-o"
+                      />
+                       
+                      24
+                    </span>
+                    <span
+                      className="ml-2"
+                    >
+                      <i
+                        className="fa fa-clock"
+                      />
+                    </span>
                   </p>
                 </div>,
               ],
@@ -508,12 +636,22 @@ ShallowWrapper {
                     />
                      
                     Invalid Date
-                         
-                    <i
-                      className="fa fa-comments-o"
-                    />
-                     
-                    24
+                    <span
+                      className="ml-2"
+                    >
+                      <i
+                        className="fa fa-comments-o"
+                      />
+                       
+                      24
+                    </span>
+                    <span
+                      className="ml-2"
+                    >
+                      <i
+                        className="fa fa-clock"
+                      />
+                    </span>
                   </p>,
                   "className": "date",
                 },
@@ -529,12 +667,22 @@ ShallowWrapper {
                       />,
                       " ",
                       "Invalid Date",
-                      "     ",
-                      <i
-                        className="fa fa-comments-o"
-                      />,
-                      " ",
-                      24,
+                      <span
+                        className="ml-2"
+                      >
+                        <i
+                          className="fa fa-comments-o"
+                        />
+                         
+                        24
+                      </span>,
+                      <span
+                        className="ml-2"
+                      >
+                        <i
+                          className="fa fa-clock"
+                        />
+                      </span>,
                     ],
                   },
                   "ref": null,
@@ -552,20 +700,68 @@ ShallowWrapper {
                     },
                     " ",
                     "Invalid Date",
-                    "     ",
                     Object {
                       "instance": null,
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "className": "fa fa-comments-o",
+                        "children": Array [
+                          <i
+                            className="fa fa-comments-o"
+                          />,
+                          " ",
+                          24,
+                        ],
+                        "className": "ml-2",
                       },
                       "ref": null,
-                      "rendered": null,
-                      "type": "i",
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fa fa-comments-o",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        " ",
+                        24,
+                      ],
+                      "type": "span",
                     },
-                    " ",
-                    24,
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <i
+                            className="fa fa-clock"
+                          />,
+                          undefined,
+                        ],
+                        "className": "ml-2",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fa fa-clock",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        undefined,
+                      ],
+                      "type": "span",
+                    },
                   ],
                   "type": "p",
                 },
