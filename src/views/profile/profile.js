@@ -31,7 +31,13 @@ const ProfileView = (props) => {
                         <h4>
                           <strong>{profile.username}</strong>
                           {status.isOwner ? (<Link to="/editprofile" className="btn ouredit btn-outline-dark">Edit Profile</Link>
-                          ) : (<ProfileButton isProcessing={status.isProcessing} isFollowing={isFollowing} unFollowUser={unFollowUser} username={profile.username} />
+                          ) : (
+                            <ProfileButton
+                              isProcessing={status.isProcessing} 
+                              isFollowing={isFollowing}
+                              unFollowUser={unFollowUser}
+                              username={profile.username}
+                            />
                           )
                           }
                         </h4>

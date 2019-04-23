@@ -8,6 +8,7 @@ import articleCreateReducer from "./articleCreateReducer";
 import fetchArticlesReducer from "./fetchArticleReducer";
 import followUnfollow from "./followunfollow/followUnfollow";
 import tags from "./tags/tags";
+import bookmarkReducer from "./bookmarkReducer";
 
 export default combineReducers({
   loginReducer,
@@ -19,4 +20,5 @@ export default combineReducers({
   articleCreateReducer,
   fetchArticlesReducer,
   tags,
+  bookmarkReducer,
 });

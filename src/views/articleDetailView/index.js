@@ -7,6 +7,8 @@ import CircularProgressLoader from "../../commons/progressLoader";
 import Sidebar from "../../components/article/sidebar";
 import Navbar from "../../components/article/navbarComponent/Navbar";
 import ImageBanner from "../../components/article/ImageBanner";
+import { bookmarkArticleAction, bookmarkListing } from "../../actions/articleActions/bookmarkAction";
+
 
 function ShareLinks(article, slug) {
   const articleLink = `${process.env.FRONTEND_BASE_URL}/article/${slug}`;
@@ -34,15 +36,25 @@ export class ArticleDetailView extends Component {
 
     props.getSingleArticle(slug);
     localStorage.setItem("slug", slug);
+    props.bookmarkListing(slug);
   }
 
   componentWillReceiveProps(props) {
     this.setState({ loading: props.article.loading });
   }
 
-  render() {
+  handleBookmark = (e) => {
+    e.preventDefault();
+    const { slug } = this.props.match.params;
+    const { isBookmarked } = this.props;
+    this.props.bookmarkArticleAction(slug, isBookmarked);
+  }
+
+  render() {   
     const { article } = this.props;
     const loader = this.state;
+    const loggedInUsername = localStorage.getItem("username");
+    const articleAuthorUsername = article.author.username;
     if (this.state.loading) {
       return (
         <CircularProgressLoader {...loader} />
@@ -64,6 +76,7 @@ export class ArticleDetailView extends Component {
     }
     article.shareLinks = ShareLinks(article, this.props.match.params.slug);
     return (
+
       <React.Fragment>
         <Navbar />
         <ImageBanner info="View Article" page="view_article" />
@@ -73,6 +86,10 @@ export class ArticleDetailView extends Component {
               <ArticleComponent
                 article={article}
                 slug={this.props.match.params.slug}
+                handleBookmark={this.handleBookmark}
+                isBookmarked={this.props.isBookmarked}
+                loggedInUsername={loggedInUsername}
+                articleAuthorUsername={articleAuthorUsername}
               />
               <Sidebar />
             </div>
@@ -87,6 +104,9 @@ export class ArticleDetailView extends Component {
 export const mapStateToProps = state => ({
   loading: state.ArticleReducer.loading,
   article: state.ArticleReducer.article,
+  isBookmarked: state.bookmarkReducer.isBookmarked,
+  message: state.bookmarkReducer.message,
 });
 
-export default connect(mapStateToProps, { getSingleArticle })(ArticleDetailView);
+export default connect(mapStateToProps, 
+  { getSingleArticle, bookmarkArticleAction, bookmarkListing })(ArticleDetailView);

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Parser from "html-react-parser";
+import ReactTooltip from "react-tooltip";
 import EditButton from "../editArticleButton";
 import DeleteButton from "../deleteArticleButton";
 import RateButton from "../rateArticleButton";
@@ -35,13 +36,39 @@ const ArticleComponent = props => (
             <div className="media">
               <div className="media-body">
                 <h5 className="toprofile" onClick={() => document.location.href = `/profile/${props.article.author.username}`}>{props.article.author.username}</h5>
-                <p>
+                <span>
                   { parseDate(props.article.created_at) }
                   <span className="ml-2">
                     <i className="fa fa-clock" />
                     {props.article.read_time}
                   </span>
-                </p>
+                  {props.loggedInUsername === null 
+                  || props.loggedInUsername === props.articleAuthorUsername 
+                    ? "" : (
+                      <span
+                        id="bookmark" 
+                        className="ml-2"
+                        onClick={props.handleBookmark}
+                      >
+                        {props.isBookmarked 
+                          ? (
+                            <i
+                              data-tip="Unbookmark" 
+                              className="fas fa-bookmark"
+                              style={{ color: "purple", fontSize: "15px" }}
+                            />
+                          )
+                          : (
+                            <i
+                              data-tip="Bookmark" 
+                              className="far fa-bookmark"
+                              style={{ color: "purple", fontSize: "15px" }}
+                            />
+                          )}
+                        <ReactTooltip />
+                      </span>
+                    )}
+                </span>
               </div>
             </div>
           </div>

@@ -44,7 +44,14 @@ render() {
     isProcessing: this.props.isProcessing,
   };
   return (
-    <ProfileView status={status} unFollowUser={this.unFollowUser} isFollowing={this.isFollowing()} following={this.props.following} followers={this.props.followers} profile={profile} />
+    <ProfileView
+      status={status}
+      unFollowUser={this.unFollowUser} 
+      isFollowing={this.isFollowing()}
+      following={this.props.following}
+      followers={this.props.followers}
+      profile={profile}
+    />
   );
 }
 }
