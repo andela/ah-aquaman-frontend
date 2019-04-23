@@ -66,6 +66,7 @@
     "react/no-unused-state":0,
     "no-unused-expressions":0,
     "no-unused-vars": 0,
+    "import/prefer-default-export":0,
     "no-underscore-dangle": 0,
     "no-alert": 0,
     "no-lone-blocks": 0,

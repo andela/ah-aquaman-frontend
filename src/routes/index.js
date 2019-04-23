@@ -23,7 +23,7 @@ const Routes = () => (
       <Route path="/signup" exact component={signupView} />
       <ProtectedRoute path="/profile" exact component={Profile} />
       <ProtectedRoute path="/editprofile" exact component={EditProfile} />
-      <ProtectedRoute path="/article/:slug" exact component={ArticleDetailView} />
+      <Route path="/article/:slug" exact component={ArticleDetailView} />
       <ProtectedRoute path="/create_article" exact strict component={CreateArticleView} />
       <ProtectedRoute path="/editor/:slug" exact strict component={EditArticleView} />
     </BrowserRouter>

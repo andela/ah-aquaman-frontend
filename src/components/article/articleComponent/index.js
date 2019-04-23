@@ -44,6 +44,12 @@ const ArticleComponent = props => (
         <p>
           {Parser(String(props.article.body))}
         </p>
+        <div className="share">
+          <h1 className="articleShare">You can share this article here</h1>
+          <a data-tip="Share on FB" rel="noopener noreferrer" target="_blank" href={props.article.shareLinks.facebookShare}><span className="m-2"><i className="fab fa-facebook-square  fa-lg" /></span></a>
+          <a data-tip="Share on twitter" rel="noopener noreferrer" target="_blank" href={props.article.shareLinks.twitterShare}><span className="m-2"><i className="fab fa-twitter-square  fa-lg" /></span></a>
+          <a data-tip="Share on email" rel="noopener noreferrer" target="_blank" href={props.article.shareLinks.mailshare}><span className="m-2"><i className="fas fa-envelope-square  fa-lg" /></span></a>
+        </div>
         <div className="row">
           <div className="col-md-6">
             <EditButton

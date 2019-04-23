@@ -10,6 +10,9 @@
   "env": {
     "BASE_URL": {
       "required": true
+    },
+    "FRONTEND_BASE_URL": {
+      "required": true
     }
   },
   "formation": {

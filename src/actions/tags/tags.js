@@ -1,4 +1,4 @@
-import {TAGS_LOADING,TAGS_LOADED,} from "../types";
+import { TAGS_LOADING, TAGS_LOADED } from "../types";
 
 const BASE_URL = process.env.BASE_URL;
 export const getTags = () => (dispatch) => {
@@ -9,9 +9,8 @@ export const getTags = () => (dispatch) => {
     .then(res => res.json())
     .then((res) => {
       dispatch({
-          type:TAGS_LOADED,
-          payload:res.tags
-      })
-    }
-    );
+        type: TAGS_LOADED,
+        payload: res.tags,
+      });
+    });
 };

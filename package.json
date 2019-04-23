@@ -10,7 +10,7 @@
         "lint": "eslint . --ignore-path .gitignore",
         "fix": "eslint . --ignore-path .gitignore --fix",
         "travis": "CI=true react-scripts test --env=jsdom -u  --colors",
-        "coverage": "react-scripts test --env=jsdom -u --colors --coverage --coveragePathIgnorePatterns=[src/index.js]"
+        "coverage": "react-scripts test --env=jsdom -u --colors --coverage"
     },
     "repository": {
         "type": "git",
@@ -81,5 +81,14 @@
         "redux-thunk": "^2.3.0",
         "url-loader": "^1.1.2",
         "uuid": "^3.3.2"
-    }
+    },
+    "jest": {
+        "collectCoverageFrom": [
+          "src/**/*.{js,jsx,mjs}",
+          "!src/setupTests.js",
+          "!src/index.js",
+          "!src/store/index.js",
+          "!src/routes/protectedRoutes"
+        ]
+      }
 }

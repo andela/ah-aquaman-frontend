@@ -8,6 +8,18 @@ import Sidebar from "../../components/article/sidebar";
 import Navbar from "../../components/article/navbarComponent/Navbar";
 import ImageBanner from "../../components/article/ImageBanner";
 
+function ShareLinks(article, slug) {
+  const articleLink = `${process.env.FRONTEND_BASE_URL}/article/${slug}`;
+  const shareBody = `I found this article to be worth reading, ${article.title} ${articleLink}`;
+  const mailshare = `mailto:?Subject=${encodeURI(article.title)}&body=${shareBody}`;
+  const facebookShare = `https://www.facebook.com/sharer/sharer.php?u=${encodeURI(articleLink)}`;
+  const twitterShare = `https://twitter.com/home?status=${encodeURI(shareBody)}`;
+
+  return {
+    mailshare, facebookShare, twitterShare,
+  };
+}
+
 export class ArticleDetailView extends Component {
   constructor(props) {
     super(props);
@@ -50,7 +62,7 @@ export class ArticleDetailView extends Component {
         </div>
       );
     }
-
+    article.shareLinks = ShareLinks(article, this.props.match.params.slug);
     return (
       <React.Fragment>
         <Navbar />

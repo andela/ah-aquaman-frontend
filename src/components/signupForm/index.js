@@ -91,7 +91,6 @@ const Signup = (props) => {
             type="submit"
             className="btn btn-primary"
             id="signup-button"
-            disabled={isProcessing}
             onClick={onClick}
             disabled={disabled}
           >
