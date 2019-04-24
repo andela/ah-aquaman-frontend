@@ -84,11 +84,11 @@
     },
     "jest": {
         "collectCoverageFrom": [
-          "src/**/*.{js,jsx,mjs}",
-          "!src/setupTests.js",
-          "!src/index.js",
-          "!src/store/index.js",
-          "!src/routes/protectedRoutes"
+            "src/**/*.{js,jsx,mjs}",
+            "!src/setupTests.js",
+            "!src/index.js",
+            "!src/store/index.js",
+            "!src/routes/protectedRoutes"
         ]
-      }
+    }
 }

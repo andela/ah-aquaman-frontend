@@ -90,48 +90,57 @@ ShallowWrapper {
           <p>
             undefined
           </p>
-          <a
-            data-tip="Share on FB"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            className="share"
           >
-            <span
-              className="m-2"
+            <h1
+              className="articleShare"
             >
-              <i
-                className="fab fa-facebook-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on twitter"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              You can share this article here
+            </h1>
+            <a
+              data-tip="Share on FB"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fab fa-twitter-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on email"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-facebook-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on twitter"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fas fa-envelope-square  fa-lg"
-              />
-            </span>
-          </a>
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-twitter-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on email"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fas fa-envelope-square  fa-lg"
+                />
+              </span>
+            </a>
+          </div>
           <div
             className="row"
           >
@@ -215,48 +224,57 @@ ShallowWrapper {
           <p>
             undefined
           </p>
-          <a
-            data-tip="Share on FB"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            className="share"
           >
-            <span
-              className="m-2"
+            <h1
+              className="articleShare"
             >
-              <i
-                className="fab fa-facebook-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on twitter"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              You can share this article here
+            </h1>
+            <a
+              data-tip="Share on FB"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fab fa-twitter-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on email"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-facebook-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on twitter"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fas fa-envelope-square  fa-lg"
-              />
-            </span>
-          </a>
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-twitter-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on email"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fas fa-envelope-square  fa-lg"
+                />
+              </span>
+            </a>
+          </div>
           <div
             className="row"
           >
@@ -337,48 +355,57 @@ ShallowWrapper {
             <p>
               undefined
             </p>,
-            <a
-              data-tip="Share on FB"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="share"
             >
-              <span
-                className="m-2"
+              <h1
+                className="articleShare"
               >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>
-            </a>,
-            <a
-              data-tip="Share on twitter"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                You can share this article here
+              </h1>
+              <a
+                data-tip="Share on FB"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>
-            </a>,
-            <a
-              data-tip="Share on email"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-facebook-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on twitter"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>
-            </a>,
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-twitter-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on email"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fas fa-envelope-square  fa-lg"
+                  />
+                </span>
+              </a>
+            </div>,
             <div
               className="row"
             >
@@ -668,132 +695,205 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <span
-                className="m-2"
-              >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>,
-              "data-tip": "Share on FB",
-              "href": "",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
+              "children": Array [
+                <h1
+                  className="articleShare"
+                >
+                  You can share this article here
+                </h1>,
+                <a
+                  data-tip="Share on FB"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />
+                  </span>
+                </a>,
+                <a
+                  data-tip="Share on twitter"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />
+                  </span>
+                </a>,
+                <a
+                  data-tip="Share on email"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />
+                  </span>
+                </a>,
+              ],
+              "className": "share",
             },
             "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <i
-                  className="fab fa-facebook-square  fa-lg"
-                />,
-                "className": "m-2",
-              },
-              "ref": null,
-              "rendered": Object {
+            "rendered": Array [
+              Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "fab fa-facebook-square  fa-lg",
+                  "children": "You can share this article here",
+                  "className": "articleShare",
                 },
                 "ref": null,
-                "rendered": null,
-                "type": "i",
+                "rendered": "You can share this article here",
+                "type": "h1",
               },
-              "type": "span",
-            },
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <span
-                className="m-2"
-              >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>,
-              "data-tip": "Share on twitter",
-              "href": "",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <i
-                  className="fab fa-twitter-square  fa-lg"
-                />,
-                "className": "m-2",
-              },
-              "ref": null,
-              "rendered": Object {
+              Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "fab fa-twitter-square  fa-lg",
+                  "children": <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />
+                  </span>,
+                  "data-tip": "Share on FB",
+                  "href": "",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
                 },
                 "ref": null,
-                "rendered": null,
-                "type": "i",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />,
+                    "className": "m-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-facebook-square  fa-lg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "span",
+                },
+                "type": "a",
               },
-              "type": "span",
-            },
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <span
-                className="m-2"
-              >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>,
-              "data-tip": "Share on email",
-              "href": "",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <i
-                  className="fas fa-envelope-square  fa-lg"
-                />,
-                "className": "m-2",
-              },
-              "ref": null,
-              "rendered": Object {
+              Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "fas fa-envelope-square  fa-lg",
+                  "children": <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />
+                  </span>,
+                  "data-tip": "Share on twitter",
+                  "href": "",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
                 },
                 "ref": null,
-                "rendered": null,
-                "type": "i",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />,
+                    "className": "m-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-twitter-square  fa-lg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "span",
+                },
+                "type": "a",
               },
-              "type": "span",
-            },
-            "type": "a",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />
+                  </span>,
+                  "data-tip": "Share on email",
+                  "href": "",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />,
+                    "className": "m-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fas fa-envelope-square  fa-lg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "span",
+                },
+                "type": "a",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -954,48 +1054,57 @@ ShallowWrapper {
             <p>
               undefined
             </p>
-            <a
-              data-tip="Share on FB"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="share"
             >
-              <span
-                className="m-2"
+              <h1
+                className="articleShare"
               >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on twitter"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                You can share this article here
+              </h1>
+              <a
+                data-tip="Share on FB"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on email"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-facebook-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on twitter"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>
-            </a>
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-twitter-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on email"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fas fa-envelope-square  fa-lg"
+                  />
+                </span>
+              </a>
+            </div>
             <div
               className="row"
             >
@@ -1079,48 +1188,57 @@ ShallowWrapper {
             <p>
               undefined
             </p>
-            <a
-              data-tip="Share on FB"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="share"
             >
-              <span
-                className="m-2"
+              <h1
+                className="articleShare"
               >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on twitter"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                You can share this article here
+              </h1>
+              <a
+                data-tip="Share on FB"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on email"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-facebook-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on twitter"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>
-            </a>
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-twitter-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on email"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fas fa-envelope-square  fa-lg"
+                  />
+                </span>
+              </a>
+            </div>
             <div
               className="row"
             >
@@ -1201,48 +1319,57 @@ ShallowWrapper {
               <p>
                 undefined
               </p>,
-              <a
-                data-tip="Share on FB"
-                href=""
-                rel="noopener noreferrer"
-                target="_blank"
+              <div
+                className="share"
               >
-                <span
-                  className="m-2"
+                <h1
+                  className="articleShare"
                 >
-                  <i
-                    className="fab fa-facebook-square  fa-lg"
-                  />
-                </span>
-              </a>,
-              <a
-                data-tip="Share on twitter"
-                href=""
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <span
-                  className="m-2"
+                  You can share this article here
+                </h1>
+                <a
+                  data-tip="Share on FB"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <i
-                    className="fab fa-twitter-square  fa-lg"
-                  />
-                </span>
-              </a>,
-              <a
-                data-tip="Share on email"
-                href=""
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <span
-                  className="m-2"
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />
+                  </span>
+                </a>
+                <a
+                  data-tip="Share on twitter"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <i
-                    className="fas fa-envelope-square  fa-lg"
-                  />
-                </span>
-              </a>,
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />
+                  </span>
+                </a>
+                <a
+                  data-tip="Share on email"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />
+                  </span>
+                </a>
+              </div>,
               <div
                 className="row"
               >
@@ -1532,132 +1659,205 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <span
-                  className="m-2"
-                >
-                  <i
-                    className="fab fa-facebook-square  fa-lg"
-                  />
-                </span>,
-                "data-tip": "Share on FB",
-                "href": "",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
+                "children": Array [
+                  <h1
+                    className="articleShare"
+                  >
+                    You can share this article here
+                  </h1>,
+                  <a
+                    data-tip="Share on FB"
+                    href=""
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-facebook-square  fa-lg"
+                      />
+                    </span>
+                  </a>,
+                  <a
+                    data-tip="Share on twitter"
+                    href=""
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-twitter-square  fa-lg"
+                      />
+                    </span>
+                  </a>,
+                  <a
+                    data-tip="Share on email"
+                    href=""
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fas fa-envelope-square  fa-lg"
+                      />
+                    </span>
+                  </a>,
+                ],
+                "className": "share",
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <i
-                    className="fab fa-facebook-square  fa-lg"
-                  />,
-                  "className": "m-2",
-                },
-                "ref": null,
-                "rendered": Object {
+              "rendered": Array [
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "className": "fab fa-facebook-square  fa-lg",
+                    "children": "You can share this article here",
+                    "className": "articleShare",
                   },
                   "ref": null,
-                  "rendered": null,
-                  "type": "i",
+                  "rendered": "You can share this article here",
+                  "type": "h1",
                 },
-                "type": "span",
-              },
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <span
-                  className="m-2"
-                >
-                  <i
-                    className="fab fa-twitter-square  fa-lg"
-                  />
-                </span>,
-                "data-tip": "Share on twitter",
-                "href": "",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <i
-                    className="fab fa-twitter-square  fa-lg"
-                  />,
-                  "className": "m-2",
-                },
-                "ref": null,
-                "rendered": Object {
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "className": "fab fa-twitter-square  fa-lg",
+                    "children": <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-facebook-square  fa-lg"
+                      />
+                    </span>,
+                    "data-tip": "Share on FB",
+                    "href": "",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
                   },
                   "ref": null,
-                  "rendered": null,
-                  "type": "i",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fab fa-facebook-square  fa-lg"
+                      />,
+                      "className": "m-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fab fa-facebook-square  fa-lg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "span",
+                  },
+                  "type": "a",
                 },
-                "type": "span",
-              },
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <span
-                  className="m-2"
-                >
-                  <i
-                    className="fas fa-envelope-square  fa-lg"
-                  />
-                </span>,
-                "data-tip": "Share on email",
-                "href": "",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <i
-                    className="fas fa-envelope-square  fa-lg"
-                  />,
-                  "className": "m-2",
-                },
-                "ref": null,
-                "rendered": Object {
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "className": "fas fa-envelope-square  fa-lg",
+                    "children": <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-twitter-square  fa-lg"
+                      />
+                    </span>,
+                    "data-tip": "Share on twitter",
+                    "href": "",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
                   },
                   "ref": null,
-                  "rendered": null,
-                  "type": "i",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fab fa-twitter-square  fa-lg"
+                      />,
+                      "className": "m-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fab fa-twitter-square  fa-lg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "span",
+                  },
+                  "type": "a",
                 },
-                "type": "span",
-              },
-              "type": "a",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fas fa-envelope-square  fa-lg"
+                      />
+                    </span>,
+                    "data-tip": "Share on email",
+                    "href": "",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fas fa-envelope-square  fa-lg"
+                      />,
+                      "className": "m-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fas fa-envelope-square  fa-lg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "span",
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "div",
             },
             Object {
               "instance": null,
@@ -1880,48 +2080,57 @@ ShallowWrapper {
           <p>
             undefined
           </p>
-          <a
-            data-tip="Share on FB"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            className="share"
           >
-            <span
-              className="m-2"
+            <h1
+              className="articleShare"
             >
-              <i
-                className="fab fa-facebook-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on twitter"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              You can share this article here
+            </h1>
+            <a
+              data-tip="Share on FB"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fab fa-twitter-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on email"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-facebook-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on twitter"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fas fa-envelope-square  fa-lg"
-              />
-            </span>
-          </a>
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-twitter-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on email"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fas fa-envelope-square  fa-lg"
+                />
+              </span>
+            </a>
+          </div>
           <div
             className="row"
           >
@@ -2006,48 +2215,57 @@ ShallowWrapper {
           <p>
             undefined
           </p>
-          <a
-            data-tip="Share on FB"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            className="share"
           >
-            <span
-              className="m-2"
+            <h1
+              className="articleShare"
             >
-              <i
-                className="fab fa-facebook-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on twitter"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              You can share this article here
+            </h1>
+            <a
+              data-tip="Share on FB"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fab fa-twitter-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on email"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-facebook-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on twitter"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fas fa-envelope-square  fa-lg"
-              />
-            </span>
-          </a>
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-twitter-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on email"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fas fa-envelope-square  fa-lg"
+                />
+              </span>
+            </a>
+          </div>
           <div
             className="row"
           >
@@ -2129,48 +2347,57 @@ ShallowWrapper {
             <p>
               undefined
             </p>,
-            <a
-              data-tip="Share on FB"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="share"
             >
-              <span
-                className="m-2"
+              <h1
+                className="articleShare"
               >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>
-            </a>,
-            <a
-              data-tip="Share on twitter"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                You can share this article here
+              </h1>
+              <a
+                data-tip="Share on FB"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>
-            </a>,
-            <a
-              data-tip="Share on email"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-facebook-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on twitter"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>
-            </a>,
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-twitter-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on email"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fas fa-envelope-square  fa-lg"
+                  />
+                </span>
+              </a>
+            </div>,
             <div
               className="row"
             >
@@ -2476,132 +2703,205 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <span
-                className="m-2"
-              >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>,
-              "data-tip": "Share on FB",
-              "href": "",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
+              "children": Array [
+                <h1
+                  className="articleShare"
+                >
+                  You can share this article here
+                </h1>,
+                <a
+                  data-tip="Share on FB"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />
+                  </span>
+                </a>,
+                <a
+                  data-tip="Share on twitter"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />
+                  </span>
+                </a>,
+                <a
+                  data-tip="Share on email"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />
+                  </span>
+                </a>,
+              ],
+              "className": "share",
             },
             "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <i
-                  className="fab fa-facebook-square  fa-lg"
-                />,
-                "className": "m-2",
-              },
-              "ref": null,
-              "rendered": Object {
+            "rendered": Array [
+              Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "fab fa-facebook-square  fa-lg",
+                  "children": "You can share this article here",
+                  "className": "articleShare",
                 },
                 "ref": null,
-                "rendered": null,
-                "type": "i",
+                "rendered": "You can share this article here",
+                "type": "h1",
               },
-              "type": "span",
-            },
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <span
-                className="m-2"
-              >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>,
-              "data-tip": "Share on twitter",
-              "href": "",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <i
-                  className="fab fa-twitter-square  fa-lg"
-                />,
-                "className": "m-2",
-              },
-              "ref": null,
-              "rendered": Object {
+              Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "fab fa-twitter-square  fa-lg",
+                  "children": <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />
+                  </span>,
+                  "data-tip": "Share on FB",
+                  "href": "",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
                 },
                 "ref": null,
-                "rendered": null,
-                "type": "i",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />,
+                    "className": "m-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-facebook-square  fa-lg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "span",
+                },
+                "type": "a",
               },
-              "type": "span",
-            },
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <span
-                className="m-2"
-              >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>,
-              "data-tip": "Share on email",
-              "href": "",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <i
-                  className="fas fa-envelope-square  fa-lg"
-                />,
-                "className": "m-2",
-              },
-              "ref": null,
-              "rendered": Object {
+              Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "fas fa-envelope-square  fa-lg",
+                  "children": <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />
+                  </span>,
+                  "data-tip": "Share on twitter",
+                  "href": "",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
                 },
                 "ref": null,
-                "rendered": null,
-                "type": "i",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />,
+                    "className": "m-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-twitter-square  fa-lg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "span",
+                },
+                "type": "a",
               },
-              "type": "span",
-            },
-            "type": "a",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />
+                  </span>,
+                  "data-tip": "Share on email",
+                  "href": "",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />,
+                    "className": "m-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fas fa-envelope-square  fa-lg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "span",
+                },
+                "type": "a",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -2763,48 +3063,57 @@ ShallowWrapper {
             <p>
               undefined
             </p>
-            <a
-              data-tip="Share on FB"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="share"
             >
-              <span
-                className="m-2"
+              <h1
+                className="articleShare"
               >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on twitter"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                You can share this article here
+              </h1>
+              <a
+                data-tip="Share on FB"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on email"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-facebook-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on twitter"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>
-            </a>
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-twitter-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on email"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fas fa-envelope-square  fa-lg"
+                  />
+                </span>
+              </a>
+            </div>
             <div
               className="row"
             >
@@ -2889,48 +3198,57 @@ ShallowWrapper {
             <p>
               undefined
             </p>
-            <a
-              data-tip="Share on FB"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="share"
             >
-              <span
-                className="m-2"
+              <h1
+                className="articleShare"
               >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on twitter"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                You can share this article here
+              </h1>
+              <a
+                data-tip="Share on FB"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on email"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-facebook-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on twitter"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>
-            </a>
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-twitter-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on email"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fas fa-envelope-square  fa-lg"
+                  />
+                </span>
+              </a>
+            </div>
             <div
               className="row"
             >
@@ -3012,48 +3330,57 @@ ShallowWrapper {
               <p>
                 undefined
               </p>,
-              <a
-                data-tip="Share on FB"
-                href=""
-                rel="noopener noreferrer"
-                target="_blank"
+              <div
+                className="share"
               >
-                <span
-                  className="m-2"
+                <h1
+                  className="articleShare"
                 >
-                  <i
-                    className="fab fa-facebook-square  fa-lg"
-                  />
-                </span>
-              </a>,
-              <a
-                data-tip="Share on twitter"
-                href=""
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <span
-                  className="m-2"
+                  You can share this article here
+                </h1>
+                <a
+                  data-tip="Share on FB"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <i
-                    className="fab fa-twitter-square  fa-lg"
-                  />
-                </span>
-              </a>,
-              <a
-                data-tip="Share on email"
-                href=""
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <span
-                  className="m-2"
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />
+                  </span>
+                </a>
+                <a
+                  data-tip="Share on twitter"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <i
-                    className="fas fa-envelope-square  fa-lg"
-                  />
-                </span>
-              </a>,
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />
+                  </span>
+                </a>
+                <a
+                  data-tip="Share on email"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />
+                  </span>
+                </a>
+              </div>,
               <div
                 className="row"
               >
@@ -3359,132 +3686,205 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <span
-                  className="m-2"
-                >
-                  <i
-                    className="fab fa-facebook-square  fa-lg"
-                  />
-                </span>,
-                "data-tip": "Share on FB",
-                "href": "",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
+                "children": Array [
+                  <h1
+                    className="articleShare"
+                  >
+                    You can share this article here
+                  </h1>,
+                  <a
+                    data-tip="Share on FB"
+                    href=""
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-facebook-square  fa-lg"
+                      />
+                    </span>
+                  </a>,
+                  <a
+                    data-tip="Share on twitter"
+                    href=""
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-twitter-square  fa-lg"
+                      />
+                    </span>
+                  </a>,
+                  <a
+                    data-tip="Share on email"
+                    href=""
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fas fa-envelope-square  fa-lg"
+                      />
+                    </span>
+                  </a>,
+                ],
+                "className": "share",
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <i
-                    className="fab fa-facebook-square  fa-lg"
-                  />,
-                  "className": "m-2",
-                },
-                "ref": null,
-                "rendered": Object {
+              "rendered": Array [
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "className": "fab fa-facebook-square  fa-lg",
+                    "children": "You can share this article here",
+                    "className": "articleShare",
                   },
                   "ref": null,
-                  "rendered": null,
-                  "type": "i",
+                  "rendered": "You can share this article here",
+                  "type": "h1",
                 },
-                "type": "span",
-              },
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <span
-                  className="m-2"
-                >
-                  <i
-                    className="fab fa-twitter-square  fa-lg"
-                  />
-                </span>,
-                "data-tip": "Share on twitter",
-                "href": "",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <i
-                    className="fab fa-twitter-square  fa-lg"
-                  />,
-                  "className": "m-2",
-                },
-                "ref": null,
-                "rendered": Object {
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "className": "fab fa-twitter-square  fa-lg",
+                    "children": <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-facebook-square  fa-lg"
+                      />
+                    </span>,
+                    "data-tip": "Share on FB",
+                    "href": "",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
                   },
                   "ref": null,
-                  "rendered": null,
-                  "type": "i",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fab fa-facebook-square  fa-lg"
+                      />,
+                      "className": "m-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fab fa-facebook-square  fa-lg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "span",
+                  },
+                  "type": "a",
                 },
-                "type": "span",
-              },
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <span
-                  className="m-2"
-                >
-                  <i
-                    className="fas fa-envelope-square  fa-lg"
-                  />
-                </span>,
-                "data-tip": "Share on email",
-                "href": "",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <i
-                    className="fas fa-envelope-square  fa-lg"
-                  />,
-                  "className": "m-2",
-                },
-                "ref": null,
-                "rendered": Object {
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "className": "fas fa-envelope-square  fa-lg",
+                    "children": <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-twitter-square  fa-lg"
+                      />
+                    </span>,
+                    "data-tip": "Share on twitter",
+                    "href": "",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
                   },
                   "ref": null,
-                  "rendered": null,
-                  "type": "i",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fab fa-twitter-square  fa-lg"
+                      />,
+                      "className": "m-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fab fa-twitter-square  fa-lg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "span",
+                  },
+                  "type": "a",
                 },
-                "type": "span",
-              },
-              "type": "a",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fas fa-envelope-square  fa-lg"
+                      />
+                    </span>,
+                    "data-tip": "Share on email",
+                    "href": "",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fas fa-envelope-square  fa-lg"
+                      />,
+                      "className": "m-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fas fa-envelope-square  fa-lg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "span",
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "div",
             },
             Object {
               "instance": null,
@@ -3705,48 +4105,57 @@ ShallowWrapper {
           <p>
             undefined
           </p>
-          <a
-            data-tip="Share on FB"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            className="share"
           >
-            <span
-              className="m-2"
+            <h1
+              className="articleShare"
             >
-              <i
-                className="fab fa-facebook-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on twitter"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              You can share this article here
+            </h1>
+            <a
+              data-tip="Share on FB"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fab fa-twitter-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on email"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-facebook-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on twitter"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fas fa-envelope-square  fa-lg"
-              />
-            </span>
-          </a>
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-twitter-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on email"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fas fa-envelope-square  fa-lg"
+                />
+              </span>
+            </a>
+          </div>
           <div
             className="row"
           >
@@ -3831,48 +4240,57 @@ ShallowWrapper {
           <p>
             undefined
           </p>
-          <a
-            data-tip="Share on FB"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            className="share"
           >
-            <span
-              className="m-2"
+            <h1
+              className="articleShare"
             >
-              <i
-                className="fab fa-facebook-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on twitter"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              You can share this article here
+            </h1>
+            <a
+              data-tip="Share on FB"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fab fa-twitter-square  fa-lg"
-              />
-            </span>
-          </a>
-          <a
-            data-tip="Share on email"
-            href=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <span
-              className="m-2"
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-facebook-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on twitter"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <i
-                className="fas fa-envelope-square  fa-lg"
-              />
-            </span>
-          </a>
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fab fa-twitter-square  fa-lg"
+                />
+              </span>
+            </a>
+            <a
+              data-tip="Share on email"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span
+                className="m-2"
+              >
+                <i
+                  className="fas fa-envelope-square  fa-lg"
+                />
+              </span>
+            </a>
+          </div>
           <div
             className="row"
           >
@@ -3954,48 +4372,57 @@ ShallowWrapper {
             <p>
               undefined
             </p>,
-            <a
-              data-tip="Share on FB"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="share"
             >
-              <span
-                className="m-2"
+              <h1
+                className="articleShare"
               >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>
-            </a>,
-            <a
-              data-tip="Share on twitter"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                You can share this article here
+              </h1>
+              <a
+                data-tip="Share on FB"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>
-            </a>,
-            <a
-              data-tip="Share on email"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-facebook-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on twitter"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>
-            </a>,
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-twitter-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on email"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fas fa-envelope-square  fa-lg"
+                  />
+                </span>
+              </a>
+            </div>,
             <div
               className="row"
             >
@@ -4290,132 +4717,205 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <span
-                className="m-2"
-              >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>,
-              "data-tip": "Share on FB",
-              "href": "",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
+              "children": Array [
+                <h1
+                  className="articleShare"
+                >
+                  You can share this article here
+                </h1>,
+                <a
+                  data-tip="Share on FB"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />
+                  </span>
+                </a>,
+                <a
+                  data-tip="Share on twitter"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />
+                  </span>
+                </a>,
+                <a
+                  data-tip="Share on email"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />
+                  </span>
+                </a>,
+              ],
+              "className": "share",
             },
             "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <i
-                  className="fab fa-facebook-square  fa-lg"
-                />,
-                "className": "m-2",
-              },
-              "ref": null,
-              "rendered": Object {
+            "rendered": Array [
+              Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "fab fa-facebook-square  fa-lg",
+                  "children": "You can share this article here",
+                  "className": "articleShare",
                 },
                 "ref": null,
-                "rendered": null,
-                "type": "i",
+                "rendered": "You can share this article here",
+                "type": "h1",
               },
-              "type": "span",
-            },
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <span
-                className="m-2"
-              >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>,
-              "data-tip": "Share on twitter",
-              "href": "",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <i
-                  className="fab fa-twitter-square  fa-lg"
-                />,
-                "className": "m-2",
-              },
-              "ref": null,
-              "rendered": Object {
+              Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "fab fa-twitter-square  fa-lg",
+                  "children": <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />
+                  </span>,
+                  "data-tip": "Share on FB",
+                  "href": "",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
                 },
                 "ref": null,
-                "rendered": null,
-                "type": "i",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />,
+                    "className": "m-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-facebook-square  fa-lg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "span",
+                },
+                "type": "a",
               },
-              "type": "span",
-            },
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <span
-                className="m-2"
-              >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>,
-              "data-tip": "Share on email",
-              "href": "",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <i
-                  className="fas fa-envelope-square  fa-lg"
-                />,
-                "className": "m-2",
-              },
-              "ref": null,
-              "rendered": Object {
+              Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "fas fa-envelope-square  fa-lg",
+                  "children": <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />
+                  </span>,
+                  "data-tip": "Share on twitter",
+                  "href": "",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
                 },
                 "ref": null,
-                "rendered": null,
-                "type": "i",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />,
+                    "className": "m-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-twitter-square  fa-lg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "span",
+                },
+                "type": "a",
               },
-              "type": "span",
-            },
-            "type": "a",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />
+                  </span>,
+                  "data-tip": "Share on email",
+                  "href": "",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />,
+                    "className": "m-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fas fa-envelope-square  fa-lg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "span",
+                },
+                "type": "a",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -4577,48 +5077,57 @@ ShallowWrapper {
             <p>
               undefined
             </p>
-            <a
-              data-tip="Share on FB"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="share"
             >
-              <span
-                className="m-2"
+              <h1
+                className="articleShare"
               >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on twitter"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                You can share this article here
+              </h1>
+              <a
+                data-tip="Share on FB"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on email"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-facebook-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on twitter"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>
-            </a>
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-twitter-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on email"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fas fa-envelope-square  fa-lg"
+                  />
+                </span>
+              </a>
+            </div>
             <div
               className="row"
             >
@@ -4703,48 +5212,57 @@ ShallowWrapper {
             <p>
               undefined
             </p>
-            <a
-              data-tip="Share on FB"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="share"
             >
-              <span
-                className="m-2"
+              <h1
+                className="articleShare"
               >
-                <i
-                  className="fab fa-facebook-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on twitter"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                You can share this article here
+              </h1>
+              <a
+                data-tip="Share on FB"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fab fa-twitter-square  fa-lg"
-                />
-              </span>
-            </a>
-            <a
-              data-tip="Share on email"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span
-                className="m-2"
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-facebook-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on twitter"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <i
-                  className="fas fa-envelope-square  fa-lg"
-                />
-              </span>
-            </a>
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fab fa-twitter-square  fa-lg"
+                  />
+                </span>
+              </a>
+              <a
+                data-tip="Share on email"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="m-2"
+                >
+                  <i
+                    className="fas fa-envelope-square  fa-lg"
+                  />
+                </span>
+              </a>
+            </div>
             <div
               className="row"
             >
@@ -4826,48 +5344,57 @@ ShallowWrapper {
               <p>
                 undefined
               </p>,
-              <a
-                data-tip="Share on FB"
-                href=""
-                rel="noopener noreferrer"
-                target="_blank"
+              <div
+                className="share"
               >
-                <span
-                  className="m-2"
+                <h1
+                  className="articleShare"
                 >
-                  <i
-                    className="fab fa-facebook-square  fa-lg"
-                  />
-                </span>
-              </a>,
-              <a
-                data-tip="Share on twitter"
-                href=""
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <span
-                  className="m-2"
+                  You can share this article here
+                </h1>
+                <a
+                  data-tip="Share on FB"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <i
-                    className="fab fa-twitter-square  fa-lg"
-                  />
-                </span>
-              </a>,
-              <a
-                data-tip="Share on email"
-                href=""
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <span
-                  className="m-2"
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-facebook-square  fa-lg"
+                    />
+                  </span>
+                </a>
+                <a
+                  data-tip="Share on twitter"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <i
-                    className="fas fa-envelope-square  fa-lg"
-                  />
-                </span>
-              </a>,
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fab fa-twitter-square  fa-lg"
+                    />
+                  </span>
+                </a>
+                <a
+                  data-tip="Share on email"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span
+                    className="m-2"
+                  >
+                    <i
+                      className="fas fa-envelope-square  fa-lg"
+                    />
+                  </span>
+                </a>
+              </div>,
               <div
                 className="row"
               >
@@ -5162,132 +5689,205 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <span
-                  className="m-2"
-                >
-                  <i
-                    className="fab fa-facebook-square  fa-lg"
-                  />
-                </span>,
-                "data-tip": "Share on FB",
-                "href": "",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
+                "children": Array [
+                  <h1
+                    className="articleShare"
+                  >
+                    You can share this article here
+                  </h1>,
+                  <a
+                    data-tip="Share on FB"
+                    href=""
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-facebook-square  fa-lg"
+                      />
+                    </span>
+                  </a>,
+                  <a
+                    data-tip="Share on twitter"
+                    href=""
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-twitter-square  fa-lg"
+                      />
+                    </span>
+                  </a>,
+                  <a
+                    data-tip="Share on email"
+                    href=""
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fas fa-envelope-square  fa-lg"
+                      />
+                    </span>
+                  </a>,
+                ],
+                "className": "share",
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <i
-                    className="fab fa-facebook-square  fa-lg"
-                  />,
-                  "className": "m-2",
-                },
-                "ref": null,
-                "rendered": Object {
+              "rendered": Array [
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "className": "fab fa-facebook-square  fa-lg",
+                    "children": "You can share this article here",
+                    "className": "articleShare",
                   },
                   "ref": null,
-                  "rendered": null,
-                  "type": "i",
+                  "rendered": "You can share this article here",
+                  "type": "h1",
                 },
-                "type": "span",
-              },
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <span
-                  className="m-2"
-                >
-                  <i
-                    className="fab fa-twitter-square  fa-lg"
-                  />
-                </span>,
-                "data-tip": "Share on twitter",
-                "href": "",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <i
-                    className="fab fa-twitter-square  fa-lg"
-                  />,
-                  "className": "m-2",
-                },
-                "ref": null,
-                "rendered": Object {
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "className": "fab fa-twitter-square  fa-lg",
+                    "children": <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-facebook-square  fa-lg"
+                      />
+                    </span>,
+                    "data-tip": "Share on FB",
+                    "href": "",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
                   },
                   "ref": null,
-                  "rendered": null,
-                  "type": "i",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fab fa-facebook-square  fa-lg"
+                      />,
+                      "className": "m-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fab fa-facebook-square  fa-lg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "span",
+                  },
+                  "type": "a",
                 },
-                "type": "span",
-              },
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <span
-                  className="m-2"
-                >
-                  <i
-                    className="fas fa-envelope-square  fa-lg"
-                  />
-                </span>,
-                "data-tip": "Share on email",
-                "href": "",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <i
-                    className="fas fa-envelope-square  fa-lg"
-                  />,
-                  "className": "m-2",
-                },
-                "ref": null,
-                "rendered": Object {
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "className": "fas fa-envelope-square  fa-lg",
+                    "children": <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fab fa-twitter-square  fa-lg"
+                      />
+                    </span>,
+                    "data-tip": "Share on twitter",
+                    "href": "",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
                   },
                   "ref": null,
-                  "rendered": null,
-                  "type": "i",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fab fa-twitter-square  fa-lg"
+                      />,
+                      "className": "m-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fab fa-twitter-square  fa-lg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "span",
+                  },
+                  "type": "a",
                 },
-                "type": "span",
-              },
-              "type": "a",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span
+                      className="m-2"
+                    >
+                      <i
+                        className="fas fa-envelope-square  fa-lg"
+                      />
+                    </span>,
+                    "data-tip": "Share on email",
+                    "href": "",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fas fa-envelope-square  fa-lg"
+                      />,
+                      "className": "m-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fas fa-envelope-square  fa-lg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "span",
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "div",
             },
             Object {
               "instance": null,
