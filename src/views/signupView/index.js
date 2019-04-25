@@ -15,7 +15,7 @@ export class SignupView extends Component {
       loading: false,
     },
     isProcessing: false,
-    disabled: false,
+    disableEmail: false,
     validateInput: {
       password: false,
       username: false,
@@ -55,7 +55,7 @@ export class SignupView extends Component {
   onChange = (e) => {
     this.setState({ [e.target.name]: e.target.value });
     if (e.target.name === "email" && e.target.value.length > 0) {
-      this.setState({ disabled: this.validateEmail(e.target.value) });
+      this.setState({ disableEmail: this.validateEmail(e.target.value) });       
     }
 
     if (e.target.name === "username") {
@@ -133,7 +133,7 @@ export class SignupView extends Component {
           history={history}
           onClick={this.onClick}
           isProcessing={this.state.isProcessing}
-          disabled={this.state.disabled}
+          disableEmail={this.state.disableEmail}
           validateInput={this.state.validateInput}
         />
       </div>

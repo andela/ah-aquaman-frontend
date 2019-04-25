@@ -5,10 +5,11 @@ import Label from "../../commons/label";
 
 const Signup = (props) => {
   const {
-    onSubmit, errors, onClick, isProcessing, onChange, disabled, validateInput,
+    onSubmit, errors, onClick, onChange, validateInput, disableEmail
   } = props;
 
   const title = "Author's Haven";
+  const disabled = validateInput.username || disableEmail || validateInput.password || validateInput.matchPassword;
 
   return (
     <div className="login-wrapper">
@@ -46,7 +47,7 @@ const Signup = (props) => {
             />
             <div>
               <span className="text-danger">{errors ? errors.email : ""}</span>
-              <span className="text-danger">{disabled ? "Email is invalid" : ""}</span>
+              <span className="text-danger">{disableEmail ? "Email is invalid" : ""}</span>
             </div>
           </div>
           <div className="form-group">
@@ -92,7 +93,7 @@ const Signup = (props) => {
             className="btn btn-primary"
             id="signup-button"
             onClick={onClick}
-            disabled={disabled}
+            disabled={ disabled ? true: false }
           >
           Signup
           </button>

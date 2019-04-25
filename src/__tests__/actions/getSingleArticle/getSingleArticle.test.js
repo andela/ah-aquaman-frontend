@@ -2,13 +2,19 @@ import fetchMock from "fetch-mock";
 import thunk from "redux-thunk";
 import configureStore from "redux-mock-store";
 import getSingleArticle from "../../../actions/articleActions/getSingleArticle";
+import { addComment, getComments } from "../../../actions/commentActions";
 import { ArticleActionTypes } from "../../../actions/types";
 
 const mockStore = configureStore([thunk]);
 
 const slug = "article-slug";
+const token = "token";
 
 const { BASE_URL } = process.env;
+
+const commentData = {
+  body: "comment",
+};
 
 describe("fetch a single article test", () => {
   beforeEach(() => {
@@ -31,14 +37,12 @@ describe("fetch a single article test", () => {
         },
         status: 200,
       });
-
     const store = mockStore();
 
     return store.dispatch(getSingleArticle(slug)).then(() => {
       expect(store.getActions()).toEqual(expectedActions);
     });
   });
-
 
   it("should dispatch ARTICLE_FETCH_NOT_FOUND action", () => {
     const expectedActions = [
@@ -54,10 +58,56 @@ describe("fetch a single article test", () => {
         status: 404,
         headers: { "content-type": "application/json" },
       });
-
     const store = mockStore();
 
     return store.dispatch(getSingleArticle(slug)).then(() => {
+      expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+
+  it("should test add comment functionality", () => {
+    const expectedActions = [
+      {
+        type: "ADD_COMMENT_SUCCESS",
+        payload: {},
+      },
+    ];
+
+    fetchMock.postOnce(`${BASE_URL}/${slug}/comments/`,
+      {
+        body: {
+          comment: {},
+        },
+        headers: {
+          ContentType: "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+      });
+    const store = mockStore();
+
+    return store.dispatch(addComment(slug, commentData)).then(() => {
+      expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+
+  it("should test get comments functionality", () => {
+    fetchMock.getOnce(`${BASE_URL}/${slug}/comments/`,
+      {
+        headers: { "content-type": "application/json" },
+        body: {
+          comments: [],
+        },
+      });
+    const store = mockStore({});
+
+    const expectedActions = [
+      {
+        type: "GET_COMMENTS",
+        payload: [],
+      },
+    ];
+    
+    return store.dispatch(getComments(slug)).then(() => {
       expect(store.getActions()).toEqual(expectedActions);
     });
   });

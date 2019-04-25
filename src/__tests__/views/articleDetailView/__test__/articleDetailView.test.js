@@ -20,6 +20,7 @@ describe("ArticleDetailView", () => {
       },
       getSingleArticle: jest.fn(),
       bookmarkListing: jest.fn(),
+      getComments: jest.fn(),
     };
 
     const instance = shallow(<ArticleDetailView {...props} />);
@@ -43,6 +44,7 @@ describe("ArticleDetailView", () => {
       },
       getSingleArticle: jest.fn(),
       bookmarkListing: jest.fn(),
+      getComments: jest.fn(),
     };
     const wrapper = new ArticleDetailView(props);
     wrapper.state = { notFound: true };
@@ -63,6 +65,7 @@ describe("ArticleDetailView", () => {
       },
       getSingleArticle: jest.fn(),
       bookmarkListing: jest.fn(),
+      getComments: jest.fn(),
     };
     const wrapper = mount(<Router><ArticleDetailView {...props} /></Router>);
     const spyProp = jest.spyOn(wrapper.instance().props.children.props, "getSingleArticle");
@@ -101,6 +104,7 @@ describe("ArticleDetailView", () => {
       getSingleArticle: jest.fn(),
       bookmarkListing: jest.fn(),
       bookmarkArticleAction: jest.fn(),
+      getComments: jest.fn(),
     };
     
     const wrapper = shallow(

@@ -8,7 +8,7 @@ import Sidebar from "../../components/article/sidebar";
 import Navbar from "../../components/article/navbarComponent/Navbar";
 import ImageBanner from "../../components/article/ImageBanner";
 import { bookmarkArticleAction, bookmarkListing } from "../../actions/articleActions/bookmarkAction";
-
+import { getComments } from "../../actions/commentActions/index";
 
 function ShareLinks(article, slug) {
   const articleLink = `${process.env.FRONTEND_BASE_URL}/article/${slug}`;
@@ -37,6 +37,7 @@ export class ArticleDetailView extends Component {
     props.getSingleArticle(slug);
     localStorage.setItem("slug", slug);
     props.bookmarkListing(slug);
+    props.getComments(slug);
   }
 
   componentWillReceiveProps(props) {
@@ -109,4 +110,4 @@ export const mapStateToProps = state => ({
 });
 
 export default connect(mapStateToProps, 
-  { getSingleArticle, bookmarkArticleAction, bookmarkListing })(ArticleDetailView);
+  { getSingleArticle, bookmarkArticleAction, bookmarkListing, getComments })(ArticleDetailView);

@@ -7,8 +7,10 @@ import DeleteButton from "../deleteArticleButton";
 import RateButton from "../rateArticleButton";
 import parseDate from "../../../commons/getArticleDate";
 import TagComponent from "./tagComponent";
+import CommentView from "../../../views/commentView";
 import Ratings from "../ratingsComponent";
 import RatingModal from "../ratingsModel";
+
 
 function getImage(image) {
   if (image !== null) return "https://res.cloudinary.com/wasibani/image/upload/v1555329619/AuthorsHaven/background-image-3.jpg";
@@ -97,6 +99,9 @@ const ArticleComponent = props => (
 
         <RateButton username={props.article.author.username} />
         <div className="separator" />
+      </div>
+      <div className="comments-container">
+        <CommentView slug={props.slug} />
       </div>
     </div>
     <RatingModal article={props.article} />
