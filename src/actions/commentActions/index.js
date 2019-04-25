@@ -5,7 +5,6 @@ export const getComments = (slug) => dispatch => {
         method: "GET",
         headers: {
             "content-type": "application/json",
-
         },
     })
     .then(res => res.json())
