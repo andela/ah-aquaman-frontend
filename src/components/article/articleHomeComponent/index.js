@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { ArticleCard } from "../articleCard";
 import fetchArticlesAction from "../../../actions/articleActions/fetchArticle";
+import PaginationComponent from "../paginationComponent";
 
 export class Articles extends Component {
   componentWillMount = () => {
@@ -18,9 +19,12 @@ export class Articles extends Component {
       return <ArticleCard key={article.slug} {...article} />;
     });
 
+    console.log(articles);
+
     return (
       <div className="col-lg-8">
         <div className="article-container">{ articleItems }</div>
+        <PaginationComponent />
       </div>
     );
   }
