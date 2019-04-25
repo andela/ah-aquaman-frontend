@@ -2,6 +2,9 @@ import React from "react";
 import { connect } from "react-redux";
 import { loadProfile } from "../../actions/profile/profileActions";
 import ProfileView from "../../views/profile/profile";
+import Navbar from "../article/navbarComponent/Navbar";
+import ImageBanner from "../article/ImageBanner";
+import Sidebar from "../article/sidebar";
 
 
 export class Profile extends React.Component {
@@ -14,7 +17,18 @@ export class Profile extends React.Component {
   render() {
     const { isLoading, profile } = this.props.profile;
     return (
-      <ProfileView isLoading={isLoading} profile={profile} />
+      <React.Fragment>
+        <Navbar />
+        <ImageBanner info="User Profile" page="profile" />
+        <section className="blog-section">
+          <div className="container">
+            <div className="row">
+              <ProfileView isLoading={isLoading} profile={profile} />
+              <Sidebar />
+            </div>
+          </div>
+        </section>
+      </React.Fragment>
     );
   }
 }

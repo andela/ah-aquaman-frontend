@@ -45,13 +45,15 @@ const Login = (props) => {
               />
             </div>
           </div>
-          <Button 
-            className="btn btn-primary"
-            id="login-button"
-            type="submit" 
-            text="Login"
-            isProcessing={isProcessing}
-          />
+          <p className="text-login-button">
+            <Button 
+              className="btn btn-primary"
+              id="login-button"
+              type="submit" 
+              text="Login"
+              isProcessing={isProcessing}
+            />
+          </p>
           <div className="form-group">
             <div className="row">
               <div className="col-md-6">

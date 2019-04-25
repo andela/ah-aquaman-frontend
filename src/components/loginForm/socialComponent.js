@@ -13,6 +13,9 @@ const Social = (props) => {
   return (
     <React.Fragment>
       <hr className="separator" />
+      <p className="text-or text-center">
+        <span>OR</span>
+      </p>
       <p className="social-text">You can simply login with your social-media account</p>
       <div className="social">
         <FacebookLogin 

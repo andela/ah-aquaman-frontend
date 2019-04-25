@@ -1,5 +1,9 @@
+@font-face{
+    font-family:'AGENCYB';
+    src:url(../fonts/AGENCYB.TTF);
+}
 h1, h2, h3, h4 {
-	font-family: 'AGENCYB';
+	font-family: 'AGENCYB' !important;
 }
 /**** navigation *****/
 .header-title{
@@ -63,7 +67,6 @@ ul.nav li.nav-item .dropdown-menu h3{
 a, a:hover{
 	text-decoration: none;
 	color: #222222;
-    font-family: 'AGENCYB';
 }
 .login.background-image {
 	position: fixed;
@@ -72,7 +75,7 @@ a, a:hover{
 	width: 100%;
 	height: 100vh;
 	z-index: 1;
-	background: url(../background-image-3.jpg);
+	background: url(../img/background-img.jpg);
 	background-size: cover;
 }
 .login{
@@ -131,8 +134,12 @@ a, a:hover{
 	background: transparent;
 	border: none;
 }
-#login-button, #signup-button{
+#signup-button{
 	margin-left: 40%;
+}
+.text-login-button{
+	display: flex;
+	justify-content: center;
 }
 .text-white{
 	background: #228B22;
@@ -151,7 +158,7 @@ a, a:hover{
 	height: 100%;
 	overflow: auto;
 	background-color: rgba(0,0,0,0.6);
-  }
+}
 .create-article .form-group input, .create-article .form-group textarea {
     border: 1px solid #eeeeee;
     background: #f9f9ff;
@@ -181,6 +188,14 @@ a, a:hover{
 	margin: auto;
 	height: 1px;
 }
+.login-wrapper .text-or{
+	margin-top: -12px; 
+}
+.login-wrapper .text-or span{
+	background: #fff;
+	padding: 10px;
+	border-radius: 50%;
+}
 .login-wrapper p.social-text{
 	text-align: center;
 	margin-top: 15px;
@@ -206,6 +221,7 @@ button.kep-login-facebook.metro{
 	padding: 0px !important;
 
 }
+
 /**** navigation *****/
 .header-title{
 	font-size: 50px;
@@ -242,7 +258,6 @@ ul.nav li.nav-item.active a{
 	width: 45px;
 	border-radius: 50%;
 }
-
 .dropdown-toggle::after{
 	display: none;
 }
@@ -299,10 +314,13 @@ article .article-text .inner-text{
 	font-weight: 500;
 	margin-bottom: 20px;
 }
-.inner-text p{
+.inner-text div{
 	color: #777777;
 	font-size: 14px;
 	line-height: 24px;
+}
+.table td{
+	border: none !important;
 }
 .inner-text .date a{
 	color: #777777;
@@ -448,6 +466,15 @@ aside .media .media-body p{
 .article-container .details .user-details{
 	overflow: auto;
 	margin-bottom: 30px;
+	margin: 30px 0px 5px 0px;
+	text-transform: capitalize;
+}
+.article-container .details div.star-ratings{
+	margin-bottom: 15px;
+}
+.article-container .details .user-details{
+	overflow: auto;
+	margin-bottom: 15px;
 }
 .article-container .details .user-details a{
 	font-size: 14px;
@@ -507,6 +534,9 @@ aside .media .media-body p{
 	color: #fff;
 	background: #ff2f92;
 	border-radius: 0px;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
 }
 .commentslist{
 	overflow: auto;
@@ -587,4 +617,13 @@ input[type='file'] {
 	font-size: 18px;
 	text-transform: capitalize;
 	margin: 20px 0;
+}
+
+/**** ratings *****/
+.widget-svg{
+	width: 18px !important;
+	height: 18px !important;
+}
+.star-container{
+	padding: 0px !important;
 }

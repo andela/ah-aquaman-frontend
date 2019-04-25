@@ -11,7 +11,8 @@ export default class ImageBanner extends Component {
             <div className="banner-content text-center">
               <h2>{this.props.info}</h2>
               <p>
-                Home
+                Home 
+                {" "}
                 <i className="fa fa-angle-right" /> 
                 {" "}
                 {this.props.page}

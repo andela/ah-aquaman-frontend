@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import parseDate from "../../../commons/getArticleDate";
+import Ratings from "../ratingsComponent";
 
 export class ArticleCard extends Component {
   render() {
@@ -19,15 +20,28 @@ export class ArticleCard extends Component {
               {(this.props.body).slice(0, 205)}
             </p>
             <div className="date">
-              <p>
-                <i className="fa fa-calendar" /> 
-                {" "}
-                {parseDate(this.props.created_at)}
-                <span className="ml-2">
-                  <i className="fa fa-clock" />
-                  {this.props.read_time}
-                </span>
-              </p>
+              <table className="table mb-0 borderless">
+                <tbody>
+                  <tr>
+                    <td className="p-0">
+                      <i className="fa fa-calendar" /> 
+                      {" "}
+                      {parseDate(this.props.created_at)}
+                    </td>
+                    <td className="p-0 text-center">
+                      <i className="fa fa-comments" /> 
+                      {" "}
+                      {24}
+                    </td>
+                    <td className="p-0 text-center">
+                      <Ratings rating={parseFloat(this.props.user_rating)} />
+                    </td>
+                    <td className="text-right p-0">
+                      {this.props.author.username}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>

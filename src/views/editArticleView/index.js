@@ -85,20 +85,21 @@ handleChange=(tagList) => {
       <React.Fragment>
         <Navbar />
         <ImageBanner info="Edit Article" page="editor" />
-        <div className="container">
-          <div className="row">
-            <Editor
-              {...this.state}
-              onSubmit={this.handleSubmit}
-              onInputChange={this.handleInput}
-              slug={this.props.slug}
-              value={this.state.tagList}
-              onChange={this.handleChange}
-            />
-            <Sidebar />
+        <section className="blog-section">
+          <div className="container">
+            <div className="row">
+              <Editor
+                {...this.state}
+                onSubmit={this.handleSubmit}
+                onInputChange={this.handleInput}
+                slug={this.props.slug}
+                value={this.state.tagList}
+                onChange={this.handleChange}
+              />
+              <Sidebar />
+            </div>
           </div>
-          <ToastContainer />
-        </div>
+        </section>
       </React.Fragment>
 
     );
