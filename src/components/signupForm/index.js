@@ -5,7 +5,7 @@ import Label from "../../commons/label";
 
 const Signup = (props) => {
   const {
-    onSubmit, errors, onClick, isProcessing, onChange, disabled, validateInput,
+    onSubmit, errors, onClick, onChange, disabled, validateInput,
   } = props;
 
   const title = "Author's Haven";
@@ -107,7 +107,7 @@ const Signup = (props) => {
 
 Signup.propTypes = {
   onSubmit: PropTypes.func.isRequired,
-  onChange: PropTypes.func.isRequired,
+  // onChange: PropTypes.func.isRequired,
   errors: PropTypes.shape({
     username: PropTypes.any,
     email: PropTypes.any,

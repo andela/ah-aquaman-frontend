@@ -7,6 +7,7 @@ import ArticleReducer from "./articleReducer";
 import articleCreateReducer from "./articleCreateReducer";
 import fetchArticlesReducer from "./fetchArticleReducer";
 import tags from "./tags/tags";
+import commentReducer from "./commentReducers";
 
 export default combineReducers({
   loginReducer,
@@ -17,4 +18,5 @@ export default combineReducers({
   articleCreateReducer,
   fetchArticlesReducer,
   tags,
+  commentReducer,
 });

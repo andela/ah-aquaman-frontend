@@ -7,6 +7,7 @@ import CircularProgressLoader from "../../commons/progressLoader";
 import Sidebar from "../../components/article/sidebar";
 import Navbar from "../../components/article/navbarComponent/Navbar";
 import ImageBanner from "../../components/article/ImageBanner";
+import { getComments } from "../../actions/commentActions/index";
 
 function ShareLinks(article, slug) {
   const articleLink = `${process.env.FRONTEND_BASE_URL}/article/${slug}`;
@@ -34,6 +35,7 @@ export class ArticleDetailView extends Component {
 
     props.getSingleArticle(slug);
     localStorage.setItem("slug", slug);
+    props.getComments(slug);
   }
 
   componentWillReceiveProps(props) {
@@ -89,4 +91,4 @@ export const mapStateToProps = state => ({
   article: state.ArticleReducer.article,
 });
 
-export default connect(mapStateToProps, { getSingleArticle })(ArticleDetailView);
+export default connect(mapStateToProps, { getSingleArticle, getComments })(ArticleDetailView);

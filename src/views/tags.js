@@ -12,7 +12,7 @@ class Tags extends Component {
     const { isLoading, tags } = this.props.tags;
     return (
       <div>
-        {tags.length === 0 || isLoading ? "No tags yet" : tags.map(tag => (<li><TagComponent tag={tag} key={tag} /></li>))}
+        {tags.length === 0 || isLoading ? "No tags yet" : tags.map(tag => (<li key={tag} ><TagComponent tag={tag} /></li>))}
       </div>
     );
   }

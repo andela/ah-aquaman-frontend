@@ -5,6 +5,7 @@ import EditButton from "../editArticleButton";
 import DeleteButton from "../deleteArticleButton";
 import parseDate from "../../../commons/getArticleDate";
 import TagComponent from "./tagComponent";
+import CommentView from "../../../views/commentView";
 
 function getImage(image) {
   if (image !== null) return "https://res.cloudinary.com/wasibani/image/upload/v1555329619/AuthorsHaven/background-image-3.jpg";
@@ -67,6 +68,10 @@ const ArticleComponent = props => (
           </div>
         </div>
         <div className="separator" />
+      </div>
+      <div className="comments-container">
+      {/* <h3>{(props.comments).length} Comments </h3> */}
+      <CommentView slug={props.slug}/>
       </div>
     </div>
   </div>

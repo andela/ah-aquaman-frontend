@@ -18,6 +18,7 @@ describe("ArticleDetailView", () => {
         },
       },
       getSingleArticle: jest.fn(),
+      getComments: jest.fn(),
     };
 
     const instance = shallow(<ArticleDetailView {...props} />);
@@ -58,6 +59,7 @@ describe("ArticleDetailView", () => {
         },
       },
       getSingleArticle: jest.fn(),
+      getComments: jest.fn(),
     };
     const wrapper = mount(<Router><ArticleDetailView {...props} /></Router>);
     const spyProp = jest.spyOn(wrapper.instance().props.children.props, "getSingleArticle");

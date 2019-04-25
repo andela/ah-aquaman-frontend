@@ -4,7 +4,7 @@ exports[`ArticleDetailView should render 404 view without crashing 1`] = `
 <div
   className="h-100 w-100 p-5 m-5  text-center"
 >
-  i3zcii6l6j
+  ueu5h2pjch
   ;
 </div>
 `;
@@ -17,11 +17,26 @@ ShallowWrapper {
       Object {
         "author": "testuser",
         "shareLinks": Object {
-          "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-          "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-          "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+          "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+          "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+          "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
         },
         "title": "test title",
+      }
+    }
+    getComments={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "article-slug",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
       }
     }
     getSingleArticle={
@@ -82,9 +97,9 @@ ShallowWrapper {
                   Object {
                     "author": "testuser",
                     "shareLinks": Object {
-                      "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                      "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                      "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+                      "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+                      "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+                      "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
                     },
                     "title": "test title",
                   }
@@ -160,9 +175,9 @@ ShallowWrapper {
                   Object {
                     "author": "testuser",
                     "shareLinks": Object {
-                      "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                      "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                      "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+                      "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+                      "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+                      "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
                     },
                     "title": "test title",
                   }
@@ -213,9 +228,9 @@ ShallowWrapper {
                     Object {
                       "author": "testuser",
                       "shareLinks": Object {
-                        "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                        "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                        "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+                        "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+                        "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+                        "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
                       },
                       "title": "test title",
                     }
@@ -264,9 +279,9 @@ ShallowWrapper {
                       Object {
                         "author": "testuser",
                         "shareLinks": Object {
-                          "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                          "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                          "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+                          "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+                          "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+                          "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
                         },
                         "title": "test title",
                       }
@@ -287,9 +302,9 @@ ShallowWrapper {
                     "article": Object {
                       "author": "testuser",
                       "shareLinks": Object {
-                        "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                        "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                        "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+                        "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+                        "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+                        "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
                       },
                       "title": "test title",
                     },
@@ -375,9 +390,9 @@ ShallowWrapper {
                     Object {
                       "author": "testuser",
                       "shareLinks": Object {
-                        "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                        "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                        "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+                        "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+                        "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+                        "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
                       },
                       "title": "test title",
                     }
@@ -453,9 +468,9 @@ ShallowWrapper {
                     Object {
                       "author": "testuser",
                       "shareLinks": Object {
-                        "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                        "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                        "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+                        "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+                        "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+                        "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
                       },
                       "title": "test title",
                     }
@@ -506,9 +521,9 @@ ShallowWrapper {
                       Object {
                         "author": "testuser",
                         "shareLinks": Object {
-                          "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                          "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                          "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+                          "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+                          "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+                          "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
                         },
                         "title": "test title",
                       }
@@ -557,9 +572,9 @@ ShallowWrapper {
                         Object {
                           "author": "testuser",
                           "shareLinks": Object {
-                            "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                            "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                            "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+                            "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+                            "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+                            "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
                           },
                           "title": "test title",
                         }
@@ -580,9 +595,9 @@ ShallowWrapper {
                       "article": Object {
                         "author": "testuser",
                         "shareLinks": Object {
-                          "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                          "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
-                          "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20https://ah-aquaman-frontend-staging.herokuapp.com/article/article-slug",
+                          "facebookShare": "https://www.facebook.com/sharer/sharer.php?u=undefined/article/article-slug",
+                          "mailshare": "mailto:?Subject=test%20title&body=I found this article to be worth reading, test title undefined/article/article-slug",
+                          "twitterShare": "https://twitter.com/home?status=I%20found%20this%20article%20to%20be%20worth%20reading,%20test%20title%20undefined/article/article-slug",
                         },
                         "title": "test title",
                       },
