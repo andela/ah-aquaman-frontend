@@ -29,9 +29,9 @@ export class ArticleCard extends Component {
                       {parseDate(this.props.created_at)}
                     </td>
                     <td className="p-0 text-center">
-                      <i className="fa fa-comments" />
+                      <i className="fa fa-clock" /> 
                       {" "}
-                      {24}
+                      {this.props.read_time}
                     </td>
                     <td className="p-0 text-center">
                       <Ratings rating={parseFloat(this.props.user_rating)} />

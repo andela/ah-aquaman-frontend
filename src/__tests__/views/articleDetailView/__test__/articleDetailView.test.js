@@ -12,12 +12,14 @@ describe("ArticleDetailView", () => {
         author: "testuser",
       },
       loading: false,
+      isBookmarked: false,
       match: {
         params: {
           slug: "article-slug",
         },
       },
       getSingleArticle: jest.fn(),
+      bookmarkListing: jest.fn(),
     };
 
     const instance = shallow(<ArticleDetailView {...props} />);
@@ -31,6 +33,7 @@ describe("ArticleDetailView", () => {
     const props = {
       article: {
         title: "",
+        author: { username: "test user" },
       },
       loading: true,
       match: {
@@ -39,6 +42,7 @@ describe("ArticleDetailView", () => {
         },
       },
       getSingleArticle: jest.fn(),
+      bookmarkListing: jest.fn(),
     };
     const wrapper = new ArticleDetailView(props);
     wrapper.state = { notFound: true };
@@ -46,12 +50,11 @@ describe("ArticleDetailView", () => {
   });
 
 
-  it("should call getSingleArticle after will mount ", () => {
+  it("should call get single article function", () => {
     const props = {
-      articleReducer: {
-        article: {
-          title: "test title",
-        },
+      article: {
+        title: "test title",
+        author: { username: "test user" },
       },
       match: {
         params: {
@@ -59,6 +62,7 @@ describe("ArticleDetailView", () => {
         },
       },
       getSingleArticle: jest.fn(),
+      bookmarkListing: jest.fn(),
     };
     const wrapper = mount(<Router><ArticleDetailView {...props} /></Router>);
     const spyProp = jest.spyOn(wrapper.instance().props.children.props, "getSingleArticle");
@@ -71,10 +75,39 @@ describe("ArticleDetailView", () => {
         article: { title: "test article", description: "test article", body: "test article" },
         loading: true,
       },
+      bookmarkReducer: {
+        isBookmarked: false,
+      },
     };
     expect(mapStateToProps(state)).toEqual({
       article: { title: "test article", description: "test article", body: "test article" },
       loading: true,
+      isBookmarked: false,
     });
+  });
+  
+  it("should call the handle bookmark function", () => {
+    const props = {
+      article: {
+        title: "test title",
+        author: "testuser",
+      },
+      isBookmarked: false,
+      match: {
+        params: {
+          slug: "article-slug",
+        },
+      },
+      getSingleArticle: jest.fn(),
+      bookmarkListing: jest.fn(),
+      bookmarkArticleAction: jest.fn(),
+    };
+    
+    const wrapper = shallow(
+      <ArticleDetailView {...props} />,
+    );
+    const instance = wrapper.instance();
+    instance.handleBookmark({ preventDefault: jest.fn() });
+    expect(props.bookmarkArticleAction).toHaveBeenCalled();
   });
 });

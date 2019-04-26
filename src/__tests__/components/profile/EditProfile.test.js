@@ -19,7 +19,11 @@ describe("edit profile component tests", () => {
   };
 
   beforeEach(() => {
-    wrapperComponent = mount(<Provider store={store}><Router><EditProfile {...props} /></Router></Provider>);
+    wrapperComponent = mount(
+      <Provider store={store}>
+        <Router><EditProfile {...props} /></Router>
+      </Provider>,
+    );
     wrappedComponent = wrapperComponent.find("EditProfile").instance();
   });
 
