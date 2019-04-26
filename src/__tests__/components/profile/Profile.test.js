@@ -33,5 +33,9 @@ describe("profile component tests", () => {
       isLoading: true, isUpdating: null, msg: null, profile: null,
     };
     wrapper.setProps({ profile: data });
+
+    const profile = wrapper.find("Profile");
+    expect(profile.instance().unFollowUser("crycetruly", "true")).toEqual(undefined);
+    profile.instance().isFollowing();
   });
 });

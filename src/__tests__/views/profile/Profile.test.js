@@ -14,7 +14,18 @@ describe("Profile component view tests", () => {
         image: "image",
         bio: "images",
       },
+      followUnfollow: {
+        followers: [],
+        isFollowingSomeone: false,
+        msg: null,
+        following: [],
+        isLoading: false,
+      },
       isLoading: true,
+      status: {
+        isOwner: true,
+        isProcessing: true,
+      },
     };
     wrapper = shallow(<Profile {...props} />);
     expect(wrapper).toMatchSnapshot();
@@ -27,10 +38,18 @@ describe("Profile component view tests", () => {
         image: "image",
         bio: "images",
       },
+      followUnfollow: {
+        followers: [],
+        isFollowingSomeone: false,
+        msg: null,
+        following: [],
+        isLoading: false,
+      },
+      isProcessing: false,
     };
     const appState = [profileState];
     const componentState = mapStateToProps(appState[0]);
-    expect(componentState).toEqual(profileState);
+    expect(componentState.profile).toEqual(profileState.profile);
   });
   it("should render profileView", () => {
     const props = {

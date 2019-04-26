@@ -24,19 +24,19 @@ export class ArticleCard extends Component {
                 <tbody>
                   <tr>
                     <td className="p-0">
-                      <i className="fa fa-calendar" /> 
+                      <i className="fa fa-calendar" />
                       {" "}
                       {parseDate(this.props.created_at)}
                     </td>
                     <td className="p-0 text-center">
-                      <i className="fa fa-comments" /> 
+                      <i className="fa fa-comments" />
                       {" "}
                       {24}
                     </td>
                     <td className="p-0 text-center">
                       <Ratings rating={parseFloat(this.props.user_rating)} />
                     </td>
-                    <td className="text-right p-0">
+                    <td className="text-right p-0" onClick={() => document.location.href = `/profile/${this.props.author.username}`}>
                       {this.props.author.username}
                     </td>
                   </tr>

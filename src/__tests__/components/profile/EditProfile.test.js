@@ -1,11 +1,13 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
 import { mount } from "enzyme";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "../../../store";
 import { EditProfile } from "../../../components/profile/editProfile";
 
 describe("edit profile component tests", () => {
+  let wrapperComponent;
+  let wrappedComponent;
   const props = {
     profile: {
       username: "",
@@ -16,14 +18,10 @@ describe("edit profile component tests", () => {
     updateProfile: jest.fn(),
   };
 
-  const wrapper = mount(
-    <Provider store={store}>
-      <BrowserRouter className="container">
-        <EditProfile {...props} />
-      </BrowserRouter>
-    </Provider>,
-  );
-  
+  beforeEach(() => {
+    wrapperComponent = mount(<Provider store={store}><Router><EditProfile {...props} /></Router></Provider>);
+    wrappedComponent = wrapperComponent.find("EditProfile").instance();
+  });
 
   it("should handleChange", () => {
     const e = {
@@ -31,10 +29,10 @@ describe("edit profile component tests", () => {
         files: [new File(["../../../assets/download.jpeg"], "sample.png")],
       },
     };
-    wrapper.find("EditProfile").instance().handleChange(e);
-    const image = wrapper.find("EditProfile").instance().state.image;
-    wrapper.find("EditProfile").instance().handleUpload(image);
-    expect(wrapper.find("EditProfile").state().image.name).toEqual("sample.png");
+    wrappedComponent.handleChange(e);
+    const image = wrappedComponent.state.image;
+    wrappedComponent.handleUpload(image);
+    expect(wrappedComponent.state.image.name).toEqual("sample.png");
   });
 
   it("should add file to state", () => {
@@ -43,10 +41,10 @@ describe("edit profile component tests", () => {
         name: "hey", value: "How are you",
       },
     };
-    wrapper.find("EditProfile").instance().onChange(e);
-    expect(wrapper.find("EditProfile").instance().state.hey).toEqual("How are you");
+    wrappedComponent.onChange(e);
+    expect(wrappedComponent.state.hey).toEqual("How are you");
   });
-  
+
   it("should submit a form", () => {
     const e = {
       preventDefault: () => {
@@ -55,6 +53,6 @@ describe("edit profile component tests", () => {
         name: "hey", value: "How are you",
       },
     };
-    wrapper.find("EditProfile").instance().onSubmit(e);
+    wrappedComponent.onSubmit(e);
   });
 });

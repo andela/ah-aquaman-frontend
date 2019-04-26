@@ -5,6 +5,7 @@ import { toast } from "react-toastify";
 import Signup from "../../components/signupForm";
 import signupAction from "../../actions/signupAction";
 import CircularProgressLoader from "../../commons/progressLoader";
+import { Authenticate } from "../../routes/protectedRoutes";
 
 const jwt = require("jsonwebtoken");
 
@@ -22,6 +23,12 @@ export class SignupView extends Component {
     },
     password1: "",
   };
+
+  componentDidMount() {
+    if (Authenticate(localStorage.getItem("token"))) {
+      this.props.history.push("/");
+    }
+  }
 
   componentWillReceiveProps(nextProps) {
     const decoded = jwt.decode(nextProps.token);
@@ -48,7 +55,7 @@ export class SignupView extends Component {
   onChange = (e) => {
     this.setState({ [e.target.name]: e.target.value });
     if (e.target.name === "email" && e.target.value.length > 0) {
-      this.setState({ disabled: this.validateEmail(e.target.value) }); 
+      this.setState({ disabled: this.validateEmail(e.target.value) });
     }
 
     if (e.target.name === "username") {
@@ -56,14 +63,14 @@ export class SignupView extends Component {
         this.setState({
           validateInput: {
             username: true,
-          }, 
+          },
         });
         return true;
       }
       this.setState({
         validateInput: {
           username: false,
-        }, 
+        },
       });
       return false;
     }
@@ -73,14 +80,14 @@ export class SignupView extends Component {
         this.setState({
           validateInput: {
             password: true,
-          }, 
+          },
         });
         return true;
       }
       this.setState({
         validateInput: {
           password: false,
-        }, 
+        },
       });
     }
     if (e.target.name === "password2" && e.target.value !== this.state.password1) {
@@ -94,7 +101,7 @@ export class SignupView extends Component {
     event.preventDefault();
     const { signupAction } = this.props;
 
-    if (event.target.elements.password1.value !== event.target.elements.password2.value) {      
+    if (event.target.elements.password1.value !== event.target.elements.password2.value) {
       toast.error("Password mis-match!", {
         position: toast.POSITION.TOP_CENTER,
         autoClose: 3000,

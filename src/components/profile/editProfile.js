@@ -3,8 +3,6 @@ import { connect } from "react-redux";
 import { updateProfile, loadProfile } from "../../actions/profile/profileActions";
 import { storage } from "../../firebase";
 import EditProfileView from "../../views/profile/editprofile";
-import Navbar from "../article/navbarComponent/Navbar";
-import ImageBanner from "../article/ImageBanner";
 
 
 export class EditProfile extends Component {
@@ -75,19 +73,15 @@ export class EditProfile extends Component {
   render() {
     const { isUpdating, profile, isLoading } = this.props.profile;
     return (
-      <React.Fragment>
-        <Navbar />
-        <ImageBanner info="Edit Profile" page="profile" />
-        <EditProfileView
-          state={this.state}
-          onChange={this.onChange}
-          isUpdating={isUpdating}
-          handleChange={this.handleChange}
-          onSubmit={this.onSubmit}
-          isLoading={isLoading}
-          profile={profile}
-        />
-      </React.Fragment>
+      <EditProfileView
+        state={this.state}
+        onChange={this.onChange}
+        isUpdating={isUpdating}
+        handleChange={this.handleChange}
+        onSubmit={this.onSubmit}
+        isLoading={isLoading}
+        profile={profile}
+      />
     );
   }
 }

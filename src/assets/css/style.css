@@ -189,7 +189,7 @@ a, a:hover{
 	height: 1px;
 }
 .login-wrapper .text-or{
-	margin-top: -12px; 
+	margin-top: -12px;
 }
 .login-wrapper .text-or span{
 	background: #fff;
@@ -626,4 +626,17 @@ input[type='file'] {
 }
 .star-container{
 	padding: 0px !important;
+}
+.ourdp2{
+	height: 50px;
+	width: 50px;
+	max-height: 50px;
+}
+
+.toprofile{
+	background-color:none;
+	border:none;
+}
+.toprofile:hover{
+cursor:pointer;
 }

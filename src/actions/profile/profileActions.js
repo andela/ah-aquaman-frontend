@@ -4,11 +4,11 @@ import {
 } from "../types";
 
 const BASE_URL = process.env.BASE_URL;
-export const loadProfile = () => (dispatch) => {
+export const loadProfile = (username = localStorage.getItem("username")) => (dispatch) => {
   dispatch({
     type: PROFILE_LOADING,
   });
-  return fetch(`${BASE_URL}/profiles/${localStorage.getItem("username")}`)
+  return fetch(`${BASE_URL}/profiles/${username}`)
     .then(res => res.json())
     .then((res) => {
       if (res.profile) {
@@ -42,6 +42,7 @@ export const updateProfile = (bio, type, history) => (dispatch) => {
     .then(response => response.json())
     .then((data) => {
       if (data.profile) {
+        localStorage.setItem("image", data.profile.image);
         (history) ? history.push("/profile") : null;
         toast.success(`${type} update success`, {
           position: toast.POSITION.TOP_CENTER,

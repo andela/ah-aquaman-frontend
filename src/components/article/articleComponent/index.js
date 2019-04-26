@@ -34,13 +34,13 @@ const ArticleComponent = props => (
           <div className="float-right">
             <div className="media">
               <div className="media-body">
-                <h5>{props.article.author.username}</h5>
+                <h5 className="toprofile" onClick={() => document.location.href = `/profile/${props.article.author.username}`}>{props.article.author.username}</h5>
                 <p>
                   { parseDate(props.article.created_at) }
                   <span className="ml-2">
-                    <i className="fa fa-clock" /> 
+                    <i className="fa fa-clock" />
                     {props.article.read_time}
-                  </span> 
+                  </span>
                 </p>
               </div>
             </div>
